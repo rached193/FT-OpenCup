@@ -7,7 +7,14 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
         }
       },
       "root": "",
@@ -123,6 +130,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "temtem"
+    }
+  },
+  "defaultProject": "temtem",
+  "cli": {
+    "analytics": "31d5824b-4a7b-40fd-adc1-ec7820aaf44b"
+  }
 }
