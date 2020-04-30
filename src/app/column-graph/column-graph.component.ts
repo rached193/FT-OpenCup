@@ -27,18 +27,22 @@ export class ColumnGraphComponent implements OnInit {
       title: {
         text: 'Teams by Temtem (Minor Cup April)'
       },
+      credits: {
+        enabled: false
+      },
       xAxis: {
         categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Raize', 'Tuvine', 'Valash', 'Vulcrane', 'Saipat', 'Myx', 'Kalabyss', 'Nidrasil', 'Wiplump', 'Raican', 'Mudrid'],
          labels: {
+          rotation: 0,
            useHTML: true,
            formatter() {
-             return '<img src="/assets/img/' + this.value + '.png"></img>';
+             return '<img src="/assets/img/' + this.value + '.png" height="32" width="32"></img>';
            }
          }
       },
       yAxis: {
         title: {
-          text: ''
+          text: null
         },
         min: 0
       },
@@ -58,21 +62,24 @@ export class ColumnGraphComponent implements OnInit {
     title: {
         text: 'Picks/Bans by Temtem (Minor Cup April: Semifinals & Final)'
     },
+    credits: {
+      enabled: false
+    },
     xAxis: {
         categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Tuvine', 'Valash', 'Saipat', 'Kalabyss', 'Mushook', 'Vulcrane', 'Wiplump', 'Cerneaf', 'Raican'],
         labels: {
+          rotation: 0,
         useHTML: true,
         formatter: function(){
-            return '<img src="../assets/img/'+this.value+'.png"></img>';                        
+            return '<img src="../assets/img/'+this.value+'.png" height="32" width="32"></img>';                        
         }
     }
     },
     yAxis: {
         title: {
-            text: ''
+            text: null
         },
-        min: 0/*,
-        max: 100*/
+        min: 0
     },
     plotOptions: {
         column: {
@@ -80,18 +87,18 @@ export class ColumnGraphComponent implements OnInit {
         }
     },
     series: [{
-        name: 'Ban',
+        name: 'Bans',
         type: 'column',
-        color: '#FF0000',
+        color: '#f45b5b',
         data: [3, 4, 11, 1, null, 1, 2, null, 4, 1, 1, null, null, null]
     }, {
-        name: 'Pick',
-        color: '#00FF00',
+        name: 'Picks',
+        color: '#a9ff96',
         type: 'column',
         data: [11, 5, 1, 11, 6, 9, 5, 7, 3, 4, 2, 2, 2, 2]
     }, {
-        name: 'Out',
-        color: '#999999',
+        name: 'Outs',
+        color: '#b8b8b8',
         type: 'column',
         data: [null, 5, null, null, 6, null, 2, null, null, null, 1, null, null, null]
     }]
@@ -99,15 +106,24 @@ export class ColumnGraphComponent implements OnInit {
 const chartOptions3: Highcharts.Options = {
 
   title: {
-    text: 'Evolution of use (teams %)'
+    text: 'Evolution of use (Teams %)'
+  },
+  credits: {
+    enabled: false
   },
 
   yAxis: {
     title: {
-      text: ''
+      text: null
     },
     min: 0,
-        max: 100
+        max: 100,
+        labels: {
+          useHTML: true,
+          formatter() {
+            return this.value + '%';
+          }
+        }
   },
 
   xAxis: {
@@ -120,7 +136,7 @@ const chartOptions3: Highcharts.Options = {
     verticalAlign: 'middle',
     useHTML: true,
         labelFormatter: function(){
-            return '<img src="../assets/img/'+this.name+'.png"></img>';                        
+            return '<img src="../assets/img/'+this.name+'.png" height="32" width="32"></img>';                        
         }
   },
 
@@ -128,6 +144,9 @@ const chartOptions3: Highcharts.Options = {
     series: {
       label: {
         connectorAllowed: false
+      },
+      tooltip: {
+        valueSuffix: '%'
       }
     }
   },
@@ -135,27 +154,43 @@ const chartOptions3: Highcharts.Options = {
   series: [{
     name: 'Volarend',
     type: 'line',
+    color: '#8085e9',
     data: [86.89, null, null, null, null, null, null, null]
   }, {
     name: 'Kinu',
     type: 'line',
+    color: '#a9ff96',
     data: [83.61, null, null, null, null, null, null, null]
   }, {
     name: 'Gyalis',
     type: 'line',
+    color: '#f45b5b',
     data: [78.69, null, null, null, null, null, null, null]
   }, {
     name: 'Pigepic',
     type: 'line',
+    color: '#f45b5b',
     data: [70.49, null, null, null, null, null, null, null]
   }, {
     name: 'Ukama',
     type: 'line',
+    color: '#7cb5ec',
     data: [52.46, null, null, null, null, null, null, null]
   }, {
     name: 'Raize',
     type: 'line',
+    color: '#f7a35c',
     data: [45.9, null, null, null, null, null, null, null]
+  }, {
+    name: 'Tuvine',
+    type: 'line',
+    color: '#2b908f',
+    data: [44.26, null, null, null, null, null, null, null]
+  }, {
+    name: 'Valash',
+    type: 'line',
+    color: '#434348',
+    data: [42.62, null, null, null, null, null, null, null]
   }],
 
   responsive: {
