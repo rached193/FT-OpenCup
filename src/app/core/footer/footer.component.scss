@@ -1,15 +1,15 @@
 footer{
     height: 2em;
     padding: 1em;
-    background-color: var(--primary-color-1);
-    margin-top: -1em;
+    background-color: var(--primary-color-5);
+    color: #5a5d60;
     
     span{
         font-weight: bold;
-        font-size: 2.5em;
+        font-size: 1.5em;
 
         a{
-            color: var(--primary-color-2);
+            color: var(--primary-color-1);
         }
     }
 }

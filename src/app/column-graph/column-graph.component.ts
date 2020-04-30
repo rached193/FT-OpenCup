@@ -10,10 +10,12 @@ export class ColumnGraphComponent implements OnInit {
   @ViewChild('chart1', { static: true }) chart1: ElementRef;
   @ViewChild('chart2', { static: true }) chart2: ElementRef;
   @ViewChild('chart3', { static: true }) chart3: ElementRef;
+  @ViewChild('chart4', { static: true }) chart4: ElementRef;
 
   graph1: Highcharts.Chart;
   graph2: Highcharts.Chart;
   graph3: Highcharts.Chart;
+  graph4: Highcharts.Chart;
 
   constructor() { }
 
@@ -36,7 +38,7 @@ export class ColumnGraphComponent implements OnInit {
         enabled: false
       },
       xAxis: {
-        categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Raize', 'Tuvine', 'Valash', 'Vulcrane', 'Saipat', 'Myx', 'Kalabyss', 'Nidrasil', 'Wiplump', 'Raican', 'Mudrid'],
+        categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Raize', 'Tuvine', 'Valash'],
         labels: {
           rotation: 0,
           useHTML: true,
@@ -57,7 +59,7 @@ export class ColumnGraphComponent implements OnInit {
       series: [{
         name: 'Teams',
         type: 'column',
-        data: [53, 51, 48, 43, 32, 28, 27, 26, 23, 19, 18, 15, 13, 11, 11, 8]
+        data: [53, 51, 48, 43, 32, 28, 27, 26]
       }]
     };
     const chartOptions2: Highcharts.Options = {
@@ -195,7 +197,7 @@ export class ColumnGraphComponent implements OnInit {
         name: 'Raize',
         type: 'line',
         color: '#f7a35c',
-        data: [45.9, null, null, null, null, null, null, null]
+        data: [45.90, null, null, null, null, null, null, null]
       }, {
         name: 'Tuvine',
         type: 'line',
@@ -224,10 +226,52 @@ export class ColumnGraphComponent implements OnInit {
       }
 
     };
+    const chartOptions4: Highcharts.Options = {
+      chart: {
+        type: 'column',
+        backgroundColor: 'transparent',
+        style: {
+          fontFamily: 'Poppins, Open Sans, sans-serif',
+          margin: '4px'
+        }
+      },
+      title: {
+        text: 'Teams by Temtem (Minor Cup April: Top 8)',
+      },
+      credits: {
+        enabled: false
+      },
+      xAxis: {
+        categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Tuvine', 'Valash', 'Vulcrane'],
+        labels: {
+          rotation: 0,
+          useHTML: true,
+          formatter() {
+            return '<img src="/assets/img/' + this.value + '.png" height="32" width="32"></img>';
+          }
+        }
+      },
+      yAxis: {
+        title: {
+          text: ''
+        },
+        min: 0,
+        max: 8
+      },
+      legend: {
+        enabled: false
+      },
+      series: [{
+        name: 'Teams',
+        type: 'column',
+        data: [8, 7, 7, 7, 5, 5, 5, 4]
+      }]
+    };
 
     this.graph1 = Highcharts.chart(this.chart1.nativeElement, chartOptions1)
     this.graph2 = Highcharts.chart(this.chart2.nativeElement, chartOptions2)
     this.graph3 = Highcharts.chart(this.chart3.nativeElement, chartOptions3)
+    this.graph4 = Highcharts.chart(this.chart4.nativeElement, chartOptions4)
 
   }
 

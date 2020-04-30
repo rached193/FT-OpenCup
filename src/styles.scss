@@ -17,13 +17,19 @@
   
   /* Colores */
   :root {
-    --primary-color-1: #b7e5f2;
+    /*--primary-color-1: #b7e5f2;
     --primary-color-2: #3c78b6;
     --primary-color-3: #84f0fd;
     --primary-color-4: #011b40;
-    --primary-color-5: #01091e;
+    --primary-color-5: #01091e;*/
+    --primary-color-1: #fff;
+    --primary-color-2: #3c78b6;
+    --primary-color-3: #84f0fd;
+    --primary-color-4: #313539;
+    --primary-color-5: #272a2d;
   
-    --background-color: #fdf3cf;
+    /*--background-color: #fdf3cf;*/
+    --background-color: #f2f2f2/*cf1*/;
   }
   
   
@@ -34,7 +40,7 @@
       line-height: 2em;
       font-family: 'Poppins','Open Sans', sans-serif;
       font-size: 10pt;
-      background-color: var(--primary-color-3);
+      background-color: var(--primary-color-1);
   }
   
   h1, h2, h3 {
