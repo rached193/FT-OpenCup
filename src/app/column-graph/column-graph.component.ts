@@ -13,13 +13,20 @@ export class ColumnGraphComponent implements OnInit {
   graph1: Highcharts.Chart;
 
   @Input() title: string;
-
+  @Input() categories: string[];
+  @Input() set series(value: any[]) {
+    if (value.length > 0) {
+      this.build();
+    }
+  }
 
   constructor() { }
 
   ngOnInit(): void {
+    // this.build();
+  }
 
-
+  build() {
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'column',
@@ -36,7 +43,7 @@ export class ColumnGraphComponent implements OnInit {
       },
       colors: ['dimgray'],
       xAxis: {
-        categories: ['Volarend', 'Kinu', 'Gyalis', 'Pigepic', 'Ukama', 'Raize', 'Tuvine', 'Valash'],
+        categories: this.categories,
         labels: {
           rotation: 0,
           useHTML: true,
@@ -62,7 +69,6 @@ export class ColumnGraphComponent implements OnInit {
     };
 
     this.graph1 = Highcharts.chart(this.chart1.nativeElement, chartOptions1);
-
   }
 
 

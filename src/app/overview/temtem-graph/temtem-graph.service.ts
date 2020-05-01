@@ -9,7 +9,7 @@ export class TemtemGraphService {
 
   constructor(private http: HttpClient) { }
 
-  getGraph(url: string): Observable<any> {
-    return this.http.get(`/assets/jsones/${url}.json`);
+  getGraph(url: string): Observable<any[]> {
+    return this.http.get<any[]>(`/assets/jsones/${url}.json`);
   }
 }
