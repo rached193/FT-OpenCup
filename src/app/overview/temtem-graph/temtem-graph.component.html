@@ -1,1 +1,7 @@
-<app-column-graph [title]="title" [categories]="categories" [series]="series"></app-column-graph>
+<ng-container [ngSwitch]="type">
+    <app-column-graph *ngSwitchCase="'column'" [title]="title" [categories]="categories" [series]="series">
+    </app-column-graph>
+    
+    <app-line-graph *ngSwitchCase="'line'" [title]="title" [categories]="categories" [series]="series"></app-line-graph>
+
+</ng-container>

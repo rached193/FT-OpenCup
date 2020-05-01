@@ -10,10 +10,10 @@ export class TemtemGraphComponent implements OnInit {
 
   @Input() url: string;
   @Input() title: string;
+  @Input() type: string;
   @Input() categoryName: string;
   @Input() serieName: string;
   @Input() valueName: string;
-  @Input() legentTarget: string;
 
   categories = [];
   series = [];
@@ -21,9 +21,6 @@ export class TemtemGraphComponent implements OnInit {
   constructor(private temtemService: TemtemGraphService) { }
 
   ngOnInit(): void {
-
-    if (this.legentTarget) {
-    }
 
     this.temtemService.getGraph(this.url).subscribe(data => {
       console.log(data);

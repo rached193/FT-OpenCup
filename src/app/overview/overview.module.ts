@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TemtemGraphComponent } from './temtem-graph/temtem-graph.component';
-import { ColumnGraphComponent } from '../column-graph/column-graph.component';
+import { GraphsModule } from '../graphs/graphs.module';
 
 
 
 @NgModule({
-  declarations: [TemtemGraphComponent, ColumnGraphComponent],
+  declarations: [TemtemGraphComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    GraphsModule
   ],
   exports: [TemtemGraphComponent]
 })

@@ -1,0 +1,20 @@
+.row{
+   //margin: 1em;
+   padding: 1em 1em 0em 1em;
+}
+.graph{
+   background-color: var(--background-color);
+   //margin: 1em;
+   padding: 1em;
+}
+.column {
+   float: left;
+   width: 50%;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
