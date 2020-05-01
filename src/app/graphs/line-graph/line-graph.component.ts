@@ -13,6 +13,7 @@ export class LineGraphComponent implements OnInit {
   private dataSeries: Highcharts.SeriesOptionsType[];
 
   @Input() title: string;
+  @Input() colors: string[];
   @Input() categories: string[];
   @Input() set series(value: any[]) {
     if (value.length > 0) {
@@ -25,6 +26,7 @@ export class LineGraphComponent implements OnInit {
 
   ngOnInit(): void {
     // this.build();
+    console.log(this.colors)
   }
 
   build() {
@@ -42,25 +44,41 @@ export class LineGraphComponent implements OnInit {
       credits: {
         enabled: false
       },
-      colors: ['dimgray'],
+      colors:  Highcharts.defaultOptions.colors,
       xAxis: {
         categories: this.categories,
-        labels: {
-          rotation: 0,
-          useHTML: true,
-          formatter() {
-            return '<img src="/assets/img/' + this.value + '.png" height="32" width="32"></img>';
-          }
-        }
       },
       yAxis: {
         title: {
           text: ''
         },
-        min: 0
+        min: 0,
+        max: 100,
+        labels: {
+          useHTML: true,
+          formatter() {
+            return this.value + '%';
+          }
+        }
       },
       legend: {
-        enabled: false
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle',
+        useHTML: true,
+        labelFormatter: function () {
+          return '<img src="../assets/img/' + this.name + '.png" height="32" width="32"></img>';
+        }
+      },
+      plotOptions: {
+        series: {
+          label: {
+            connectorAllowed: false
+          },
+          tooltip: {
+            valueSuffix: '%'
+          }
+        }
       },
       series: this.dataSeries
     };

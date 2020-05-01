@@ -11,6 +11,7 @@ export class TemtemGraphComponent implements OnInit {
   @Input() url: string;
   @Input() title: string;
   @Input() type: string;
+  @Input() colors: string[];
   @Input() categoryName: string;
   @Input() serieName: string;
   @Input() valueName: string;
