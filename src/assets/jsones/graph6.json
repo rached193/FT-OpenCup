@@ -1,1 +1,1482 @@
-[{"serie": "Volarend", "value": 53, "category": "Temtem Minor Cup April"}, {"serie": "Kinu", "value": 51, "category": "Temtem Minor Cup April"}, {"serie": "Gyalis", "value": 48, "category": "Temtem Minor Cup April"}, {"serie": "Pigepic", "value": 43, "category": "Temtem Minor Cup April"}, {"serie": "Ukama", "value": 32, "category": "Temtem Minor Cup April"}, {"serie": "Raize", "value": 28, "category": "Temtem Minor Cup April"}, {"serie": "Tuvine", "value": 27, "category": "Temtem Minor Cup April"}, {"serie": "Valash", "value": 26, "category": "Temtem Minor Cup April"}, {"serie": "Vulcrane", "value": 23, "category": "Temtem Minor Cup April"}, {"serie": "Saipat", "value": 19, "category": "Temtem Minor Cup April"}, {"serie": "Myx", "value": 18, "category": "Temtem Minor Cup April"}, {"serie": "Kalabyss", "value": 15, "category": "Temtem Minor Cup April"}, {"serie": "Nidrasil", "value": 13, "category": "Temtem Minor Cup April"}, {"serie": "Wiplump", "value": 11, "category": "Temtem Minor Cup April"}, {"serie": "Raican", "value": 11, "category": "Temtem Minor Cup April"}, {"serie": "Mudrid", "value": 8, "category": "Temtem Minor Cup April"}, {"serie": "Gazuma", "value": 7, "category": "Temtem Minor Cup April"}, {"serie": "Cerneaf", "value": 6, "category": "Temtem Minor Cup April"}, {"serie": "Mastione", "value": 6, "category": "Temtem Minor Cup April"}, {"serie": "Mushook", "value": 6, "category": "Temtem Minor Cup April"}, {"serie": "Zenoreth", "value": 5, "category": "Temtem Minor Cup April"}, {"serie": "Goolder", "value": 4, "category": "Temtem Minor Cup April"}, {"serie": "Saku", "value": 3, "category": "Temtem Minor Cup April"}, {"serie": "Barnshe", "value": 3, "category": "Temtem Minor Cup April"}, {"serie": "Anahir", "value": 3, "category": "Temtem Minor Cup April"}, {"serie": "Platimous", "value": 3, "category": "Temtem Minor Cup April"}, {"serie": "Babawa", "value": 3, "category": "Temtem Minor Cup April"}, {"serie": "Tateru", "value": 2, "category": "Temtem Minor Cup April"}, {"serie": "Adoroboros", "value": 2, "category": "Temtem Minor Cup April"}, {"serie": "Umishi", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Baboong", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Loali", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Raiber", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Nessla", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Azuroc", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Bunbun", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": "Skunch", "value": 1, "category": "Temtem Minor Cup April"}, {"serie": null, "value": 0, "category": "Temtem Minor Cup May"}, {"serie": null, "value": 0, "category": "Temtem Minor Cup June"}, {"serie": null, "value": 0, "category": "Temtem Minor Cup July"}, {"serie": null, "value": 0, "category": "Temtem Minor Cup August"}, {"serie": null, "value": 0, "category": "Qualifier September"}, {"serie": null, "value": 0, "category": "Temtem Minor Cup October"}, {"serie": null, "value": 0, "category": "Qualifier November"}]
+[
+    {
+        "serie": "Volarend",
+        "value": 86.89,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Kinu",
+        "value": 83.61,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Gyalis",
+        "value": 78.69,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Pigepic",
+        "value": 70.49,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Ukama",
+        "value": 52.46,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Raize",
+        "value": 45.9,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Tuvine",
+        "value": 44.26,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Valash",
+        "value": 42.62,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": 37.7,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Saipat",
+        "value": 31.15,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Myx",
+        "value": 29.51,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": 24.59,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": 21.31,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Raican",
+        "value": 18.03,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Wiplump",
+        "value": 18.03,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Mudrid",
+        "value": 13.11,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Gazuma",
+        "value": 11.48,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Mushook",
+        "value": 9.84,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Mastione",
+        "value": 9.84,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": 9.84,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": 8.2,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Goolder",
+        "value": 6.56,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Barnshe",
+        "value": 4.92,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Saku",
+        "value": 4.92,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Babawa",
+        "value": 4.92,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Anahir",
+        "value": 4.92,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Platimous",
+        "value": 4.92,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Tateru",
+        "value": 3.28,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": 3.28,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Bunbun",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Raiber",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Nessla",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Baboong",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Skunch",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Loali",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Umishi",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Azuroc",
+        "value": 1.64,
+        "category": "Temtem Minor Cup April"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Temtem Minor Cup May"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Temtem Minor Cup June"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Temtem Minor Cup July"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Temtem Minor Cup August"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Qualifier September"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Temtem Minor Cup October"
+    },
+    {
+        "serie": "Nessla",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Ukama",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Valash",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Tateru",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Skunch",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Baboong",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Saipat",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Mushook",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Mudrid",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Bunbun",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Cerneaf",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Anahir",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Barnshe",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Babawa",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Loali",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Volarend",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Umishi",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Goolder",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Nidrasil",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Tuvine",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Wiplump",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Mastione",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Raize",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Azuroc",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Gazuma",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Kinu",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Zenoreth",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Saku",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Myx",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Raican",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Kalabyss",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Adoroboros",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Pigepic",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Platimous",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Raiber",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Vulcrane",
+        "value": null,
+        "category": "Qualifier November"
+    },
+    {
+        "serie": "Gyalis",
+        "value": null,
+        "category": "Qualifier November"
+    }
+]
