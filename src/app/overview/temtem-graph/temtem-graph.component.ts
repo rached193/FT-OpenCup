@@ -16,6 +16,8 @@ export class TemtemGraphComponent implements OnInit {
   @Input() serieName: string;
   @Input() valueName: string;
 
+  @Input() top: number;
+
   categories = [];
   series = [];
 
@@ -29,21 +31,24 @@ export class TemtemGraphComponent implements OnInit {
     });
   }
 
-  private buildGraph(content) {
-    const categories = [];
-    content.forEach(item => {
-      if (!categories.includes(item[this.categoryName])) {
-        categories.push(item[this.categoryName]);
-      }
-    });
+  private buildGraph(content: any[]) {
 
     const seriesGrouped = this.groupBy(content, this.serieName);
+    const categories = this.calculateCategories(seriesGrouped, content);
+
     const series = [];
-    for (const serie in seriesGrouped) {
-      if (seriesGrouped.hasOwnProperty(serie)) {
+    for (const key in seriesGrouped) {
+      if (seriesGrouped.hasOwnProperty(key)) {
+        const serieStore = new Array(categories.length).fill(null);
+        seriesGrouped[key].forEach(item => {
+          const index = categories.findIndex(x => x === item[this.categoryName]);
+          if (index !== -1) {
+            serieStore[index] = item[this.valueName];
+          }
+        });
         series.push({
-          name: serie,
-          data: seriesGrouped[serie].map(x => x[this.valueName])
+          name: key,
+          data: serieStore
         });
       }
     }
@@ -52,6 +57,35 @@ export class TemtemGraphComponent implements OnInit {
 
     this.categories = categories;
     this.series = series;
+  }
+
+
+  private calculateCategories(seriesGrouped, content): string[] {
+    const categories = [];
+    if (this.top) {
+
+      const firstKey = Object.keys(seriesGrouped)[0];
+
+      const sortContent = seriesGrouped[firstKey].sort((a, b) => {
+        return b[this.valueName] - a[this.valueName];
+      });
+      const topContent = sortContent.slice(0, this.top);
+
+      topContent.forEach(item => {
+        if (!categories.includes(item[this.categoryName])) {
+          categories.push(item[this.categoryName]);
+        }
+      });
+
+    } else {
+      content.forEach(item => {
+        if (!categories.includes(item[this.categoryName])) {
+          categories.push(item[this.categoryName]);
+        }
+      });
+    }
+
+    return categories;
   }
 
   private groupBy(xs, key) {

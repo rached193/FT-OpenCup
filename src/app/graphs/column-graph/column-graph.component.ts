@@ -13,6 +13,7 @@ export class ColumnGraphComponent implements OnInit {
   private dataSeries: Highcharts.SeriesOptionsType[];
 
   @Input() title: string;
+  @Input() colors: string[];
   @Input() categories: string[];
   @Input() set series(value: any[]) {
     if (value.length > 0) {
@@ -42,7 +43,7 @@ export class ColumnGraphComponent implements OnInit {
       credits: {
         enabled: false
       },
-      colors: ['dimgray'],
+      colors: this.colors || ['dimgray'],
       xAxis: {
         categories: this.categories,
         labels: {
