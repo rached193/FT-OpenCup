@@ -12,6 +12,7 @@ export class TemtemGraphComponent implements OnInit {
   @Input() title: string;
   @Input() type: string;
   @Input() colors: string[];
+  @Input() stacked: boolean;
   @Input() categoryName: string;
   @Input() serieName: string;
   @Input() valueName: string;

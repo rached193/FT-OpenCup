@@ -21,6 +21,7 @@ export class ColumnGraphComponent implements OnInit {
       this.build();
     }
   }
+  @Input() stacked: boolean;
 
   constructor() { }
 
@@ -59,6 +60,11 @@ export class ColumnGraphComponent implements OnInit {
           text: ''
         },
         min: 0
+      },
+      plotOptions: {
+        column: {
+          stacking: this.stacked ? 'normal' : undefined
+        }
       },
       legend: {
         enabled: false
