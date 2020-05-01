@@ -14,6 +14,7 @@ export class ColumnGraphComponent implements OnInit {
 
   @Input() title: string;
   @Input() colors: string[];
+  @Input() legend: boolean;
   @Input() categories: string[];
   @Input() set series(value: any[]) {
     if (value.length > 0) {
@@ -67,7 +68,7 @@ export class ColumnGraphComponent implements OnInit {
         }
       },
       legend: {
-        enabled: false
+        enabled: this.legend
       },
       series: this.dataSeries
     };
