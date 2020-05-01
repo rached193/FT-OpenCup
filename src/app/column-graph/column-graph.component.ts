@@ -9,13 +9,14 @@ import * as Highcharts from 'highcharts';
 export class ColumnGraphComponent implements OnInit {
   @ViewChild('chart1', { static: true }) chart1: ElementRef;
 
-
-  graph1: Highcharts.Chart;
+  private graph1: Highcharts.Chart;
+  private dataSeries: Highcharts.SeriesOptionsType[];
 
   @Input() title: string;
   @Input() categories: string[];
   @Input() set series(value: any[]) {
     if (value.length > 0) {
+      this.dataSeries = value;
       this.build();
     }
   }
@@ -61,11 +62,7 @@ export class ColumnGraphComponent implements OnInit {
       legend: {
         enabled: false
       },
-      series: [{
-        name: 'Teams',
-        type: 'column',
-        data: [53, 51, 48, 43, 32, 28, 27, 26]
-      }]
+      series: this.dataSeries
     };
 
     this.graph1 = Highcharts.chart(this.chart1.nativeElement, chartOptions1);
