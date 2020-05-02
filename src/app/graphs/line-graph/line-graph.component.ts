@@ -44,7 +44,7 @@ export class LineGraphComponent implements OnInit {
       credits: {
         enabled: false
       },
-      colors:  Highcharts.defaultOptions.colors,
+      colors: Highcharts.defaultOptions.colors,
       xAxis: {
         categories: this.categories,
       },
@@ -79,6 +79,20 @@ export class LineGraphComponent implements OnInit {
             valueSuffix: '%'
           }
         }
+      },
+      responsive: {
+        rules: [{
+          condition: {
+            maxWidth: 500
+          },
+          chartOptions: {
+            legend: {
+              layout: 'horizontal',
+              align: 'center',
+              verticalAlign: 'bottom'
+            }
+          }
+        }]
       },
       series: this.dataSeries
     };
