@@ -16,6 +16,13 @@ header{
             vertical-align: middle;
         }
 
+        @media (max-width: 600px) {
+       
+            .logo{
+                display: none;
+            }
+         }
+
         a{
             color: var(--primary-color-1);
         }
