@@ -1,16 +1,28 @@
 .row{
     //margin: 1em;
     padding: 1em 1em 0em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: wrap;
  }
+
  
  .column {
-    float: left;
-    width: 50%;
-  }
+   flex-basis: 50%;
+   min-width: 400px;
+   width: 100%;
+ }
+
+ 
+ @media (max-width: 850px) {
+   .row{
+      flex-direction: column;
+      }
+      .column{
+         min-width: unset;
+         // flex-basis:100%;
+      }
+   }
+
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
