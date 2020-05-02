@@ -3,7 +3,7 @@ header{
     text-align: center;
     padding: 1em;
     background-color: var(--primary-color-4);
-    color: #5a5d60;
+    color: #a9acff;
 
     span{
         font-weight: bold;
@@ -17,14 +17,23 @@ header{
         }
 
         @media (max-width: 600px) {
-       
-            .logo{
-                display: none;
-            }
+            .logo{display: none;}
          }
-
         a{
             color: var(--primary-color-1);
         }
+    }
+}
+
+menu{
+    height: 4em;
+    text-align: center;
+    background-color: #404e5d;
+    margin: 0;
+
+    span{
+        margin: auto 1em;
+        color: aliceblue;
+        vertical-align: middle;
     }
 }
