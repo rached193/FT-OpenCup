@@ -45,7 +45,7 @@ export class ColumnGraphComponent implements OnInit {
       credits: {
         enabled: false
       },
-      colors: this.colors || ['dimgray'],
+      colors: this.colors || ['var(--main-color)'],
       xAxis: {
         categories: this.categories,
         labels: {
