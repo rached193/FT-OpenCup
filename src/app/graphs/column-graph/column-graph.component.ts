@@ -36,11 +36,15 @@ export class ColumnGraphComponent implements OnInit {
         type: 'column',
         backgroundColor: 'transparent',
         style: {
-          fontFamily: 'Poppins, Open Sans, sans-serif'
+          fontFamily: 'Poppins, Open Sans, sans-serif',
+          color: 'var(--main-color) !important'
         }
       },
       title: {
         text: this.title,
+        style: {
+          color: 'var(--main-color)'
+        }
       },
       credits: {
         enabled: false
@@ -61,6 +65,11 @@ export class ColumnGraphComponent implements OnInit {
         title: {
           text: ''
         },
+        labels: {
+          style: {
+            color: 'var(--main-color)'
+          }
+        },
         min: 0
       },
       plotOptions: {
@@ -69,7 +78,10 @@ export class ColumnGraphComponent implements OnInit {
         }
       },
       legend: {
-        enabled: this.legend
+        itemStyle: {
+          color: 'var(--main-color)',
+        },
+        enabled: this.legend,
       },
       series: this.dataSeries
     };

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemingService } from '../theming.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  nigth: boolean;
+
+  constructor(private themingService: ThemingService) { }
 
   ngOnInit(): void {
+  }
+
+
+  nightMode() {
+    this.nigth = !this.nigth;
+    if (this.nigth) {
+      this.themingService.activeNightMode();
+    } else {
+      this.themingService.activeLightMode();
+    }
   }
 
 }

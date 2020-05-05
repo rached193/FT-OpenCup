@@ -20,9 +20,28 @@ header{
             .logo{display: none;}
          }
         a{
-            color: var(--primary-color-1);
+            color: #fff;
         }
     }
+
+    .night_mode{
+        float: right;
+        .nigth {
+            background: url(/assets/moon.svg) no-repeat;
+            background-size: contain;
+            background-position: 10%;
+            background-size: 90%;
+            cursor: pointer;
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+
+            &.active{
+                background-color: whitesmoke;
+            }
+        }
+    }
+
 }
 
 menu{

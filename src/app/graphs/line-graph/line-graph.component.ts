@@ -35,11 +35,15 @@ export class LineGraphComponent implements OnInit {
         type: 'line',
         backgroundColor: 'transparent',
         style: {
-          fontFamily: 'Poppins, Open Sans, sans-serif'
+          fontFamily: 'Poppins, Open Sans, sans-serif',
+          color: 'var(--main-color) !important'
         }
       },
       title: {
         text: this.title,
+        style: {
+          color: 'var(--main-color)'
+        }
       },
       credits: {
         enabled: false
@@ -58,8 +62,11 @@ export class LineGraphComponent implements OnInit {
           useHTML: true,
           formatter() {
             return this.value + '%';
+          },
+          style: {
+            color: 'var(--main-color)'
           }
-        }
+        },
       },
       legend: {
         layout: 'vertical',
@@ -67,7 +74,7 @@ export class LineGraphComponent implements OnInit {
         verticalAlign: 'middle',
         useHTML: true,
         labelFormatter: function () {
-          return '<img src="../assets/img/' + this.name + '.png" height="32" width="32"></img>';
+          return '<img src="/assets/img/' + this.name + '.png" height="32" width="32"></img>';
         }
       },
       plotOptions: {
