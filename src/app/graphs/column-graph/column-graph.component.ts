@@ -13,6 +13,7 @@ export class ColumnGraphComponent implements OnInit {
   private dataSeries: Highcharts.SeriesOptionsType[];
 
   @Input() title: string;
+  @Input() subtitle: string;
   @Input() colors: string[];
   @Input() legend: boolean;
   @Input() categories: string[];
@@ -42,6 +43,12 @@ export class ColumnGraphComponent implements OnInit {
       },
       title: {
         text: this.title,
+        style: {
+          color: 'var(--main-color)'
+        }
+      },
+      subtitle: {
+        text: this.subtitle,
         style: {
           color: 'var(--main-color)'
         }

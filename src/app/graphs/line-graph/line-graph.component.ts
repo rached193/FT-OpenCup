@@ -33,6 +33,7 @@ export class LineGraphComponent implements OnInit {
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'line',
+        height: 600,
         backgroundColor: 'transparent',
         style: {
           fontFamily: 'Poppins, Open Sans, sans-serif',
@@ -51,6 +52,11 @@ export class LineGraphComponent implements OnInit {
       colors: Highcharts.defaultOptions.colors,
       xAxis: {
         categories: this.categories,
+        labels: {
+          style: {
+            color: 'var(--main-color)'
+          }
+        }
       },
       yAxis: {
         title: {
@@ -69,9 +75,9 @@ export class LineGraphComponent implements OnInit {
         },
       },
       legend: {
-        layout: 'vertical',
-        align: 'right',
-        verticalAlign: 'middle',
+        layout: 'horizontal',
+        align: 'center',
+        verticalAlign: 'bottom',
         useHTML: true,
         labelFormatter: function () {
           return '<img src="/assets/img/' + this.name + '.png" height="32" width="32"></img>';
