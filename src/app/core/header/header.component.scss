@@ -1,13 +1,18 @@
 header{
     height: 4em;
-    text-align: center;
     padding: 1em;
     background-color: var(--primary-color-4);
     color: #a9acff;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
     span{
         font-weight: bold;
         font-size: 2.5em;
+        text-align: center;
 
         .logo{
             width: 50px;
@@ -25,7 +30,7 @@ header{
     }
 
     .night_mode{
-        float: right;
+        margin-left: auto;
         .nigth {
             background: url(/assets/moon.svg) no-repeat;
             background-size: contain;
