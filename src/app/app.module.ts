@@ -7,19 +7,20 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { OverviewComponent } from './overview/overview.component';
 import { OverviewModule } from './overview/overview.module';
+import { TemtemModule } from './temtem/temtem.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    OverviewComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    HttpClientModule,
     OverviewModule,
-    HttpClientModule
+    TemtemModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
