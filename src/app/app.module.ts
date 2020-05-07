@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import { OverviewComponent } from './overview/overview.component';
 import { OverviewModule } from './overview/overview.module';
 import { TemtemModule } from './temtem/temtem.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { TemtemModule } from './temtem/temtem.module';
     HttpClientModule,
     OverviewModule,
     TemtemModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

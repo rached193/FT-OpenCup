@@ -26,7 +26,6 @@ export class LineGraphComponent implements OnInit {
 
   ngOnInit(): void {
     // this.build();
-    console.log(this.colors)
   }
 
   build() {

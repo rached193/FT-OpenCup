@@ -29,7 +29,6 @@ export class TemtemGraphComponent implements OnInit {
   ngOnInit(): void {
 
     this.temtemService.getGraph(this.url).subscribe(data => {
-      console.log(data);
       this.buildGraph(data);
     });
   }
@@ -55,8 +54,6 @@ export class TemtemGraphComponent implements OnInit {
         });
       }
     }
-
-    console.log(series);
 
     this.categories = categories;
     this.series = series;
