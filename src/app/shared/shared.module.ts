@@ -4,6 +4,7 @@ import { MatTableModule } from '@angular/material/table';
 import { TemtemGraphComponent } from './temtem-graph/temtem-graph.component';
 import { GraphsModule } from '../graphs/graphs.module';
 import { TableComponent } from './table/table.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -18,7 +19,8 @@ import { TableComponent } from './table/table.component';
     TemtemGraphComponent,
     TableComponent,
 
-    MatTableModule
+    MatTableModule,
+    MatCardModule
   ]
 })
 export class SharedModule { }

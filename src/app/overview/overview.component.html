@@ -4,7 +4,7 @@
     <app-table url="tournament_recurrence" title="Tournament recurrence"></app-table>
     <app-table url="tournament_recurrence_top8" title="Tournament recurrence (Top 8)"></app-table>
 </div>
-<div class="row">
+<div class="row mat-elevation-z4">
     <div class="column">
         <app-temtem-graph url="graph1" title="Temtem appearance" categoryName="category" serieName="serie" valueName="value"
             type='column' top="16"></app-temtem-graph>
@@ -14,7 +14,7 @@
             valueName="value" type='column' top="16"></app-temtem-graph>
     </div>
 </div>
-<div class="row">
+<div class="row mat-elevation-z4">
     <div class="column">
         <app-temtem-graph url="graph3" title="Temtem Winrate" categoryName="category" serieName="serie" [legend]="true"
             [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16"></app-temtem-graph>
@@ -24,11 +24,11 @@
             [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16"></app-temtem-graph>
     </div>
 </div>
-<div class="row">
+<div class="row mat-elevation-z4">
     <app-temtem-graph url="graph5" title="Picks/Bans by Temtem (Top 4)" subtitle= "*last update: Minor Cup Apr*" categoryName="temtem" serieName="serie" [legend]="true"
         [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column'></app-temtem-graph>
 </div>
-<div class="row">
+<div class="row mat-elevation-z4">
     <div class="column">
         <app-temtem-graph url="graph6" title="Evolution of use" categoryName="category" serieName="serie" valueName="value" 
             type='line'></app-temtem-graph>
