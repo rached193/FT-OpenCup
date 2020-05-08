@@ -1,0 +1,26 @@
+.row{
+    //margin: 1em;
+    margin: 1vw 1vw 0em 1vw;;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: wrap;
+ }
+
+ .column {
+    flex-basis: 50%;
+    min-width: 400px;
+    width: 100%;
+  }
+ 
+  
+  @media (max-width: 850px) {
+    .row{
+       flex-direction: column;
+       }
+       .column{
+          min-width: unset;
+          // flex-basis:100%;
+       }
+    }
+ 

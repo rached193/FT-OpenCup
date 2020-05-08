@@ -4,12 +4,12 @@ import { MatTableModule } from '@angular/material/table';
 import { TemtemGraphComponent } from './temtem-graph/temtem-graph.component';
 import { GraphsModule } from '../graphs/graphs.module';
 import { TableComponent } from './table/table.component';
-import {MatCardModule} from '@angular/material/card';
+import { RowLayoutComponent } from './row-layout/row-layout.component';
 
 
 
 @NgModule({
-  declarations: [TemtemGraphComponent, TableComponent],
+  declarations: [TemtemGraphComponent, TableComponent, RowLayoutComponent],
   imports: [
     CommonModule,
     GraphsModule,
@@ -18,9 +18,9 @@ import {MatCardModule} from '@angular/material/card';
   exports: [
     TemtemGraphComponent,
     TableComponent,
+    RowLayoutComponent,
 
-    MatTableModule,
-    MatCardModule
+ 
   ]
 })
 export class SharedModule { }

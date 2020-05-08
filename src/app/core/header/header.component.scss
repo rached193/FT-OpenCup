@@ -50,15 +50,25 @@ header{
 }
 
 menu{
-    height: 4em;
-    text-align: center;
+    height: 5em;
     background-color: #404e5d;
     margin: 0;
+    display: flex;
+    justify-content: center;
 
-    span{
-        margin: auto 1em;
+    div{
+        padding: 0 1em;
         color: aliceblue;
-        vertical-align: middle;
         cursor: pointer;
+
+
+        &:hover{
+            background-color:#84bcfd;
+        }
+
+        span{
+            line-height: 5em;
+        }
+        
     }
 }
