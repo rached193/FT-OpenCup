@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
-import * as HighchartsMore from 'highcharts/highcharts-more';
+import HighchartsMore from 'highcharts/highcharts-more';
 
 HighchartsMore(Highcharts);
 
