@@ -1,12 +1,15 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
+import * as HighchartsMore from 'highcharts/highcharts-more';
+
+HighchartsMore(Highcharts);
 
 @Component({
-  selector: 'app-line-graph',
-  templateUrl: './line-graph.component.html',
-  styleUrls: ['./line-graph.component.scss']
+  selector: 'app-spider-graph',
+  templateUrl: './spider-graph.component.html',
+  styleUrls: ['./spider-graph.component.scss']
 })
-export class LineGraphComponent implements OnInit {
+export class SpiderGraphComponent implements OnInit {
   @ViewChild('chart1', { static: true }) chart1: ElementRef;
 
   private graph1: Highcharts.Chart;
@@ -15,6 +18,7 @@ export class LineGraphComponent implements OnInit {
   @Input() title: string;
   @Input() subtitle: string;
   @Input() colors: string[];
+  @Input() legend: boolean;
   @Input() categories: string[];
   @Input() set series(value: any[]) {
     if (value.length > 0) {
@@ -26,14 +30,13 @@ export class LineGraphComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // this.build();
   }
 
   build() {
     const chartOptions1: Highcharts.Options = {
       chart: {
-        type: 'line',
-        height: 600,
+        polar: true,
+        type: 'area',
         backgroundColor: 'transparent',
         style: {
           fontFamily: 'Poppins, Open Sans, sans-serif',
@@ -52,6 +55,8 @@ export class LineGraphComponent implements OnInit {
       colors: Highcharts.defaultOptions.colors,
       xAxis: {
         categories: this.categories,
+        tickmarkPlacement: 'on',
+        lineWidth: 0,
         labels: {
           style: {
             color: 'var(--main-color)'
@@ -62,56 +67,29 @@ export class LineGraphComponent implements OnInit {
         title: {
           text: ''
         },
+        gridLineInterpolation: 'polygon',
+        lineWidth: 0,
         min: 0,
-        max: 100,
+        max: 120,
         labels: {
-          useHTML: true,
-          formatter() {
-            return this.value + '%';
-          },
           style: {
             color: 'var(--main-color)'
           }
         },
       },
+      tooltip: {
+        shared: true
+      },
       legend: {
-        layout: 'horizontal',
-        align: 'center',
-        verticalAlign: 'bottom',
-        useHTML: true,
-        labelFormatter: function () {
-          return '<img src="/assets/img/' + this.name + '.png" height="32" width="32"></img>';
-        }
-      },
-      plotOptions: {
-        series: {
-          label: {
-            connectorAllowed: false
-          },
-          tooltip: {
-            valueSuffix: '%'
-          }
-        }
-      },
-      responsive: {
-        rules: [{
-          condition: {
-            maxWidth: 500
-          },
-          chartOptions: {
-            legend: {
-              layout: 'horizontal',
-              align: 'center',
-              verticalAlign: 'bottom'
-            }
-          }
-        }]
+        itemStyle: {
+          color: 'var(--main-color)',
+        },
+        enabled: this.legend,
       },
       series: this.dataSeries
     };
 
     this.graph1 = Highcharts.chart(this.chart1.nativeElement, chartOptions1);
   }
-
 
 }

@@ -5,10 +5,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { OverviewComponent } from './overview/overview.component';
+import { CircuitModule } from './circuit/circuit.module';
 import { OverviewModule } from './overview/overview.module';
 import { TemtemModule } from './temtem/temtem.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CircuitComponent } from './circuit/circuit.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     CoreModule,
     HttpClientModule,
+    CircuitModule,
     OverviewModule,
     TemtemModule,
     BrowserAnimationsModule,

@@ -3,7 +3,10 @@
         [colors]="colors" [legend]="legend">
     </app-column-graph>
 
-    <app-line-graph *ngSwitchCase="'line'" [title]="title" [categories]="categories" [series]="series"
+    <app-line-graph *ngSwitchCase="'line'" [title]="title" [subtitle]="subtitle" [categories]="categories" [series]="series"
         [colors]="colors"></app-line-graph>
+    
+    <app-spider-graph *ngSwitchCase="'spider'" [title]="title" [subtitle]="subtitle" [categories]="categories" [series]="series"
+        [colors]="colors"></app-spider-graph>
 
 </ng-container>
