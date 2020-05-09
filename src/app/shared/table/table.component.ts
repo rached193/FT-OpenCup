@@ -9,7 +9,11 @@ import { TableService } from './table.service';
 export class TableComponent implements OnInit {
 
   @Input() url: string;
-  @Input() data: any[];
+  @Input() set data(value: any[]) {
+    if (value.length > 0) {
+      this.buildTable(value);
+    }
+  }
   @Input() title: string;
 
   displayedColumns: string[];
@@ -23,8 +27,6 @@ export class TableComponent implements OnInit {
       this.tableService.getTable(this.url).subscribe(data => {
         this.buildTable(data);
       });
-    } else if (this.data) {
-      this.buildTable(this.data);
     }
   }
 

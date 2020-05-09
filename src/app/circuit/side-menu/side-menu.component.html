@@ -1,7 +1,7 @@
 <div>
     <ul>
-        <li *ngFor="let itemtournament of tournaments">
-            {{itemtournament}}
+        <li *ngFor="let itemtournament of listMenu; index as i" (click)="selectMenu(i)">
+            {{itemtournament.menu}}
         </li>
     </ul>
 </div>

@@ -15,6 +15,10 @@ export class CircuitComponent implements OnInit {
 
   infoCircuit$ = this.circuitService.getInfo('circuit_data').pipe(share());
 
+  select(index) {
+    this.rowSelected = index;
+  }
+
   ngOnInit(): void {
   }
 

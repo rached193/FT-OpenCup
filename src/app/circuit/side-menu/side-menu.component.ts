@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-side-menu',
@@ -7,21 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideMenuComponent implements OnInit {
 
+  @Input() listMenu: { menu: string }[];
 
-  tournaments = [
-    'FT Open Cup',
-    'Minor Cup Apr',
-    'Minor Cup May',
-    'Minor Cup Jun',
-    'Minor Cup Jul',
-    'Minor Cup Aug',
-    'Qualifier Sep',
-    'Minor Cup Oct',
-    'Qualifier Nov',
-    'Invitational'];
+  @Output() menuSelected = new EventEmitter();
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  selectMenu(index) {
+    this.menuSelected.emit(index);
+  }
+
 
 }

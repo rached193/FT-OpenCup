@@ -1,6 +1,6 @@
 :host{
     display: flex;
-
+    background-color: var(--primary-color-1);
     
     .container{
         flex-grow: 1;
@@ -23,7 +23,9 @@
 
     app-table{
         margin: 1em;
-        width: 90%;
+        display: block;
+        height: 70vh;
+        overflow: overlay;
     }
   }
  

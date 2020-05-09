@@ -1,7 +1,7 @@
 :host{
     min-width: 150px;
-    flex-basis: 25%;
-    
+    flex-basis: 7%;
+
     z-index: 1;
     padding-top: 10px;
     box-sizing: border-box;
@@ -9,4 +9,9 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35);
     transition: transform 0.5s;
     -webkit-transition: -webkit-transform 0.5s, transform 0.5s;
+
+
+    li{
+        cursor: pointer;
+    }
 }
