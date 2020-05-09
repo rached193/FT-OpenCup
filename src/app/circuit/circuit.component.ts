@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CircuitService } from './circuit.service';
+import { share } from 'rxjs/operators';
 
 @Component({
   selector: 'app-circuit',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CircuitComponent implements OnInit {
 
-  constructor() { }
+  rowSelected = 0;
+
+  constructor(private circuitService: CircuitService) { }
+
+  infoCircuit$ = this.circuitService.getInfo('circuit_data').pipe(share());
 
   ngOnInit(): void {
   }
