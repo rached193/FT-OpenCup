@@ -8,7 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class SideMenuComponent implements OnInit {
 
 
-  tournaments = ['Horhe', 'Ablaro', 'Eneñlena'];
+  tournaments = [
+    'FT Open Cup',
+    'Minor Cup Apr',
+    'Minor Cup May',
+    'Minor Cup Jun',
+    'Minor Cup Jul',
+    'Minor Cup Aug',
+    'Qualifier Sep',
+    'Minor Cup Oct',
+    'Qualifier Nov',
+    'Invitational'];
   constructor() { }
 
   ngOnInit(): void {
