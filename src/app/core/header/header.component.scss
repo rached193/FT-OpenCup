@@ -65,7 +65,9 @@ menu{
         &:hover{
             background-color:#84bcfd;
         }
-
+        &:focus{
+            outline:none;
+        }
         span{
             line-height: 5em;
         }
