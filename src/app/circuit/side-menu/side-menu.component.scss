@@ -1,7 +1,7 @@
 :host{
-    // height: 100%;
-
-    width: 310px;
+    min-width: 150px;
+    flex-basis: 25%;
+    
     z-index: 1;
     padding-top: 10px;
     box-sizing: border-box;

@@ -9,6 +9,7 @@ import { TableService } from './table.service';
 export class TableComponent implements OnInit {
 
   @Input() url: string;
+  @Input() data: any[];
   @Input() title: string;
 
   displayedColumns: string[];
@@ -18,10 +19,13 @@ export class TableComponent implements OnInit {
   constructor(private tableService: TableService) { }
 
   ngOnInit(): void {
-
-    this.tableService.getTable(this.url).subscribe(data => {
-      this.buildTable(data);
-    });
+    if (this.url) {
+      this.tableService.getTable(this.url).subscribe(data => {
+        this.buildTable(data);
+      });
+    } else if (this.data) {
+      this.buildTable(this.data);
+    }
   }
 
   private buildTable(content: any[]) {

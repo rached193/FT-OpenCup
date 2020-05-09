@@ -2,10 +2,14 @@
 
 <div class="container">
     <app-row-layout *ngIf="infoCircuit$ |async as info">
-        <div>
+        <div class="column">
             <p *ngFor=" let line of info[rowSelected].text">
                 {{line}}
             </p>
+        </div>
+
+        <div class="column">
+            <app-table [data]="info[rowSelected].table" title="Clasification" #table></app-table>
         </div>
     </app-row-layout>
 
