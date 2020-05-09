@@ -3,12 +3,32 @@
 <div class="container">
     <app-row-layout>
         <div class="column">
-            <app-temtem-graph url="graph1" title="Temtem appearance" categoryName="category" serieName="serie"
-                valueName="value" type='column' top="16"></app-temtem-graph>
+            <h1>FT Open Cup</h1>
+
+            <p> The <a href="http://fellowtamers.com/" target="_blank">Fellow Tamers</a> club, working together with Temporium, is glad to announce the FT Open Cup, a competitive Temtem circuit that will take place during the Early Access phase! </p>
+            
+            <p> The circuit will be divided into eight tournaments (one tournament per month), each with 200 euros in prizes. </p>
+            
+            <p> The tournament will lead to the FT INVITATIONAL, a closed tournament with 16 players and a 1000€ prize pool. </p>
+            
+            <p> Only the 12 players with more circuit points (granted by how well you do in the Minor Cups or the Qualifiers) plus 4 players from the Qualifiers will be able to join the FT Invitational. </p>
+            
+            <p> The winner and runner up of each Qualifier will join the tournament too. </p>
+                
+            <p> Each tournament is independent from the others, so you have to register for all tournaments you're interested once they're published. </p>
+            
+            <p> You can also join a single tournament and don't show up for the next ones. </p>
+            
+            <p> We will announce each tournament with a delay of at least 15 days so that each player can plan ahead properly. </p>
+            
+            <p> We really want to thanks Perdigano for making this tournament possible. </p>
+                
+            <p> Interested? You can join the <a href="https://discordapp.com/invite/jbfyBRg" target="_blank">Temporium Discord</a> channel to read the rules and keep track of the upcoming tournaments (This discord isn't a community and its merely informative). </p>
+            
+            <p> You can also read the rules <a href="https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view" target="_blank">here</a>. </p>
         </div>
         <div class="column">
-            <app-temtem-graph url="graph2" title="Temtem appearance (Top 8)" categoryName="category" serieName="serie"
-                valueName="value" type='column' top="16"></app-temtem-graph>
+            <app-table url="global_position" title="Clasification" #table></app-table>
         </div>
     </app-row-layout>
 </div>
