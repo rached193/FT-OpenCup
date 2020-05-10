@@ -11,7 +11,16 @@
     -webkit-transition: -webkit-transform 0.5s, transform 0.5s;
 
 
-    li{
-        cursor: pointer;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 10px;
+
+        li{
+            cursor: pointer;
+            padding: 10px;
+        }
     }
+
+    
 }

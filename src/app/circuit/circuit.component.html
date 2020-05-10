@@ -6,6 +6,13 @@
             <p *ngFor=" let line of info[rowSelected].text">
                 {{line}}
             </p>
+
+            <ul> Links: 
+                <li *ngFor=" let link of info[rowSelected].link">
+                    <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16"/>
+                    <a href="{{link.url}}" target="_blank">{{link.title}}</a> 
+                </li>
+            </ul>
         </div>
 
         <div class="column">

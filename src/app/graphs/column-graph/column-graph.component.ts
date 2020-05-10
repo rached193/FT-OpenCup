@@ -64,7 +64,7 @@ export class ColumnGraphComponent implements OnInit {
           overflow: 'allow',
           useHTML: true,
           formatter() {
-            return '<img src="/assets/img/' + this.value + '.png" height="32" width="32"></img>';
+            return '<img src="/assets/img/temtem/' + this.value + '.png" height="32" width="32"></img>';
           }
         }
       },

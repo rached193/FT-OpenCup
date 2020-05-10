@@ -80,7 +80,7 @@ export class LineGraphComponent implements OnInit {
         verticalAlign: 'bottom',
         useHTML: true,
         labelFormatter: function () {
-          return '<img src="/assets/img/' + this.name + '.png" height="32" width="32"></img>';
+          return '<img src="/assets/img/temtem/' + this.name + '.png" height="32" width="32"></img>';
         }
       },
       plotOptions: {
