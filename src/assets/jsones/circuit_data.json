@@ -27,14 +27,20 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank" : 1, "player" : "Cavalry", "points" : 100, "money €" : 120}, {"rank" : 1, "player" : "Prody", "points" : 100, "money €" : 120}, {"rank" : 3, "player" : "Shirokky", "points" : 95, "money €" : 60}, {"rank" : 4, "player" : "Tsubaki Chan", "points" : 80, "money €" : 60}, {"rank" : 5, "player" : "Flowmaster", "points" : 75, "money €" : 10}, {"rank" : 6, "player" : "Golld", "points" : 60, "money €" : 10}, {"rank" : 7, "player" : "Ice Red", "points" : 50, "money €" : 10}, {"rank" : 7, "player" : "Markinlp", "points" : 50, "money €" : 10}, {"rank" : 9, "player" : "Qlaziks", "points" : 35, "money €" : 0}, {"rank" : 10, "player" : "Cielo Aoi", "points" : 25, "money €" : 0}, {"rank" : 10, "player" : "Expertz", "points" : 25, "money €" : 0}, {"rank" : 10, "player" : "Nekoblakii", "points" : 25, "money €" : 0}, {"rank" : 10, "player" : "Nylo-Mtg#1162188", "points" : 25, "money €" : 0}, {"rank" : 10, "player" : "Taullaris", "points" : 25, "money €" : 0}, {"rank" : 15, "player" : "Gaddy", "points" : 20, "money €" : 0}, {"rank" : 16, "player" : "AzrealDNT#610302", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "DarkMonkey", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Dave Goblino", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "ishir", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Junchiro", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Kanzaki", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Nervontuxis", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Orkhane", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "Tempi", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "The Eclipse #816667", "points" : 10, "money €" : 0}, {"rank" : 16, "player" : "uwukaze", "points" : 10, "money €" : 0}]},
+    "statistics": [
+        {
+            "title": "Overview Statistics",
+            "url": "/overview"
+        }
+    ],
+    "table": [{"rank" : "#", "player" : null, "points" : "FT Invitational"}, {"rank" : "#", "player" : null, "points" : "FT Invitational"}, {"rank" : "#", "player" : null, "points" : "FT Invitational"}, {"rank" : "#", "player" : null, "points" : "FT Invitational"}, {"rank" : 1, "player" : "Cavalry", "points" : 100}, {"rank" : 1, "player" : "Prody", "points" : 100}, {"rank" : 3, "player" : "Shirokky", "points" : 95}, {"rank" : 4, "player" : "Tsubaki Chan", "points" : 80}, {"rank" : 5, "player" : "Flowmaster", "points" : 75}, {"rank" : 6, "player" : "Golld", "points" : 60}, {"rank" : 7, "player" : "Ice Red", "points" : 50}, {"rank" : 7, "player" : "Markinlp", "points" : 50}, {"rank" : 9, "player" : "Qlaziks", "points" : 35}, {"rank" : 10, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 10, "player" : "Expertz", "points" : 25}, {"rank" : 10, "player" : "Nekoblakii", "points" : 25}, {"rank" : 10, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 10, "player" : "Taullaris", "points" : 25}, {"rank" : 15, "player" : "Gaddy", "points" : 20}, {"rank" : 16, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 16, "player" : "DarkMonkey", "points" : 10}, {"rank" : 16, "player" : "Dave Goblino", "points" : 10}, {"rank" : 16, "player" : "ishir", "points" : 10}, {"rank" : 16, "player" : "Junchiro", "points" : 10}, {"rank" : 16, "player" : "Kanzaki", "points" : 10}, {"rank" : 16, "player" : "Nervontuxis", "points" : 10}, {"rank" : 16, "player" : "Orkhane", "points" : 10}, {"rank" : 16, "player" : "Tempi", "points" : 10}, {"rank" : 16, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 16, "player" : "uwukaze", "points" : 10}]},
 {
     "menu": "Minor Cup Apr",
     "text": ["Minor Cup Apr",
-        "Date & Time: Saturday, April 4th 2020 9:00 AM PDT",
+        "Date & Time: April 4th, 16:00 UTC. (18:00 CET, 9:00 PDT, 12:00 ET, 10:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points.",
@@ -62,14 +68,14 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table" : [{"rank": 1, "player": "Cavalry", "points": 100, "money €": 120}, {"rank": 2, "player": "Shirokky", "points": 70, "money €": 60}, {"rank": 3, "player": "Golld", "points": 50, "money €": 10}, {"rank": 3, "player": "Markinlp", "points": 50, "money €": 10}, {"rank": 5, "player": "Expertz", "points": 25, "money €": 0}, {"rank": 5, "player": "Nekoblakii", "points": 25, "money €": 0}, {"rank": 5, "player": "Flowmaster", "points": 25, "money €": 0}, {"rank": 5, "player": "Cielo Aoi", "points": 25, "money €": 0}, {"rank": 9, "player": "Qlaziks", "points": 10, "money €": 0}, {"rank": 9, "player": "DarkMonkey", "points": 10, "money €": 0}, {"rank": 9, "player": "Tempi", "points": 10, "money €": 0}, {"rank": 9, "player": "The Eclipse #816667", "points": 10, "money €": 0}, {"rank": 9, "player": "AzrealDNT#610302", "points": 10, "money €": 0}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": 0}, {"rank": 9, "player": "Kanzaki", "points": 10, "money €": 0}, {"rank": 9, "player": "Tsubaki Chan", "points": 10, "money €": 0}]},
+    "table" : [{"rank": 1, "player": "Cavalry", "points": 100, "money €": 120}, {"rank": 2, "player": "Shirokky", "points": 70, "money €": 60}, {"rank": 3, "player": "Golld", "points": 50, "money €": 10}, {"rank": 3, "player": "Markinlp", "points": 50, "money €": 10}, {"rank": 5, "player": "Expertz", "points": 25, "money €": null}, {"rank": 5, "player": "Nekoblakii", "points": 25, "money €": null}, {"rank": 5, "player": "Flowmaster", "points": 25, "money €": null}, {"rank": 5, "player": "Cielo Aoi", "points": 25, "money €": null}, {"rank": 9, "player": "Qlaziks", "points": 10, "money €": null}, {"rank": 9, "player": "DarkMonkey", "points": 10, "money €": null}, {"rank": 9, "player": "Tempi", "points": 10, "money €": null}, {"rank": 9, "player": "The Eclipse #816667", "points": 10, "money €": null}, {"rank": 9, "player": "AzrealDNT#610302", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Kanzaki", "points": 10, "money €": null}, {"rank": 9, "player": "Tsubaki Chan", "points": 10, "money €": null}]},
 {
     "menu" : "Minor Cup May",
     "text" : ["Minor Cup May",
-        "Date & Time: Saturday, May 2th 2020 7:00 AM PDT",
+        "Date & Time: May 2nd, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points.",
@@ -97,14 +103,14 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": "Prody", "points": 100, "money €": 120}, {"rank": 2, "player": "Tsubaki Chan", "points": 70, "money €": 60}, {"rank": 3, "player": "Ice Red", "points": 50, "money €": 10}, {"rank": 3, "player": "Flowmaster", "points": 50, "money €": 10}, {"rank": 5, "player": "Taullaris", "points": 25, "money €": 0}, {"rank": 5, "player": "Shirokky", "points": 25, "money €": 0}, {"rank": 5, "player": "Qlaziks", "points": 25, "money €": 0}, {"rank": 5, "player": "Nylo-Mtg#1162188", "points": 25, "money €": 0}, {"rank": 9, "player": "Golld", "points": 10, "money €": 0}, {"rank": 9, "player": "Dave Goblino", "points": 10, "money €": 0}, {"rank": 9, "player": "Junchiro", "points": 10, "money €": 0}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": 0}, {"rank": 9, "player": "Orkhane", "points": 10, "money €": 0}, {"rank": 9, "player": "ishir", "points": 10, "money €": 0}, {"rank": 9, "player": "uwukaze", "points": 10, "money €": 0}, {"rank": 9, "player": "Nervontuxis", "points": 10, "money €": 0}]},
+    "table": [{"rank": 1, "player": "Prody", "points": 100, "money €": 120}, {"rank": 2, "player": "Tsubaki Chan", "points": 70, "money €": 60}, {"rank": 3, "player": "Ice Red", "points": 50, "money €": 10}, {"rank": 3, "player": "Flowmaster", "points": 50, "money €": 10}, {"rank": 5, "player": "Taullaris", "points": 25, "money €": null}, {"rank": 5, "player": "Shirokky", "points": 25, "money €": null}, {"rank": 5, "player": "Qlaziks", "points": 25, "money €": null}, {"rank": 5, "player": "Nylo-Mtg#1162188", "points": 25, "money €": null}, {"rank": 9, "player": "Golld", "points": 10, "money €": null}, {"rank": 9, "player": "Dave Goblino", "points": 10, "money €": null}, {"rank": 9, "player": "Junchiro", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Orkhane", "points": 10, "money €": null}, {"rank": 9, "player": "ishir", "points": 10, "money €": null}, {"rank": 9, "player": "uwukaze", "points": 10, "money €": null}, {"rank": 9, "player": "Nervontuxis", "points": 10, "money €": null}]},
 {
     "menu" : "Minor Cup Jun",
     "text" : ["Minor Cup Jun",
-        "Date & Time: To be defined",
+        "Date & Time: June 6th, 14:00 UTC. (16:00 CEST, 8:00 PDT, 10:00 ET)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points.",
@@ -122,8 +128,8 @@
         },
         {
             "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
+            "title": "Registration Open",
+            "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-june/5ebd3c28454d0e5124e2e5a7/info"
         },
         {
             "img": "Discord",
@@ -133,10 +139,10 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]},
+    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "menu" : "Minor Cup Jul",
     "text" : ["Minor Cup Jul",
@@ -169,10 +175,10 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]},
+    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "menu" : "Minor Cup Aug",
     "text" : ["Minor Cup Aug",
@@ -205,22 +211,23 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]},
+    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "menu" : "Qualifier Sep",
     "text" : ["Qualifier Sep",
         "Date & Time: To be defined",
-        "Format: Swiss Round + Single Elimination bracket. 1 Day.",
+        "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Prizes:",
-        "1st) 120€ + 100 circuit points.",
-        "2nd) 60€ + 70 circuit points.",
-        "3rd/4th) 10€ + 50 circuit points.",
-        "5th-8th) 25 circuit points.",
-        "9th-16th) 10 circuit points. (+32 players required).",
-        "17th-32th) 5 circuit points. (+64 players required)"
+        "1st) 120€ + FT Invitational qualification.",
+        "2nd) 60€ + FT Invitational qualification.",
+        "3rd) 20€ + 100 circuit points.",
+        "4th) 70 circuit points.",
+        "5th-8th) 50 circuit points.",
+        "9th-16th) 25 circuit points. (+32 players required).",
+        "17th-32th) 10 circuit points. (+64 players required)"
     ],
     "link": [
         {
@@ -241,10 +248,10 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]},
+    "table": [{"rank": 1, "player": null, "points": "FT Invitational", "money €": 120}, {"rank": 2, "player": null, "points": "FT Invitational", "money €": 60}, {"rank": 3, "player": null, "points": 100, "money €": 20}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
 {
     "menu" : "Minor Cup Oct",
     "text" : ["Minor Cup Oct",
@@ -277,22 +284,23 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]},
+    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "menu" : "Qualifier Nov",
     "text" : ["Qualifier Nov",
         "Date & Time: To be defined",
-        "Format: Swiss Round + Single Elimination bracket. 1 Day.",
+        "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Prizes:",
-        "1st) 120€ + 100 circuit points.",
-        "2nd) 60€ + 70 circuit points.",
-        "3rd/4th) 10€ + 50 circuit points.",
-        "5th-8th) 25 circuit points.",
-        "9th-16th) 10 circuit points. (+32 players required).",
-        "17th-32th) 5 circuit points. (+64 players required)"
+        "1st) 120€ + FT Invitational qualification.",
+        "2nd) 60€ + FT Invitational qualification.",
+        "3rd) 20€ + 100 circuit points.",
+        "4th) 70 circuit points.",
+        "5th-8th) 50 circuit points.",
+        "9th-16th) 25 circuit points. (+32 players required).",
+        "17th-32th) 10 circuit points. (+64 players required)"
     ],
     "link": [
         {
@@ -313,8 +321,41 @@
         {
             "img": "Rules",
             "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1fdJUoUXoGFR7URXSEeZ7d_xqtbSrIPRR/view"
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
         }
     ],
-    "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}, {"rank": 5, "player": null, "points": 25, "money €": 0}]}
+    "table": [{"rank": 1, "player": null, "points": "FT Invitational", "money €": 120}, {"rank": 2, "player": null, "points": "FT Invitational", "money €": 60}, {"rank": 3, "player": null, "points": 100, "money €": 20}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
+{
+    "menu" : "FT Invitational",
+    "text" : ["FT Invitational",
+        "Date & Time: To be defined",
+        "Format: Group Stage + Knockout Stage. 2 Weekends.",
+        "Prizes:",
+        "1st) 700€",
+        "2nd) 250€.",
+        "3rd) 50€."
+    ],
+    "link": [
+        {
+            "img": "FT",
+            "title": "Fellow Tamers",
+            "url": "http://fellowtamers.com/"
+        },
+        {
+            "img": "Battlefy",
+            "title": "FT Battlefy",
+            "url": "https://battlefy.com/fellow-tamers"
+        },
+        {
+            "img": "Discord",
+            "title": "Temporium Discord",
+            "url": "https://discord.com/invite/jbfyBRg"
+        },
+        {
+            "img": "Rules",
+            "title": "FT Open Cup Rules",
+            "url": "https://drive.google.com/file/d/1ZuI72fZHrK5Hz491Cf52kRbgP2ccsgIT/view"
+        }
+    ],
+    "table": [{"rank": 1, "player": null, "money €": 700}, {"rank": 2, "player": null, "money €": 250}, {"rank": 3, "player": null, "money €": 50}]}
 ]

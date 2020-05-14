@@ -6,7 +6,7 @@ import { CircuitComponent } from './circuit/circuit.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'overview', pathMatch: 'full' },
+  { path: '', redirectTo: 'circuit', pathMatch: 'full' },
   { path: 'circuit', component: CircuitComponent },
   { path: 'overview', component: OverviewComponent },
   { path: 'temtem', component: TemtemComponent }
