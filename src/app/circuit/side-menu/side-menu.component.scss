@@ -12,6 +12,9 @@
     -webkit-transition: -webkit-transform 0.5s, transform 0.5s;
 
 
+    .side-menu{
+        position: fixed;
+    }
 
     @media (max-width: 600px) {
         min-width: unset !important;

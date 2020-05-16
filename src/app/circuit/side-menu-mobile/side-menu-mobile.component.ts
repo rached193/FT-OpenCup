@@ -28,7 +28,7 @@ export class SideMenuMobileComponent implements OnInit {
   activeMenu() {
     this.hiddenMenu = !this.hiddenMenu;
 
-    document.body.style.overflow = this.hiddenMenu ? 'auto' : 'hidden';
+    document.body.style.position = this.hiddenMenu ? 'relative' : 'fixed';
   }
 
 
