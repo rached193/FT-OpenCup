@@ -1,0 +1,81 @@
+:host{
+
+    color: aliceblue;
+
+    @media (min-width: 600px) {
+        display: none;
+    
+        // .side-menu{
+        //     position: fixed;
+        //     height: 100%;
+        //     background-color: rebeccapurple;
+        //     top: 11em;
+        //     left: -105px;
+
+        //     &:hover{
+        //          left: 0;
+        //     }
+        // }
+    }
+
+    .menu-responsive{
+        background: #4f5a68;
+        width: 100%;
+        padding: 1em 0;
+        display: flex;
+
+        span{
+            margin: auto 0;
+            margin-left: 1em;
+            font-size: xx-large;
+        }
+
+        .menu-icon{
+            margin-left: 2em;
+            cursor: pointer;
+            div {
+                width: 35px;
+                height: 5px;
+                background-color: white;
+                margin: 6px 0;
+              }
+        }
+    }   
+  
+    .side-menu{
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        // background-color: rebeccapurple;
+        top: 16em;
+        // left: -105px;
+
+        box-sizing: border-box;
+        background: #4f5a68;
+        color: aliceblue;
+        //box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.35);
+        // transition: transform 0.5s;
+        // -webkit-transition: -webkit-transform 0.5s, transform 0.5s;
+
+        .side-menu-overlay{
+            position: relative;
+            overflow: scroll;
+        }
+
+
+    }
+
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 10px;
+
+        li{
+            cursor: pointer;
+            padding: 10px;
+        }
+    }
+
+    
+}

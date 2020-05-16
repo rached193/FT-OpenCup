@@ -1,0 +1,19 @@
+<div class="menu-responsive">
+    <div class="menu-icon" (click)="activeMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <span> MENU</span>
+
+</div>
+
+<div class="side-menu" [hidden]="hiddenMenu">
+    <div class="side-menu-overlay">
+        <ul>
+            <li *ngFor="let itemtournament of listMenu; index as i" (click)="selectMenu(i)">
+                {{itemtournament.menu}}
+            </li>
+        </ul>
+    </div>
+</div>

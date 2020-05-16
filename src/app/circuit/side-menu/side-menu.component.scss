@@ -12,6 +12,26 @@
     -webkit-transition: -webkit-transform 0.5s, transform 0.5s;
 
 
+
+    @media (max-width: 600px) {
+        min-width: unset !important;
+        display: none;
+    
+        // .side-menu{
+        //     position: fixed;
+        //     height: 100%;
+        //     background-color: rebeccapurple;
+        //     top: 11em;
+        //     left: -105px;
+
+        //     &:hover{
+        //          left: 0;
+        //     }
+        // }
+    }
+  
+
+
     ul {
         list-style: none;
         padding: 0;

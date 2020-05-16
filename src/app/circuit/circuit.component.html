@@ -1,4 +1,6 @@
 <app-side-menu [listMenu]="infoCircuit$|async" (menuSelected)="select($event)"></app-side-menu>
+<app-side-menu-mobile [listMenu]="infoCircuit$|async" (menuSelected)="select($event)"></app-side-menu-mobile>
+
 
 <div class="container">
     <div class="row" *ngIf="infoCircuit$ |async as info">
@@ -7,16 +9,20 @@
                 {{line}}
             </p>
 
-            <ul> Links: 
-                <li *ngFor=" let link of info[rowSelected].link">
-                    <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16"/>
-                    <a href="{{link.url}}" target="_blank">{{link.title}}</a> 
-                </li>
-                <!-- <li *ngFor=" let graph of info[rowSelected].statistics">
-                    <img src="/assets/img/ico/Graph.png" height="16" width="16"/>
-                    <a [routerLink]="['/graph.url']">{{graph.title}}</a>
-                </li> -->
-            </ul>
+            <div class="link-row">
+                <h2> Links:</h2>
+                <ul>
+                    <li *ngFor=" let link of info[rowSelected].link">
+                        <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16" />
+                        <a href="{{link.url}}" target="_blank">{{link.title}}</a>
+                    </li>
+                    <!-- <li *ngFor=" let    graph of info[rowSelected].statistics">
+                        <img src="/assets/img/ico/Graph.png" height="16" width="16"/>
+                        <a [routerLink]="['/graph.url']">{{graph.title}}</a>
+                    </li> -->
+                </ul>
+            </div>
+
         </div>
 
         <div class="column">

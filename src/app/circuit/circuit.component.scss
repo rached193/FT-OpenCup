@@ -1,6 +1,10 @@
 :host{
     display: flex;
     background-color: var(--primary-color-1);
+
+    @media (max-width: 600px) {
+        display: block;
+    }
     
     .container{
         flex-grow: 1;
@@ -22,8 +26,6 @@
 }
 
 .row{
-    //margin: 1em;
-    //margin: 1vh 1vw 1vh 1vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,10 +40,19 @@
     app-table{
         margin: 1em;
         display: block;
-        height: 70vh;
+        height: 67vh;
         overflow: overlay;
     }
   }
+
+  .link-row{
+    margin: 2em;
+    a{
+        vertical-align: super;
+        padding-left: 0.5em;
+    }
+  }
+ 
  
   
   @media (max-width: 850px) {
