@@ -22,12 +22,12 @@ export class SideMenuMobileComponent implements OnInit {
 
   selectMenu(index) {
     this.hiddenMenu = true;
+    document.body.style.position = this.hiddenMenu ? 'relative' : 'fixed';
     this.menuSelected.emit(index);
   }
 
   activeMenu() {
     this.hiddenMenu = !this.hiddenMenu;
-
     document.body.style.position = this.hiddenMenu ? 'relative' : 'fixed';
   }
 
