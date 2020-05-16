@@ -16,18 +16,7 @@
     @media (max-width: 600px) {
         min-width: unset !important;
         display: none;
-    
-        // .side-menu{
-        //     position: fixed;
-        //     height: 100%;
-        //     background-color: rebeccapurple;
-        //     top: 11em;
-        //     left: -105px;
 
-        //     &:hover{
-        //          left: 0;
-        //     }
-        // }
     }
   
 
@@ -35,11 +24,13 @@
     ul {
         list-style: none;
         padding: 0;
-        margin-left: 10px;
-
         li{
             cursor: pointer;
             padding: 10px;
+            padding-left: 20px;
+            &:hover{
+                background-color: #84bcfd;
+            }
         }
     }
 
