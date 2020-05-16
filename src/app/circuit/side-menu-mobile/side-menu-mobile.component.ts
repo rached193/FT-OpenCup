@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
 
 
 @Component({
@@ -6,7 +6,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   templateUrl: './side-menu-mobile.component.html',
   styleUrls: ['./side-menu-mobile.component.scss']
 })
-export class SideMenuMobileComponent implements OnInit {
+export class SideMenuMobileComponent implements OnInit, OnDestroy {
 
   @Input() listMenu: { menu: string }[];
 
@@ -29,6 +29,10 @@ export class SideMenuMobileComponent implements OnInit {
   activeMenu() {
     this.hiddenMenu = !this.hiddenMenu;
     document.body.style.position = this.hiddenMenu ? 'relative' : 'fixed';
+  }
+
+  ngOnDestroy(): void {
+    document.body.style.position =  'relative';
   }
 
 
