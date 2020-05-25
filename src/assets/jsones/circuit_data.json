@@ -10,11 +10,6 @@
     ],
     "link": [
         {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
             "img": "Battlefy",
             "title": "FT Battlefy",
             "url": "https://battlefy.com/fellow-tamers"
@@ -36,7 +31,7 @@
             "url": "/overview"
         }
     ],
-    "table": [{"rank" : "#", "player" : null, "points" : "Qualified"}, {"rank" : "#", "player" : null, "points" : "Qualified"}, {"rank" : "#", "player" : null, "points" : "Qualified"}, {"rank" : "#", "player" : null, "points" : "Qualified"}, {"rank" : 1, "player" : "Cavalry", "points" : 100}, {"rank" : 1, "player" : "Prody", "points" : 100}, {"rank" : 3, "player" : "Shirokky", "points" : 95}, {"rank" : 4, "player" : "Tsubaki Chan", "points" : 80}, {"rank" : 5, "player" : "Flowmaster", "points" : 75}, {"rank" : 6, "player" : "Golld", "points" : 60}, {"rank" : 7, "player" : "Ice Red", "points" : 50}, {"rank" : 7, "player" : "Markinlp", "points" : 50}, {"rank" : 9, "player" : "Qlaziks", "points" : 35}, {"rank" : 10, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 10, "player" : "Expertz", "points" : 25}, {"rank" : 10, "player" : "Nekoblakii", "points" : 25}, {"rank" : 10, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 10, "player" : "Taullaris", "points" : 25}, {"rank" : 15, "player" : "Gaddy", "points" : 20}, {"rank" : 16, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 16, "player" : "DarkMonkey", "points" : 10}, {"rank" : 16, "player" : "Dave Goblino", "points" : 10}, {"rank" : 16, "player" : "ishir", "points" : 10}, {"rank" : 16, "player" : "Junchiro", "points" : 10}, {"rank" : 16, "player" : "Kanzaki", "points" : 10}, {"rank" : 16, "player" : "Nervontuxis", "points" : 10}, {"rank" : 16, "player" : "Orkhane", "points" : 10}, {"rank" : 16, "player" : "Tempi", "points" : 10}, {"rank" : 16, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 16, "player" : "uwukaze", "points" : 10}]},
+    "table": [{"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : 1, "player" : "Cavalry", "points" : 100}, {"rank" : 1, "player" : "Prody", "points" : 100}, {"rank" : 3, "player" : "Shirokky", "points" : 95}, {"rank" : 4, "player" : "Tsubaki Chan", "points" : 80}, {"rank" : 5, "player" : "Flowmaster", "points" : 75}, {"rank" : 6, "player" : "Golld", "points" : 60}, {"rank" : 7, "player" : "Ice Red", "points" : 50}, {"rank" : 7, "player" : "Markinlp", "points" : 50}, {"rank" : 9, "player" : "Qlaziks", "points" : 35}, {"rank" : 10, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 10, "player" : "Expertz", "points" : 25}, {"rank" : 10, "player" : "Nekoblakii", "points" : 25}, {"rank" : 10, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 10, "player" : "Taullaris", "points" : 25}, {"rank" : 15, "player" : "Gaddy", "points" : 20}, {"rank" : 16, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 16, "player" : "DarkMonkey", "points" : 10}, {"rank" : 16, "player" : "Dave Goblino", "points" : 10}, {"rank" : 16, "player" : "ishir", "points" : 10}, {"rank" : 16, "player" : "Junchiro", "points" : 10}, {"rank" : 16, "player" : "Kanzaki", "points" : 10}, {"rank" : 16, "player" : "Nervontuxis", "points" : 10}, {"rank" : 16, "player" : "Orkhane", "points" : 10}, {"rank" : 16, "player" : "Tempi", "points" : 10}, {"rank" : 16, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 16, "player" : "uwukaze", "points" : 10}]},
 {
     "menu": "Minor Cup Apr",
     "text": ["Minor Cup Apr",
@@ -51,24 +46,9 @@
     ],
     "link": [
         {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
             "img": "Battlefy",
             "title": "Tournament Battlefy",
             "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-april/5e63eed0d5ac501061c50145/info"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
         }
     ],
     "table" : [{"rank": 1, "player": "Cavalry", "points": 100, "money €": 120}, {"rank": 2, "player": "Shirokky", "points": 70, "money €": 60}, {"rank": 3, "player": "Golld", "points": 50, "money €": 10}, {"rank": 3, "player": "Markinlp", "points": 50, "money €": 10}, {"rank": 5, "player": "Expertz", "points": 25, "money €": null}, {"rank": 5, "player": "Nekoblakii", "points": 25, "money €": null}, {"rank": 5, "player": "Flowmaster", "points": 25, "money €": null}, {"rank": 5, "player": "Cielo Aoi", "points": 25, "money €": null}, {"rank": 9, "player": "Qlaziks", "points": 10, "money €": null}, {"rank": 9, "player": "DarkMonkey", "points": 10, "money €": null}, {"rank": 9, "player": "Tempi", "points": 10, "money €": null}, {"rank": 9, "player": "The Eclipse #816667", "points": 10, "money €": null}, {"rank": 9, "player": "AzrealDNT#610302", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Kanzaki", "points": 10, "money €": null}, {"rank": 9, "player": "Tsubaki Chan", "points": 10, "money €": null}]},
@@ -86,24 +66,14 @@
     ],
     "link": [
         {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
             "img": "Battlefy",
             "title": "Tournament Battlefy",
             "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-may/5e653a4ba061691089bc3817/info"
         },
         {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
+            "img": "YouTube",
+            "title": "Tournament Video",
+            "url": "https://www.youtube.com/watch?v=hG7eH45S-_A"
         }
     ],
     "table": [{"rank": 1, "player": "Prody", "points": 100, "money €": 120}, {"rank": 2, "player": "Tsubaki Chan", "points": 70, "money €": 60}, {"rank": 3, "player": "Ice Red", "points": 50, "money €": 10}, {"rank": 3, "player": "Flowmaster", "points": 50, "money €": 10}, {"rank": 5, "player": "Taullaris", "points": 25, "money €": null}, {"rank": 5, "player": "Shirokky", "points": 25, "money €": null}, {"rank": 5, "player": "Qlaziks", "points": 25, "money €": null}, {"rank": 5, "player": "Nylo-Mtg#1162188", "points": 25, "money €": null}, {"rank": 9, "player": "Golld", "points": 10, "money €": null}, {"rank": 9, "player": "Dave Goblino", "points": 10, "money €": null}, {"rank": 9, "player": "Junchiro", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Orkhane", "points": 10, "money €": null}, {"rank": 9, "player": "ishir", "points": 10, "money €": null}, {"rank": 9, "player": "uwukaze", "points": 10, "money €": null}, {"rank": 9, "player": "Nervontuxis", "points": 10, "money €": null}]},
@@ -122,24 +92,9 @@
     ],
     "link": [
         {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
             "img": "Battlefy",
             "title": "Registration Open",
             "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-june/5ebd3c28454d0e5124e2e5a7/info"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
         }
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
@@ -156,28 +111,6 @@
         "9th-16th) 10 circuit points (+32 players required)",
         "17th-32th) 5 circuit points (+64 players required)"
     ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
-    ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "menu" : "Minor Cup Aug",
@@ -191,28 +124,6 @@
         "5th-8th) 25 circuit points",
         "9th-16th) 10 circuit points (+32 players required)",
         "17th-32th) 5 circuit points (+64 players required)"
-    ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
@@ -229,29 +140,7 @@
         "9th-16th) 25 circuit points (+32 players required)",
         "17th-32th) 10 circuit points (+64 players required)"
     ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
-    ],
-    "table": [{"rank": 1, "player": null, "points": "Qualification", "money €": 240}, {"rank": 2, "player": null, "points": "Qualification", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
+    "table": [{"rank": 1, "player": null, "points": "[Qualification]", "money €": 240}, {"rank": 2, "player": null, "points": "[Qualification]", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
 {
     "menu" : "Minor Cup Oct",
     "text" : ["Minor Cup Oct",
@@ -264,28 +153,6 @@
         "5th-8th) 25 circuit points",
         "9th-16th) 10 circuit points (+32 players required)",
         "17th-32th) 5 circuit points (+64 players required)"
-    ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
@@ -302,61 +169,17 @@
         "9th-16th) 25 circuit points (+32 players required)",
         "17th-32th) 10 circuit points (+64 players required)"
     ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
-    ],
-    "table": [{"rank": 1, "player": null, "points": "Qualification", "money €": 240}, {"rank": 2, "player": null, "points": "Qualification", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
+    "table": [{"rank": 1, "player": null, "points": "[Qualification]", "money €": 240}, {"rank": 2, "player": null, "points": "[Qualification]", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
 {
     "menu" : "FT Invitational",
     "text" : ["FT Invitational",
         "Date & Time: To be defined",
-        "Format: Group Stage + Knockout Stage. 2 Weekends.",
+        "Format: Group Stage + Knockout Stage. 4 days, 2 Weekends.",
         "Prizes:",
         "1st) 750€",
         "2nd) 250€",
         "3rd/4th) 50€",
         "5rd/8th) 25€"
-    ],
-    "link": [
-        {
-            "img": "FT",
-            "title": "Fellow Tamers",
-            "url": "http://fellowtamers.com/"
-        },
-        {
-            "img": "Battlefy",
-            "title": "FT Battlefy",
-            "url": "https://battlefy.com/fellow-tamers"
-        },
-        {
-            "img": "Discord",
-            "title": "Temporium Discord",
-            "url": "https://discord.com/invite/jbfyBRg"
-        },
-        {
-            "img": "Rules",
-            "title": "FT Open Cup Rules",
-            "url": "https://drive.google.com/file/d/1Ohhr2_EPyDkwEMkM9-bp6qigskj2toA6/view"
-        }
     ],
     "table": [{"rank": 1, "player": null, "money €": 750}, {"rank": 2, "player": null, "money €": 250}, {"rank": 3, "player": null, "money €": 50}, {"rank": 3, "player": null, "money €": 50}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}]}
 ]

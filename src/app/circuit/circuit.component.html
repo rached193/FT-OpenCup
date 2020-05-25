@@ -9,7 +9,7 @@
                 {{line}}
             </p>
 
-            <div class="link-row">
+            <div class="link-row" *ngIf="info[rowSelected].link">
                 <h2> Links:</h2>
                 <ul>
                     <li *ngFor=" let link of info[rowSelected].link">
