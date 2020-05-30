@@ -65,6 +65,10 @@ $temtem-theme: mat-light-theme($temtem-primary, $temtem-accent, $temtem-warn);
       font-family: 'Poppins','Open Sans', sans-serif;
       font-size: 10pt;
       background-color: var(--primary-color-4);
+
+      @media (max-width: 600px) {
+        font-size: 10px;
+     }
   }
   
   h1, h2, h3 {

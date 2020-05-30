@@ -53,15 +53,23 @@ menu{
     height: 5em;
     background-color: #404e5d;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 
     
     .menu-option{
         margin: auto 0;
+        &:focus{
+            outline:none;
+        }
+
+        &.active{
+            background-color: #C3DEFD;
+        }
 
         .option-container{
-            padding: 0.7em 2em;
+            padding: 0.7em 2vw;
             &:hover{
                 background-color:#84bcfd;
             }
