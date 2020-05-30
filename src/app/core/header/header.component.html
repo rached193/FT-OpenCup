@@ -11,7 +11,11 @@
 
 </header>
 <menu>
-    <div [routerLink]="['/circuit']"><span>CIRCUIT</span></div>
-    <div [routerLink]="['/overview']"><span>STATISTICS</span></div>
+    <div class="menu-option" [routerLink]="['/circuit']">
+        <div class="option-container"><span>CIRCUIT</span></div>
+    </div>
+    <div class="menu-option"  [routerLink]="['/overview']">
+        <div class="option-container"><span>STATISTICS</span></div>
+    </div>
     <!-- <div [routerLink]="['/temtem']"><span>TEMTEM STATISTICS</span></div> -->
 </menu>

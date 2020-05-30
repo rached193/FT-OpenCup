@@ -10,6 +10,10 @@
         flex-grow: 1;
         color: var(--main-color);
 
+        @media (max-width: 600px) {
+            padding-top: 4em;
+        }
+
         p{
             font-family: 'Poppins','Open Sans', sans-serif;
             margin: 2em;
@@ -40,7 +44,7 @@
     app-table{
         margin: 1em;
         display: block;
-        height: 67vh;
+        height: 65vh;
         overflow: overlay;
     }
   }

@@ -56,21 +56,24 @@ menu{
     display: flex;
     justify-content: center;
 
-    div{
-        padding: 0 1em;
+    
+    .menu-option{
+        margin: auto 0;
+
+        .option-container{
+            padding: 0.7em 2em;
+            &:hover{
+                background-color:#84bcfd;
+            }
+            &:focus{
+                outline:none;
+            }
+         
+        }
+
         color: aliceblue;
         cursor: pointer;
+        font-size: 2em;
 
-
-        &:hover{
-            background-color:#84bcfd;
-        }
-        &:focus{
-            outline:none;
-        }
-        span{
-            line-height: 5em;
-        }
-        
     }
 }
