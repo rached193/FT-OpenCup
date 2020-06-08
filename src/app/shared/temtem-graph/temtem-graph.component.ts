@@ -18,6 +18,8 @@ export class TemtemGraphComponent implements OnInit {
   @Input() serieName: string;
   @Input() valueName: string;
   @Input() legend: boolean;
+  @Input() image: string;
+  @Input() prc: boolean;
 
   @Input() top: number;
 

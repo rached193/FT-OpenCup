@@ -24,6 +24,8 @@ export class ColumnGraphComponent implements OnInit {
     }
   }
   @Input() stacked: boolean;
+  @Input() image: string;
+  @Input() prc: boolean;
 
   constructor() { }
 
@@ -32,6 +34,7 @@ export class ColumnGraphComponent implements OnInit {
   }
 
   build() {
+    var imageUrl = this.image;
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'column',
@@ -64,7 +67,7 @@ export class ColumnGraphComponent implements OnInit {
           overflow: 'allow',
           useHTML: true,
           formatter() {
-            return '<img src="/assets/img/temtem/' + this.value + '.png" height="32" width="32"></img>';
+            return '<img src="/assets/img/' + imageUrl + '/' + this.value + '.png" height="32" width="32"></img>';
           }
         }
       },

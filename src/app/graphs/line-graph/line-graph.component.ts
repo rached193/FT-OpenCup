@@ -22,6 +22,8 @@ export class LineGraphComponent implements OnInit {
       this.build();
     }
   }
+  @Input() image: string;
+  @Input() prc: boolean;
 
   constructor() { }
 
@@ -30,6 +32,8 @@ export class LineGraphComponent implements OnInit {
   }
 
   build() {
+    var imageUrl = this.image;
+    var labelValue = this.prc ? '%' : '';
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'line',
@@ -49,7 +53,7 @@ export class LineGraphComponent implements OnInit {
       credits: {
         enabled: false
       },
-      colors: Highcharts.defaultOptions.colors,
+      colors: this.colors || Highcharts.defaultOptions.colors,
       xAxis: {
         categories: this.categories,
         labels: {
@@ -62,12 +66,12 @@ export class LineGraphComponent implements OnInit {
         title: {
           text: ''
         },
-        min: 0,
-        max: 100,
+        /*min: 0,
+        max: 100,*/
         labels: {
           useHTML: true,
           formatter() {
-            return this.value + '%';
+            return this.value + labelValue;
           },
           style: {
             color: 'var(--main-color)'
@@ -80,7 +84,7 @@ export class LineGraphComponent implements OnInit {
         verticalAlign: 'bottom',
         useHTML: true,
         labelFormatter: function () {
-          return '<img src="/assets/img/temtem/' + this.name + '.png" height="32" width="32"></img>';
+          return '<img src="/assets/img/' + imageUrl + '/' + this.name + '.png" height="32" width="32"></img>';
         }
       },
       plotOptions: {
@@ -89,7 +93,7 @@ export class LineGraphComponent implements OnInit {
             connectorAllowed: false
           },
           tooltip: {
-            valueSuffix: '%'
+            valueSuffix: labelValue
           }
         }
       },

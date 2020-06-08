@@ -7,36 +7,36 @@
 <app-row-layout>
     <div class="column">
         <app-temtem-graph url="graph1" title="Temtem appearance" categoryName="category" serieName="serie"
-            valueName="value" type='column' top="16"></app-temtem-graph>
+            valueName="value" type='column' top="16" image="temtem" prc="false"></app-temtem-graph>
     </div>
     <div class="column">
         <app-temtem-graph url="graph2" title="Temtem appearance (Top 8)" categoryName="category" serieName="serie"
-            valueName="value" type='column' top="16"></app-temtem-graph>
+            valueName="value" type='column' top="16" image="temtem" prc="false"></app-temtem-graph>
     </div>
 </app-row-layout>
 <app-row-layout>
     <div class="column">
         <app-temtem-graph url="graph3" title="Temtem Winrate" categoryName="category" serieName="serie" [legend]="true"
-            [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16"></app-temtem-graph>
+            [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16" image="temtem" prc="false"></app-temtem-graph>
     </div>
     <div class="column">
         <app-temtem-graph url="graph4" title="Temtem Winrate (Top 8)" categoryName="category" serieName="serie"
-            [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16">
+            [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16" image="temtem" prc="false">
         </app-temtem-graph>
     </div>
 </app-row-layout>
 <app-row-layout>
     <app-temtem-graph url="graph5" title="Picks/Bans by Temtem"
         categoryName="temtem" serieName="serie" [legend]="true" [stacked]="true"
-        [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column'></app-temtem-graph>
+        [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column' image="temtem" prc="false"></app-temtem-graph>
 </app-row-layout>
 <app-row-layout>
     <div class="column">
-        <app-temtem-graph url="graph6" title="Evolution of use" categoryName="category" serieName="serie"
-            valueName="value" type='line'></app-temtem-graph>
+        <app-temtem-graph url="type" title="Type appearance" categoryName="category" serieName="serie"
+            valueName="value" type='column' top="12" image="type" [prc]="false"></app-temtem-graph>
     </div>
     <div class="column">
-        <app-temtem-graph url="graph7" title="Evolution of use (Top 8)" categoryName="category" serieName="serie"
-            valueName="value" type='line'></app-temtem-graph>
+        <app-temtem-graph url="type_top8" title="Type appearance (Top 8)" categoryName="category" serieName="serie"
+            valueName="value" type='column' top="12" image="type" [prc]="false"></app-temtem-graph>
     </div>
 </app-row-layout>
