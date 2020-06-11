@@ -35,6 +35,7 @@ export class ColumnGraphComponent implements OnInit {
 
   build() {
     var imageUrl = this.image;
+    var labelValue = this.prc ? '%' : '';
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'column',
@@ -76,15 +77,25 @@ export class ColumnGraphComponent implements OnInit {
           text: ''
         },
         labels: {
+          useHTML: true,
+          formatter() {
+            return this.value + labelValue;
+          },
           style: {
             color: 'var(--main-color)'
           }
         },
-        min: 0
+        min: 0,
+        max: this.prc ? 100 : undefined
       },
       plotOptions: {
         column: {
           stacking: this.stacked ? 'normal' : undefined
+        },
+        series: {
+          tooltip: {
+            valueSuffix: labelValue
+          }
         }
       },
       legend: {
