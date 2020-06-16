@@ -1,0 +1,22 @@
+
+:host{
+    display: flex;
+}
+
+.card-container.active{
+    display: flex
+}
+:host,.card-container{
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: wrap;
+
+}
+
+@media (max-width: 850px) {
+    :host,.card-container{
+        flex-direction: column;
+        width: 100%;
+    }
+}
