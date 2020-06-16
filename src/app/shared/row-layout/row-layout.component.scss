@@ -1,5 +1,6 @@
 :host{
    display: block;
+
 }
 
 .row{
@@ -10,8 +11,11 @@
     flex-direction: row;
     flex-flow: wrap;
 
+
+
     .card-button{
        position: absolute;
+       z-index: 2;
     }
  }
 

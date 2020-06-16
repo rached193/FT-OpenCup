@@ -17,8 +17,9 @@ export class RowLayoutComponent implements OnInit {
   }
 
   addCard(card: RowCardComponent): void {
-    if (this.cards.length === 0) {
-      card.active = true;
+    card.active = true;
+    if (this.cards.length !== 0) {
+      setTimeout(() => card.active = false, 300);
     }
     this.cards.push(card);
   }

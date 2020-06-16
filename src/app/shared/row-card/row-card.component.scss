@@ -1,21 +1,25 @@
 
 :host{
-    display: flex;
+    display: block;
+    width: 100%;
+    height: 100%;
+
 }
 
 .card-container.active{
-    display: flex
+    display: flex;
 }
-:host,.card-container{
+
+.card-container{
     flex-basis: 100%;
     flex-wrap: wrap;
     flex-direction: row;
     flex-flow: wrap;
-
+    display: none;
 }
 
 @media (max-width: 850px) {
-    :host,.card-container{
+    .card-container{
         flex-direction: column;
         width: 100%;
     }

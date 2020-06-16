@@ -6,11 +6,12 @@ import * as Highcharts from 'highcharts';
   templateUrl: './column-graph.component.html',
   styleUrls: ['./column-graph.component.scss']
 })
-export class ColumnGraphComponent implements OnInit {
+export class ColumnGraphComponent {
   @ViewChild('chart1', { static: true }) chart1: ElementRef;
 
   private graph1: Highcharts.Chart;
   private dataSeries: Highcharts.SeriesOptionsType[];
+
 
   @Input() title: string;
   @Input() subtitle: string;
@@ -27,15 +28,11 @@ export class ColumnGraphComponent implements OnInit {
   @Input() image: string;
   @Input() prc: boolean;
 
-  constructor() { }
-
-  ngOnInit(): void {
-    // this.build();
-  }
+  constructor() {}
 
   build() {
-    var imageUrl = this.image;
-    var labelValue = this.prc ? '%' : '';
+    const imageUrl = this.image;
+    const labelValue = this.prc ? '%' : '';
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'column',
