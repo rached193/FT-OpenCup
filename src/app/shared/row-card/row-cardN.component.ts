@@ -8,6 +8,7 @@ import { trigger, state, transition, animate, style } from '@angular/animations'
     `:host{
       display: flex;
       position: relative;
+      height: 100%;
     }
     `
   ]
@@ -29,40 +30,7 @@ export class FlipSection { }
         </div>
       </div>
   `,
-  styles: [
-    `:host{
-      display: block;
-      height: 400px;
-      width: 100%;
-    }
-
-    .flipper {
-      position: relative;
-      min-width: 200px;
-      min-height: 100px;
-      margin: 3rem auto;
-      transform-style: preserve-3d;
-    }
-    .sides {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      backface-visibility: hidden;
-      color: #fff;
-      text-align: center;
-      line-height: 100px;
-      cursor: pointer;
-      user-select: none;
-    }
-    .front {
-      background: #eee;
-    }
-    .back {
-      background: #999;
-      transform: rotateY(180deg);
-    }
-    `
-  ],
+  styleUrls:['./row-card.component.scss'],
   animations: [
     trigger('flip', [
       state('flipped', style({ transform: 'rotateY(180deg)' })),
