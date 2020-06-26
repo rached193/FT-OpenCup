@@ -5,12 +5,13 @@ import { TemtemGraphComponent } from './temtem-graph/temtem-graph.component';
 import { GraphsModule } from '../graphs/graphs.module';
 import { TableComponent } from './table/table.component';
 import { RowLayoutComponent } from './row-layout/row-layout.component';
-import { RowCardComponent } from './row-card/row-card.component';
+import { FlipSection, FlipComponent } from './row-cardN/row-cardN.component';
 
 
 
 @NgModule({
-  declarations: [TemtemGraphComponent, TableComponent, RowLayoutComponent, RowCardComponent],
+  declarations: [TemtemGraphComponent, TableComponent, RowLayoutComponent,
+    FlipSection, FlipComponent],
   imports: [
     CommonModule,
     GraphsModule,
@@ -20,7 +21,7 @@ import { RowCardComponent } from './row-card/row-card.component';
     TemtemGraphComponent,
     TableComponent,
     RowLayoutComponent,
-    RowCardComponent
+    FlipSection, FlipComponent
 
 
   ]

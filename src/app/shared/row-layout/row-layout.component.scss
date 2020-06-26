@@ -3,6 +3,8 @@
 
 }
 
+
+
 .row{
     //margin: 1em;
     margin: 1vh 1vw 1vh 1vw;
@@ -11,7 +13,13 @@
     flex-direction: row;
     flex-flow: wrap;
 
+    perspective: 1000px;
+    transform-style: preserve-3d;
 
+
+    .card {
+      display: block;
+    }
 
     .card-button{
        position: absolute;
