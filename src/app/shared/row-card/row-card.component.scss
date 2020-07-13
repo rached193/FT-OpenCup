@@ -1,7 +1,7 @@
 :host{
   display: block;
-  height: 436px;
-  // height: calc(400px + 1vh);
+  // height: 436px;
+  height: calc(400px + 2vw);
   width: 100%;
 
 
@@ -15,10 +15,10 @@
   display: block;
 }
 
+
 .flipper {
   position: relative;
   height: 100%;
-  margin: 3rem auto;
   transform-style: preserve-3d;
 }
 .sides {
