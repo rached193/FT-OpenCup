@@ -19,9 +19,9 @@ export class FlipSection { }
   selector: 'flip',
   template: `
     <div class="card-button">
-        <button (click)="toggle()"> {{true? 'Relative': 'Absolute'}} </button>
+        <button (click)="toggle()"> {{flip==='unflipped'? 'Absolute': 'Relative'}} </button>
     </div>
-      <div class="flipper" [@flip]="flip">
+      <div class="flipper mat-elevation-z4" [@flip]="flip">
         <div class="sides front">
           <ng-content select="flip-front"></ng-content>
         </div>

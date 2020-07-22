@@ -4,35 +4,71 @@
     <app-table url="tournament_recurrence" title="Tournament recurrence"></app-table>
     <app-table url="tournament_recurrence_top8" title="Tournament recurrence (Top 8)"></app-table>
 </div> -->
-<app-row-layout class="card">
-  <flip >
-    <flip-front class="front">
-      <div class="column">
-        <app-temtem-graph url="temtem_appearance_absolute" title="Temtem appearance" categoryName="category"
-          serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="false">
-        </app-temtem-graph>
-      </div>
-      <div class="column">
-        <app-temtem-graph url="temtem_appearance_top8_absolute" title="Temtem appearance (Top 8)"
-          categoryName="category" serieName="serie" valueName="value" type='column' top="16" image="temtem"
-          [prc]="false"></app-temtem-graph>
-      </div>
-    </flip-front>
-    <flip-back class="back">
-      <div class="column">
-        <app-temtem-graph url="temtem_appearance_relative" title="Temtem appearance" categoryName="category"
-          serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="true">
-        </app-temtem-graph>
-      </div>
-      <div class="column">
-        <app-temtem-graph url="temtem_appearance_top8_relative" title="Temtem appearance (Top 8)"
-          categoryName="category" serieName="serie" valueName="value" type='column' top="16" image="temtem"
-          [prc]="true"></app-temtem-graph>
-      </div>
-    </flip-back>
-  </flip>
 
-</app-row-layout>
+<flip class="card-row">
+  <flip-front class="front">
+
+    <div class="column">
+      <app-temtem-graph url="temtem_appearance_absolute" title="Temtem appearance" categoryName="category"
+        serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="false">
+      </app-temtem-graph>
+    </div>
+    <div class="column">
+      <app-temtem-graph url="temtem_appearance_top8_absolute" title="Temtem appearance (Top 8)" categoryName="category"
+        serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="false"></app-temtem-graph>
+    </div>
+
+  </flip-front>
+
+  <flip-back class="back">
+    <div class="column">
+      <app-temtem-graph url="temtem_appearance_relative" title="Temtem appearance" categoryName="category"
+        serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="true">
+      </app-temtem-graph>
+    </div>
+    <div class="column">
+      <app-temtem-graph url="temtem_appearance_top8_relative" title="Temtem appearance (Top 8)" categoryName="category"
+        serieName="serie" valueName="value" type='column' top="16" image="temtem" [prc]="true"></app-temtem-graph>
+    </div>
+  </flip-back>
+
+</flip>
+
+
+<flip class="card-row">
+  <flip-front class="front">
+
+    <div class="column">
+      <app-temtem-graph url="temtem_winrate_absolute" title="Temtem Winrate" categoryName="category" serieName="serie"
+        [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16"
+        image="temtem" [prc]="false"></app-temtem-graph>
+    </div>
+    <div class="column">
+      <app-temtem-graph url="temtem_winrate_top8_absolute" title="Temtem Winrate (Top 8)" categoryName="category"
+        serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
+        top="16" image="temtem" [prc]="false">
+      </app-temtem-graph>
+    </div>
+
+  </flip-front>
+
+  <flip-back class="back">
+    <div class="column">
+      <app-temtem-graph url="temtem_winrate_relative" title="Temtem Winrate" categoryName="category" serieName="serie"
+        [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' top="16"
+        image="temtem" [prc]="true"></app-temtem-graph>
+    </div>
+    <div class="column">
+      <app-temtem-graph url="temtem_winrate_top8_relative" title="Temtem Winrate (Top 8)" categoryName="category"
+        serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
+        top="16" image="temtem" [prc]="true">
+      </app-temtem-graph>
+    </div>
+  </flip-back>
+
+</flip>
+
+
 <app-row-layout>
   <div class="column">
     <app-temtem-graph url="temtem_winrate_absolute" title="Temtem Winrate" categoryName="category" serieName="serie"

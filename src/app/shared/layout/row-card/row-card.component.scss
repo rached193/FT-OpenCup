@@ -1,25 +1,23 @@
 :host{
   display: block;
-  // height: 436px;
   height: calc(400px + 2vw);
   width: 100%;
-
+  position: relative;
 
   .card-button{
     position: absolute;
     z-index: 2;
+    left: 1.5vw;
+    top: 5px;
  }
 }
-
-::ng-deep.card .row{
-  display: block;
-}
-
 
 .flipper {
   position: relative;
   height: 100%;
   transform-style: preserve-3d;
+
+  margin: 1vh 1vw 1vh 1vw;
 }
 .sides {
   width: 100%;
@@ -32,10 +30,6 @@
   cursor: pointer;
   user-select: none;
 }
-.front {
-  background: #eee;
-}
 .back {
-  background: #999;
   transform: rotateY(180deg);
 }

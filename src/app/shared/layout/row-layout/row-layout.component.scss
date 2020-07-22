@@ -1,5 +1,6 @@
 :host{
    display: block;
+   width: 100%;
 
 }
 
@@ -11,8 +12,7 @@
     flex-direction: row;
     flex-flow: wrap;
 
-    perspective: 1000px;
-    transform-style: preserve-3d;
+
  }
 
  .column {

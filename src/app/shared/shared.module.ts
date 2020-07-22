@@ -4,8 +4,8 @@ import { MatTableModule } from '@angular/material/table';
 import { TemtemGraphComponent } from './temtem-graph/temtem-graph.component';
 import { GraphsModule } from '../graphs/graphs.module';
 import { TableComponent } from './table/table.component';
-import { RowLayoutComponent } from './row-layout/row-layout.component';
-import { FlipSection, FlipComponent } from './row-card/row-cardN.component';
+import { RowLayoutComponent } from './layout/row-layout/row-layout.component';
+import { FlipSection, FlipComponent } from './layout/row-card/row-cardN.component';
 
 
 
