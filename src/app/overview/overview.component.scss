@@ -25,6 +25,10 @@
       .column{
          min-width: unset;
       }
-   }
+      .front,.back{
+        flex-direction: column;
+      }
+ }
+   
 
   

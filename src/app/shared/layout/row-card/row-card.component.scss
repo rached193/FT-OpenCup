@@ -1,8 +1,13 @@
 :host{
   display: block;
   height: calc(400px + 2vw);
+
+  @media (max-width: 850px) {
+    height: calc(800px + 4vw);
+ }
   width: 100%;
   position: relative;
+  
 
   .card-button{
     position: absolute;
@@ -22,6 +27,7 @@
   transform-style: preserve-3d;
 
   margin: 1vh 1vw 1vh 1vw;
+
 }
 .sides {
   width: 100%;
