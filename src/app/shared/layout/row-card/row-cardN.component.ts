@@ -19,7 +19,7 @@ export class FlipSection { }
   selector: 'flip',
   template: `
     <div class="card-button">
-        <button (click)="toggle()"> {{flip==='unflipped'? 'Absolute': 'Relative'}} </button>
+        <button (click)="toggle()"> {{flip==='flipped'? 'Absolute': 'Relative'}} </button>
     </div>
       <div class="flipper mat-elevation-z4" [@flip]="flip">
         <div class="sides front">
