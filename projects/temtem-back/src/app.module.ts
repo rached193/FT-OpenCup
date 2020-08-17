@@ -6,7 +6,7 @@ import { AppService } from './app.service';
 import { join } from 'path';
 import { CompetitionModule } from './competition/competition.module';
 import { CompetitionEntity } from './competition/competition.entity';
-import { PgConf } from '../../../database.conf';
+import { PgConf } from '../database.conf';
 
 @Module({
   imports: [
