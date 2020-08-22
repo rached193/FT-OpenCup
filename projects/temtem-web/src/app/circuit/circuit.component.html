@@ -5,14 +5,14 @@
 <div class="container">
     <div class="row" *ngIf="infoCircuit$ |async as info">
         <div class="column">
-            <p *ngFor=" let line of info[rowSelected].text">
+            <p *ngFor=" let line of info.text">
                 {{line}}
             </p>
 
-            <div class="link-row" *ngIf="info[rowSelected].link">
+            <div class="link-row" *ngIf="info.link">
                 <h2> Links:</h2>
                 <ul>
-                    <li *ngFor=" let link of info[rowSelected].link">
+                    <li *ngFor=" let link of info.link">
                         <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16" />
                         <a href="{{link.url}}" target="_blank">{{link.title}}</a>
                     </li>
@@ -26,7 +26,7 @@
         </div>
 
         <div class="column">
-            <app-table [data]="info[rowSelected].table" #table></app-table>
+            <app-table [data]="info.table"></app-table>
         </div>
     </div>
 

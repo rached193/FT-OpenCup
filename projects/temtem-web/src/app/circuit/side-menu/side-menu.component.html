@@ -1,6 +1,9 @@
 <div class="side-menu">
     <ul>
-        <li *ngFor="let itemtournament of listMenu; index as i" (click)="selectMenu(itemtournament.id)">
+        <li (click)="selectMenu(0)">
+            FT OPEN CUP
+        </li>
+        <li *ngFor="let itemtournament of listMenu;" (click)="selectMenu(itemtournament.id)">
             {{itemtournament.name}}
         </li>
     </ul>

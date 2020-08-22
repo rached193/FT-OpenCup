@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CircuitService } from './circuit.service';
-import { share, switchMap } from 'rxjs/operators';
+import { share, switchMap, tap } from 'rxjs/operators';
 import { Subject, BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -15,7 +15,8 @@ export class CircuitComponent implements OnInit {
   infoCircuit$ = this._infoCircuit.pipe(
     switchMap(tournamentId => {
       return this.circuitService.getInfo(tournamentId);
-    })
+    }),
+    tap(data => console.log(data))
   );
 
   circuitMenu$ = this.circuitService.getMenu().pipe(share());
