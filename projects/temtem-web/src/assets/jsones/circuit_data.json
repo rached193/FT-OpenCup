@@ -1,5 +1,6 @@
 [{
-    "menu": "FT Open Cup",
+    "id": 0,
+    "name": "FT Open Cup",
     "text": ["FT Open Cup",
         "The Fellow Tamers club is glad to host the first FT Open Cup, a competitive Temtem circuit that will take place during the Temtem Early Access phase!",
         "The circuit will be divided into 8 open tournaments (one per month), with at least 200€ in prizes.",
@@ -33,7 +34,8 @@
     ],
     "table": [{"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : "#", "player" : null, "points" : "[Qualified]"}, {"rank" : 1, "player" : "Tsubaki Chan", "points" : 230}, {"rank" : 2, "player" : "Prody", "points" : 150}, {"rank" : 3, "player" : "Flowmaster", "points" : 125}, {"rank" : 4, "player" : "Kanzaki", "points" : 110}, {"rank" : 5, "player" : "Cavalry", "points" : 100}, {"rank" : 6, "player" : "Golld", "points" : 95}, {"rank" : 6, "player" : "Shirokky", "points" : 95}, {"rank" : 6, "player" : "Turbi", "points" : 95}, {"rank" : 9, "player" : "snrplat", "points" : 75}, {"rank" : 10, "player" : "Alver", "points" : 70}, {"rank" : 11, "player" : "Ice Red", "points" : 60}, {"rank" : 11, "player" : "Markinlp", "points" : 60}, {"rank" : 13, "player" : "Ex Whizzy", "points" : 50}, {"rank" : 14, "player" : "Qlaziks", "points" : 35}, {"rank" : 14, "player" : "uwukaze", "points" : 35}, {"rank" : 16, "player" : "Arkham knight", "points" : 25}, {"rank" : 16, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 16, "player" : "Cmaz", "points" : 25}, {"rank" : 16, "player" : "Expertz", "points" : 25}, {"rank" : 16, "player" : "Nekoblakii", "points" : 25}, {"rank" : 16, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 16, "player" : "Taullaris", "points" : 25}, {"rank" : 23, "player" : "Gaddy", "points" : 20}, {"rank" : 24, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 24, "player" : "DarkMonkey", "points" : 10}, {"rank" : 24, "player" : "Dave Goblino", "points" : 10}, {"rank" : 24, "player" : "Doomaga", "points" : 10}, {"rank" : 24, "player" : "Ezechior", "points" : 10}, {"rank" : 24, "player" : "ishir", "points" : 10}, {"rank" : 24, "player" : "J-Doragon", "points" : 10}, {"rank" : 24, "player" : "Junchiro", "points" : 10}, {"rank" : 24, "player" : "Nervontuxis", "points" : 10}, {"rank" : 24, "player" : "Orkhane", "points" : 10}, {"rank" : 24, "player" : "Tempi", "points" : 10}, {"rank" : 24, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 24, "player" : "Toutirabien", "points" : 10}, {"rank" : 24, "player" : "Vzimam", "points" : 10}]},
 {
-    "menu": "Minor Cup Apr",
+    "id": 1,
+    "name": "Minor Cup Apr",
     "text": ["Minor Cup Apr",
         "Date & Time: April 4th, 16:00 UTC. (18:00 CET, 9:00 PDT, 12:00 ET, 10:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -53,7 +55,8 @@
     ],
     "table" : [{"rank": 1, "player": "Cavalry", "points": 100, "money €": 120}, {"rank": 2, "player": "Shirokky", "points": 70, "money €": 60}, {"rank": 3, "player": "Golld", "points": 50, "money €": 10}, {"rank": 3, "player": "Markinlp", "points": 50, "money €": 10}, {"rank": 5, "player": "Expertz", "points": 25, "money €": null}, {"rank": 5, "player": "Nekoblakii", "points": 25, "money €": null}, {"rank": 5, "player": "Flowmaster", "points": 25, "money €": null}, {"rank": 5, "player": "Cielo Aoi", "points": 25, "money €": null}, {"rank": 9, "player": "Qlaziks", "points": 10, "money €": null}, {"rank": 9, "player": "DarkMonkey", "points": 10, "money €": null}, {"rank": 9, "player": "Tempi", "points": 10, "money €": null}, {"rank": 9, "player": "The Eclipse #816667", "points": 10, "money €": null}, {"rank": 9, "player": "AzrealDNT#610302", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Kanzaki", "points": 10, "money €": null}, {"rank": 9, "player": "Tsubaki Chan", "points": 10, "money €": null}]},
 {
-    "menu" : "Minor Cup May",
+    "id": 2,
+    "name" : "Minor Cup May",
     "text" : ["Minor Cup May",
         "Date & Time: May 2nd, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -73,7 +76,8 @@
     ],
     "table": [{"rank": 1, "player": "Prody", "points": 100, "money €": 120}, {"rank": 2, "player": "Tsubaki Chan", "points": 70, "money €": 60}, {"rank": 3, "player": "Ice Red", "points": 50, "money €": 10}, {"rank": 3, "player": "Flowmaster", "points": 50, "money €": 10}, {"rank": 5, "player": "Taullaris", "points": 25, "money €": null}, {"rank": 5, "player": "Shirokky", "points": 25, "money €": null}, {"rank": 5, "player": "Qlaziks", "points": 25, "money €": null}, {"rank": 5, "player": "Nylo-Mtg#1162188", "points": 25, "money €": null}, {"rank": 9, "player": "Golld", "points": 10, "money €": null}, {"rank": 9, "player": "Dave Goblino", "points": 10, "money €": null}, {"rank": 9, "player": "Junchiro", "points": 10, "money €": null}, {"rank": 9, "player": "Gaddy", "points": 10, "money €": null}, {"rank": 9, "player": "Orkhane", "points": 10, "money €": null}, {"rank": 9, "player": "ishir", "points": 10, "money €": null}, {"rank": 9, "player": "uwukaze", "points": 10, "money €": null}, {"rank": 9, "player": "Nervontuxis", "points": 10, "money €": null}]},
 {
-    "menu" : "Minor Cup Jun",
+    "id": 3,
+    "name" : "Minor Cup Jun",
     "text" : ["Minor Cup Jun",
         "Date & Time: June 6th, 14:00 UTC. (16:00 CEST, 8:00 PDT, 10:00 ET)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -93,7 +97,8 @@
     ],
     "table": [{"rank": 1, "player": "Tsubaki Chan", "points": 100, "money €": 120}, {"rank": 2, "player": "Alver", "points": 70, "money €": 60}, {"rank": 3, "player": "Ex Whizzy", "points": 50, "money €": 10}, {"rank": 3, "player": "Flowmaster", "points": 50, "money €": 10}, {"rank": 5, "player": "snrplat", "points": 25, "money €": null}, {"rank": 5, "player": "Turbi", "points": 25, "money €": null}, {"rank": 5, "player": "uwukaze", "points": 25, "money €": null}, {"rank": 5, "player": "Prody", "points": 25, "money €": null}, {"rank": 9, "player": "Golld", "points": 10, "money €": null}, {"rank": 9, "player": "J-Doragon", "points": 10, "money €": null}, {"rank": 9, "player": "Ezechior", "points": 10, "money €": null}, {"rank": 9, "player": "Toutirabien", "points": 10, "money €": null}, {"rank": 9, "player": "Vzimam", "points": 10, "money €": null}, {"rank": 9, "player": "Markinlp", "points": 10, "money €": null}, {"rank": 9, "player": "Doomaga", "points": 10, "money €": null}, {"rank": 9, "player": "Ice Red", "points": 10, "money €": null}]},
 {
-    "menu" : "Minor Cup Jul",
+    "id": 4,
+    "name" : "Minor Cup Jul",
     "text" : ["Minor Cup Jul",
         "Date & Time: July 11th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -112,7 +117,8 @@
     ],
     "table": [{"rank": 1, "player": "Kanzaki", "points": 100, "money €": 120}, {"rank": 2, "player": "Turbi", "points": 70, "money €": 60}, {"rank": 3, "player": "Tsubaki Chan", "points": 50, "money €": 10}, {"rank": 3, "player": "snrplat", "points": 50, "money €": 10}, {"rank": 5, "player": "Golld", "points": 25, "money €": null}, {"rank": 5, "player": "Arkham knight", "points": 25, "money €": null}, {"rank": 5, "player": "Prody", "points": 25, "money €": null}, {"rank": 5, "player": "Cmaz", "points": 25, "money €": null}]},
 {
-    "menu" : "Minor Cup Aug",
+    "id": 5,
+    "name" : "Minor Cup Aug",
     "text" : ["Minor Cup Aug",
         "Date & Time: August 22th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -133,7 +139,8 @@
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
-    "menu" : "Qualifier Sep",
+    "id": 6,
+    "name" : "Qualifier Sep",
     "text" : ["Qualifier Sep",
         "Date & Time: To be defined",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
@@ -148,7 +155,8 @@
     ],
     "table": [{"rank": 1, "player": null, "points": "[Qualification]", "money €": 240}, {"rank": 2, "player": null, "points": "[Qualification]", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
 {
-    "menu" : "Minor Cup Oct",
+    "id": 7,
+    "name" : "Minor Cup Oct",
     "text" : ["Minor Cup Oct",
         "Date & Time: To be defined",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
@@ -162,7 +170,8 @@
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
-    "menu" : "Qualifier Nov",
+    "id": 8,
+    "name" : "Qualifier Nov",
     "text" : ["Qualifier Nov",
         "Date & Time: To be defined",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
@@ -177,7 +186,8 @@
     ],
     "table": [{"rank": 1, "player": null, "points": "[Qualification]", "money €": 240}, {"rank": 2, "player": null, "points": "[Qualification]", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
 {
-    "menu" : "FT Invitational",
+    "id": 9,
+    "name" : "FT Invitational",
     "text" : ["FT Invitational",
         "Date & Time: To be defined",
         "Format: Group Stage + Knockout Stage. 4 days, 2 Weekends.",

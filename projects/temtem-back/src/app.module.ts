@@ -8,7 +8,6 @@ import { CompetitionModule } from './competition/competition.module';
 import { TournamentModule } from './tournament/tournament.module';
 import { CompetitionEntity } from './competition/competition.entity';
 import { PgConf } from '../database.conf';
-<<<<<<< HEAD
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
 import { TournamentEntity } from './entities/tournament.entity';
@@ -22,8 +21,6 @@ import { PhaseEntity } from './entities/phase.entity';
 import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
-=======
->>>>>>> 84804070e0dd8152ba25ed0dda5c456f96dcf9bf
 
 @Module({
   imports: [
