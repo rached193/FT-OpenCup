@@ -4,23 +4,22 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
-import { CompetitionModule } from './competition/competition.module';
 import { TournamentModule } from './tournament/tournament.module';
 import { CompetitionEntity } from './competition/competition.entity';
 import { PgConf } from '../database.conf';
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
-import { TournamentEntity } from './entities/tournament.entity';
 import { TypeEntity } from './entities/type.entity';
+import { TournamentEntity } from './entities/tournament.entity';
 import { TemtemEntity } from './entities/temtem.entity';
-import { PrizeEntity } from './entities/prize.entity';
-import { PlayerEntity } from './entities/player.entity';
-import { TeamEntity } from './entities/team.entity';
-import { GameEntity } from './entities/game.entity';
 import { PhaseEntity } from './entities/phase.entity';
+import { PlayerEntity } from './entities/player.entity';
+import { GameEntity } from './entities/game.entity';
+import { PrizeEntity } from './entities/prize.entity';
 import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
+import { TeamEntity } from './entities/team.entity';
 
 @Module({
   imports: [
@@ -38,7 +37,10 @@ import { TitleEntity } from './entities/title.entity';
       ssl: {
         rejectUnauthorized: false
       },
-      entities: [CompetitionEntity, IcoEntity, LinkEntity, TournamentEntity, TypeEntity, TemtemEntity, PlayerEntity, PrizeEntity, TeamEntity, PhaseEntity, GameEntity, ActionEntity, GameActionEntity, TitleEntity],
+      entities: [CompetitionEntity, IcoEntity, LinkEntity,
+        TournamentEntity, TypeEntity, TeamEntity,
+        TemtemEntity, PlayerEntity, PrizeEntity, TypeEntity,
+        PhaseEntity, GameEntity, ActionEntity, GameActionEntity, TitleEntity],
       synchronize: true,
     }),
     /*CompetitionModule,*/
