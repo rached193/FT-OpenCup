@@ -11,8 +11,8 @@
 <div class="side-menu" [hidden]="hiddenMenu">
     <div class="side-menu-overlay">
         <ul>
-            <li *ngFor="let itemtournament of listMenu; index as i" (click)="selectMenu(i)">
-                {{itemtournament.menu}}
+            <li *ngFor="let itemtournament of listMenu; index as i" (click)="selectMenu(itemtournament.id)">
+                {{itemtournament.name}}
             </li>
         </ul>
     </div>

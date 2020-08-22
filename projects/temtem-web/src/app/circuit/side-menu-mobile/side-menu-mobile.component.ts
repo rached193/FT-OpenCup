@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
+import { CircuitMenu } from '../circuit.service';
 
 
 @Component({
@@ -8,7 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angu
 })
 export class SideMenuMobileComponent implements OnInit, OnDestroy {
 
-  @Input() listMenu: { menu: string }[];
+  @Input() listMenu: CircuitMenu[];
 
   @Output() menuSelected = new EventEmitter();
 
@@ -32,7 +33,7 @@ export class SideMenuMobileComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    document.body.style.position =  'relative';
+    document.body.style.position = 'relative';
   }
 
 

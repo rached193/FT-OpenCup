@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CircuitService } from './circuit.service';
 import { share, switchMap } from 'rxjs/operators';
-import { Subject } from 'rxjs';
+import { Subject, BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-circuit',
@@ -10,23 +10,23 @@ import { Subject } from 'rxjs';
 })
 export class CircuitComponent implements OnInit {
 
-
-  private _infoCircuit = new Subject();
+  rowSelected = 0;
+  private _infoCircuit = new BehaviorSubject(this.rowSelected);
   infoCircuit$ = this._infoCircuit.pipe(
     switchMap(tournamentId => {
       return this.circuitService.getInfo(tournamentId);
     })
-  )
-
+  );
 
   circuitMenu$ = this.circuitService.getMenu().pipe(share());
 
-  rowSelected = 0;
+
 
   constructor(private circuitService: CircuitService) { }
 
-  select(index) {
-    this.rowSelected = index;
+  select(tournamentId) {
+    this.rowSelected = tournamentId;
+    this._infoCircuit.next(tournamentId);
   }
 
   ngOnInit(): void {

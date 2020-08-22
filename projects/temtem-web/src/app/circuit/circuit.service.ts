@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 
 export interface TournamentInfo {
@@ -23,6 +23,7 @@ export interface TournamentInfo {
 
 export interface CircuitMenu {
   name: string;
+  id: number;
 }
 
 

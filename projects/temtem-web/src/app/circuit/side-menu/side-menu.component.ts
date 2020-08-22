@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { CircuitMenu } from '../circuit.service';
 
 
 @Component({
@@ -8,7 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class SideMenuComponent implements OnInit {
 
-  @Input() listMenu: { name: string }[];
+  @Input() listMenu: CircuitMenu[];
 
   @Output() menuSelected = new EventEmitter();
 
