@@ -10,11 +10,14 @@ export class CompetitionService {
   }
 
   findList(): Promise<PrizeEntity[]> {
-    return this.repo.find({ /*select: ["id", "name"],*/ order: { tournament: "ASC", pos: "ASC" } });
+    return this.repo.find({ /*select: ['id', 'name'],*/ order: { tournament: 'ASC', pos: 'ASC' } });
   }
 
   findDetail(): Promise<PrizeEntity[]> {
-    return this.repo.find({ select: ["tournament", "pos"], order: { tournament: "ASC", pos: "ASC" }, relations: ["tournamentE", "player"] });
+    return this.repo.find({
+      select: ['tournament', 'pos'],
+      order: { tournament: 'ASC', pos: 'ASC' }, relations: ['tournamentE', 'player']
+    });
   }
-  
+
 }
