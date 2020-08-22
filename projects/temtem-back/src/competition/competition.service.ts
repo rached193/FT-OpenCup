@@ -1,18 +1,20 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, InsertResult } from 'typeorm';
-import { CompetitionEntity } from './competition.entity';
+import { TournamentEntity } from '../entities/tournament.entity';
+import { PrizeEntity } from '../entities/prize.entity';
 
 @Injectable()
 export class CompetitionService {
-  constructor(@InjectRepository(CompetitionEntity) private repo: Repository<CompetitionEntity>) {
+  constructor(@InjectRepository(PrizeEntity) private repo: Repository<PrizeEntity>) {
   }
 
-  findAll(): Promise<CompetitionEntity[]> {
-    return this.repo.find();
+  findList(): Promise<PrizeEntity[]> {
+    return this.repo.find({ /*select: ["id", "name"],*/ order: { tournament: "ASC", pos: "ASC" } });
   }
 
-  insert(account: CompetitionEntity): Promise<InsertResult> {
-    return this.repo.insert(account);
+  findDetail(): Promise<PrizeEntity[]> {
+    return this.repo.find({ select: ["tournament", "pos"], order: { tournament: "ASC", pos: "ASC" }, relations: ["tournamentE", "player"] });
   }
+  
 }

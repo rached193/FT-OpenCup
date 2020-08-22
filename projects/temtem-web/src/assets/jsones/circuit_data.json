@@ -114,7 +114,7 @@
 {
     "menu" : "Minor Cup Aug",
     "text" : ["Minor Cup Aug",
-        "Date & Time: August 22th",
+        "Date & Time: August 22th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points",
@@ -123,6 +123,13 @@
         "5th-8th) 25 circuit points",
         "9th-16th) 10 circuit points (+32 players required)",
         "17th-32th) 5 circuit points (+64 players required)"
+    ],
+    "link": [
+        {
+            "img": "Battlefy",
+            "title": "Registration Open",
+            "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-august/5f398b2a8c26f0297b12fc3d/info"
+        }
     ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {

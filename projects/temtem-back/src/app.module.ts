@@ -5,8 +5,22 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
 import { CompetitionModule } from './competition/competition.module';
+import { TournamentModule } from './tournament/tournament.module';
 import { CompetitionEntity } from './competition/competition.entity';
-import { PgConf } from '../../../database.conf';
+import { PgConf } from '../database.conf';
+import { IcoEntity } from './entities/ico.entity';
+import { LinkEntity } from './entities/link.entity';
+import { TournamentEntity } from './entities/tournament.entity';
+import { TypeEntity } from './entities/type.entity';
+import { TemtemEntity } from './entities/temtem.entity';
+import { PrizeEntity } from './entities/prize.entity';
+import { PlayerEntity } from './entities/player.entity';
+import { TeamEntity } from './entities/team.entity';
+import { GameEntity } from './entities/game.entity';
+import { PhaseEntity } from './entities/phase.entity';
+import { ActionEntity } from './entities/action.entity';
+import { GameActionEntity } from './entities/game_action.entity';
+import { TitleEntity } from './entities/title.entity';
 
 @Module({
   imports: [
@@ -24,10 +38,11 @@ import { PgConf } from '../../../database.conf';
       ssl: {
         rejectUnauthorized: false
       },
-      entities: [CompetitionEntity],
+      entities: [CompetitionEntity, IcoEntity, LinkEntity, TournamentEntity, TypeEntity, TemtemEntity, PlayerEntity, PrizeEntity, TeamEntity, PhaseEntity, GameEntity, ActionEntity, GameActionEntity, TitleEntity],
       synchronize: true,
     }),
-    CompetitionModule
+    /*CompetitionModule,*/
+    TournamentModule
   ],
   controllers: [AppController],
   providers: [AppService],

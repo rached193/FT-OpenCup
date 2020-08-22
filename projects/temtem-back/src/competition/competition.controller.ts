@@ -1,20 +1,19 @@
 import { Controller, Get } from '@nestjs/common';
 import { CompetitionService } from './competition.service';
-import { CompetitionEntity } from './competition.entity';
+import { PrizeEntity } from '../entities/prize.entity';
 
 @Controller('competition')
 export class CompetitionController {
   constructor(private service: CompetitionService) {  }
 
-  @Get('dame')
-  getHello(): Promise<CompetitionEntity[]> {
-    return this.service.findAll();
+  @Get('list')
+  getHello(): Promise<PrizeEntity[]> {
+    return this.service.findList();
   }
 
-  @Get('crear')
-  create() {
-    const hola = new CompetitionEntity();
-    hola.name = 'Jose';
-    return this.service.insert(hola);
+  @Get('detail')
+  getDetail(): Promise<PrizeEntity[]> {
+    return this.service.findDetail();
   }
+
 }

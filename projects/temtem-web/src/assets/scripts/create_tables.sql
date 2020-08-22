@@ -1,10 +1,10 @@
-/*TEMTEM_DATA*/
+/*FT_OPEN_CUP*/
 
--- Table: temtem_data.types
+-- Table: ft_open_cup.type
 
--- DROP TABLE temtem_data.types;
+-- DROP TABLE ft_open_cup.type;
 
-CREATE TABLE temtem_data.type
+CREATE TABLE ft_open_cup.type
 (
     id integer NOT NULL,
     name character varying(20) NOT NULL,
@@ -12,11 +12,11 @@ CREATE TABLE temtem_data.type
     CONSTRAINT type_name_key UNIQUE (name)
 );
 
--- Table: temtem_data.temtem
+-- Table: ft_open_cup.temtem
 
--- DROP TABLE temtem_data.temtem;
+-- DROP TABLE ft_open_cup.temtem;
 
-CREATE TABLE temtem_data.temtem
+CREATE TABLE ft_open_cup.temtem
 (
     id integer NOT NULL,
     name character varying(20) NOT NULL,
@@ -31,12 +31,9 @@ CREATE TABLE temtem_data.temtem
 	bs_sdef integer NOT NULL,
     CONSTRAINT temtem_pk PRIMARY KEY (id),
     CONSTRAINT temtem_name_uk UNIQUE (name),
-	CONSTRAINT temtem_type1_fk FOREIGN KEY (type_1) REFERENCES temtem_data.type (id),
-	CONSTRAINT temtem_type2_fk FOREIGN KEY (type_2) REFERENCES temtem_data.type (id)
+	CONSTRAINT temtem_type1_fk FOREIGN KEY (type_1) REFERENCES ft_open_cup.type (id),
+	CONSTRAINT temtem_type2_fk FOREIGN KEY (type_2) REFERENCES ft_open_cup.type (id)
 );
-
-
-/*FT_OPEN_CUP*/
 
 -- TABLE: ft_open_cup.tournament
 
@@ -135,7 +132,7 @@ CREATE TABLE ft_open_cup.team
     temtem integer NOT NULL,
     CONSTRAINT team_pk PRIMARY KEY (tournament, player, temtem),
     CONSTRAINT team_player_fk FOREIGN KEY (player) REFERENCES ft_open_cup.player (id),
-    CONSTRAINT team_temtem_fk FOREIGN KEY (temtem) REFERENCES temtem_data.temtem (id),
+    CONSTRAINT team_temtem_fk FOREIGN KEY (temtem) REFERENCES ft_open_cup.temtem (id),
     CONSTRAINT team_tournament_fk FOREIGN KEY (tournament) REFERENCES ft_open_cup.tournament (id)
 );
 
