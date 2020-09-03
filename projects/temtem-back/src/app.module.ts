@@ -28,12 +28,12 @@ import { TeamEntity } from './entities/team.entity';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      schema: PgConf.schema,
-      username: PgConf.username,
-      host: PgConf.host,
-      database: PgConf.database,
-      password: PgConf.password,
-      port: PgConf.port,
+      schema: 'ft_open_cup',
+      username: process.env.DATABASE_USERNAME || PgConf.username,
+      host: process.env.DATABASE_HOST || PgConf.host,
+      database: process.env.DATABASE || PgConf.database,
+      password: process.env.PASSWORD_PASSWORD || PgConf.password,
+      port: 5432,
       ssl: {
         rejectUnauthorized: false
       },
