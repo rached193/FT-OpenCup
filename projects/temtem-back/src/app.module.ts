@@ -8,7 +8,6 @@ import { TournamentModule } from './tournament/tournament.module';
 
 // import { PgConf } from '../database.conf';
 
-import { CompetitionEntity } from './competition/competition.entity';
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
 import { TypeEntity } from './entities/type.entity';
@@ -22,6 +21,12 @@ import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
 import { TeamEntity } from './entities/team.entity';
+import { TournamentPlayersEntity } from './entities/view/tournament_players.entity';
+import { PlayerGamesEntity } from './entities/view/player_games.entity';
+import { TemtemTypesEntity } from './entities/view/temtem_types.entity';
+import { TournamentTemtemActionEntity } from './entities/view/tournament_temtem_action.entity';
+import { TemtemStatsEntity } from './entities/view/temtem_stats.entity';
+
 
 const PgConf = { username: '', host: '', database: '', password: '' };
 
@@ -41,10 +46,13 @@ const PgConf = { username: '', host: '', database: '', password: '' };
       ssl: {
         rejectUnauthorized: false
       },
-      entities: [CompetitionEntity, IcoEntity, LinkEntity,
+      entities: [IcoEntity, LinkEntity,
         TournamentEntity, TypeEntity, TeamEntity,
         TemtemEntity, PlayerEntity, PrizeEntity, TypeEntity,
-        PhaseEntity, GameEntity, ActionEntity, GameActionEntity, TitleEntity],
+        PhaseEntity, GameEntity, ActionEntity, GameActionEntity,
+        TitleEntity, TournamentPlayersEntity, PlayerGamesEntity,
+        TemtemTypesEntity, TournamentTemtemActionEntity,
+        TemtemStatsEntity],
       synchronize: true,
     }),
     /*CompetitionModule,*/
