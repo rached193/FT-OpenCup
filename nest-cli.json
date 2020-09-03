@@ -1,0 +1,8 @@
+{
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "projects/temtem-back/src",
+    "compilerOptions": {
+      "webpack": true,
+      "tsConfigPath": "projects/temtem-back/tsconfig.app.json"
+    }
+  }
