@@ -1,0 +1,33 @@
+<app-side-menu [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu>
+<app-side-menu-mobile [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu-mobile>
+
+
+<div class="container">
+    <div class="row" *ngIf="infoCircuit$ |async as info">
+        <div class="column">
+            <p *ngFor=" let line of info.text">
+                {{line}}
+            </p>
+
+            <div class="link-row" *ngIf="info.link">
+                <h2> Links:</h2>
+                <ul>
+                    <li *ngFor=" let link of info.link">
+                        <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16" />
+                        <a href="{{link.url}}" target="_blank">{{link.title}}</a>
+                    </li>
+                    <!-- <li *ngFor=" let    graph of info[rowSelected].statistics">
+                        <img src="/assets/img/ico/Graph.png" height="16" width="16"/>
+                        <a [routerLink]="['/graph.url']">{{graph.title}}</a>
+                    </li> -->
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <app-table [data]="info.table"></app-table>
+        </div>
+    </div>
+
+</div>
