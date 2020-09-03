@@ -5,8 +5,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
 import { TournamentModule } from './tournament/tournament.module';
+
+// import { PgConf } from '../database.conf';
+
 import { CompetitionEntity } from './competition/competition.entity';
-import { PgConf } from '../database.conf';
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
 import { TypeEntity } from './entities/type.entity';
@@ -20,6 +22,8 @@ import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
 import { TeamEntity } from './entities/team.entity';
+
+const PgConf = { username: '', host: '', database: '', password: '' };
 
 @Module({
   imports: [
