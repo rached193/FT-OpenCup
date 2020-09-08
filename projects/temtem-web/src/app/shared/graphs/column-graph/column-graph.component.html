@@ -1,3 +1,7 @@
+<div *ngIf="pagination" class="pagination">
+    <button id="back" (click)="reload('left')">«</button>
+    <button id="forward" (click)="reload('right')">»</button>
+</div>
 <div class="graph">
     <div #chart1></div>
 </div>

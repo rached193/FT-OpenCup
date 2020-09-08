@@ -1,74 +1,69 @@
 :host{
     display: flex;
     background-color: var(--primary-color-1);
-
+ 
     @media (max-width: 600px) {
         display: block;
     }
-
+ 
     .container{
         flex-grow: 1;
         color: var(--main-color);
-
+ 
         @media (max-width: 600px) {
-            padding-top: 4em;
+            padding-top: 0em;
         }
-
-        p{
-            font-family: 'Poppins','Open Sans', sans-serif;
-            margin: 2em;
-            font-size: 1.2em;
-            &:first-child{
-                font-weight: bold;
-            }
-        }
-
+ 
         a{
             color: var(--main-color);
         }
     }
-}
-
-.row{
+ }
+ 
+ .row{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     flex-flow: wrap;
  }
-
-.column {
+ 
+ .column {
     flex-basis: 50%;
-    // min-width: 400px;
     width: 100%;
-
-    app-table{
-        margin: 1em;
-        display: block;
-        height: 800px;
-        overflow: overlay;
+    div{
+       margin: 5vw;
+       font-weight: bold;
+       text-align: center;
+ 
+       .title{
+          font-size: 4em;
+       }
+ 
+       .subtitle{
+          font-size: 3em;
+       }
+ 
+       .text{
+          font-size: 2em;
+       }
+ 
+       .logo{
+          width: 45%;
+          height: auto;
+       }
+ 
+       .timeline{
+          width: 100%;
+          height: auto;
+       }
     }
   }
-
-  .link-row{
-    margin: 2em;
-    a{
-        vertical-align: super;
-        padding-left: 0.5em;
-    }
-  }
-
-
-
-  @media (max-width: 850px) {
+ 
+ @media (max-width: 850px) {
     .row{
         flex-direction: column;
         .column{
             min-width: unset;
         }
     }
-  }
-
-
-    ul {
-        list-style: none;
-    }
+ }

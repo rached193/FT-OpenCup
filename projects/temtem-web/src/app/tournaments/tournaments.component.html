@@ -1,0 +1,34 @@
+<app-side-menu id="menuFilter" [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu>
+<app-side-menu-mobile [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu-mobile>
+
+<div class="container">
+    <div class="row" *ngIf="infoCircuit$ |async as info">
+        <div class="column">
+            <mat-icon class="menuIco" (click)="activeMenu()">menu</mat-icon><span class="title">{{info.name}}</span>
+            <p *ngFor=" let line of info.text">
+                {{line}}
+            </p>
+
+            <div class="link-row" *ngIf="info.link">
+                <h2> Links:</h2>
+                <ul>
+                    <li *ngFor=" let link of info.link">
+                        <img src="/assets/img/ico/{{link.img}}.png" />
+                        <a href="{{link.url}}" target="_blank">{{link.title}}</a>
+                    </li>
+                    <li *ngFor=" let graph of info.statistics">
+                        <img src="/assets/img/ico/Graph.png" />
+                        <a *ngIf="graph.id" [routerLink]="['/statistics/tournament', graph.id]" (click)="desactiveSubmenu()">{{graph.title}}</a>
+                        <a *ngIf="!graph.id" [routerLink]="['/statistics/overview']" (click)="desactiveSubmenu()">{{graph.title}}</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <app-table [data]="info.table" #table></app-table>
+        </div>
+    </div>
+
+</div>

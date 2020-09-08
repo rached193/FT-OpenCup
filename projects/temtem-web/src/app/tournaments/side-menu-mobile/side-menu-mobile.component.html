@@ -1,0 +1,18 @@
+<div class="menu-responsive">
+    <div class="menu-icon" (click)="activeMenu()">
+        <mat-icon class="menuIco">menu</mat-icon>
+    </div>
+</div>
+
+<div class="side-menu" [hidden]="hiddenMenu">
+    <div class="side-menu-overlay">
+        <ul>
+            <li (click)="selectMenu(0)">
+                FT Open Cup
+            </li>
+            <li *ngFor="let itemtournament of listMenu;" (click)="selectMenu(itemtournament.id)">
+                {{itemtournament.name}}
+            </li>
+        </ul>
+    </div>
+</div>

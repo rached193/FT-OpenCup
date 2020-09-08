@@ -1,33 +1,31 @@
-<app-side-menu [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu>
-<app-side-menu-mobile [listMenu]="circuitMenu$|async" (menuSelected)="select($event)"></app-side-menu-mobile>
-
-
 <div class="container">
-    <div class="row" *ngIf="infoCircuit$ |async as info">
+    <div class="row">
         <div class="column">
-            <p *ngFor=" let line of info.text">
-                {{line}}
-            </p>
-
-            <div class="link-row" *ngIf="info.link">
-                <h2> Links:</h2>
-                <ul>
-                    <li *ngFor=" let link of info.link">
-                        <img src="/assets/img/ico/{{link.img}}.png" height="16" width="16" />
-                        <a href="{{link.url}}" target="_blank">{{link.title}}</a>
-                    </li>
-                    <!-- <li *ngFor=" let    graph of info[rowSelected].statistics">
-                        <img src="/assets/img/ico/Graph.png" height="16" width="16"/>
-                        <a [routerLink]="['/graph.url']">{{graph.title}}</a>
-                    </li> -->
-                </ul>
-            </div>
-
+            <div><span class="title">FT OPEN CUP</span></div>
+            <div><span class="subtitle">Fellow Tamers club is glad to host the first FT Open Cup, a competitive Temtem circuit that will take place during the Temtem Early Access phase!</span></div>
         </div>
-
         <div class="column">
-            <app-table [data]="info.table"></app-table>
+            <div><img class="logo" src="/assets/logo.png"/></div>
         </div>
     </div>
-
+    <mat-divider></mat-divider>
+    <div class="row">
+        <div class="column">
+            <div><span class="subtitle">The circuit will be divided into 10 open tournaments (one per month), with at least 200€ in prizes.</span></div>
+            <!-- <div><img class="timeline" src="/assets/img/timeline.png"/></div> -->
+        </div>
+        <div class="column">
+            <div><span class="text">Each tournament is independent from the others, so you only need to register and play on the tournaments youre interested once they're published.</span></div>
+            <div><span class="text">Each tournament will be announced in the FT Open Cup official Discord with a delay of at least 15 days, allowing each player to planificate their entrance properly.</span></div>
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="row">
+        <div class="column">
+            <div><span class="subtitle">The circuit will lead to the FT INVITATIONAL, a closed tournament with 16 players and a +1000€ prize pool.</span></div>
+        </div>
+        <div class="column">
+            <div><span class="text">Only the 12 players who gather the biggest ammount of Circuit Points (granted by how well players do in the circuit's tournaments) plus the winners and runner up of each Qualifier will be able to join the FT INVITATIONAL.</span></div>
+        </div>
+    </div>
 </div>

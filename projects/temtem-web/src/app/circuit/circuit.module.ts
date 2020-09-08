@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatDividerModule } from '@angular/material/divider';
 import { CircuitComponent } from './circuit.component';
-import { SharedModule } from '../shared/shared.module';
-import { SideMenuComponent } from './side-menu/side-menu.component';
-import { SideMenuMobileComponent } from './side-menu-mobile/side-menu-mobile.component';
 
 
 @NgModule({
-  declarations: [CircuitComponent, SideMenuComponent, SideMenuMobileComponent],
+  declarations: [CircuitComponent],
   imports: [
     CommonModule,
-    SharedModule
+    MatGridListModule,
+    MatDividerModule
   ]
 })
 export class CircuitModule { }
