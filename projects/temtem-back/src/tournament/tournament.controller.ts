@@ -16,6 +16,16 @@ export class TournamentController {
     return this.service.tournamentDetail(params.id);
   }
 
+  @Get('clasification/:id')
+  getClasification(@Param() params): Promise<any[]> {
+    return this.service.tournamentPrizes(params.id);
+  }
+
+  @Get('links/:id')
+  getLinks(@Param() params): Promise<any[]> {
+    return this.service.tournamentLinks(params.id);
+  }
+
   @Get('circuit/clasification')
   getCircuitClasification(): Promise<any[]> {
     return this.service.circuitClasification();

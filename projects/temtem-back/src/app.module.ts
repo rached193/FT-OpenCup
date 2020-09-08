@@ -5,7 +5,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
 import { TournamentModule } from './tournament/tournament.module';
-import { CompetitionEntity } from './competition/competition.entity';
+import { StatisticsModule } from './statistics/statistics.module';
 import { PgConf } from '../database.conf';
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
@@ -20,6 +20,11 @@ import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
 import { TeamEntity } from './entities/team.entity';
+import { TournamentPlayersEntity } from './entities/view/tournament_players.entity';
+import { PlayerGamesEntity } from './entities/view/player_games.entity';
+import { TemtemTypesEntity } from './entities/view/temtem_types.entity';
+import { TournamentTemtemActionEntity } from './entities/view/tournament_temtem_action.entity';
+import { TemtemStatsEntity } from './entities/view/temtem_stats.entity';
 
 @Module({
   imports: [
@@ -28,23 +33,26 @@ import { TeamEntity } from './entities/team.entity';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      schema: 'ft_open_cup',
-      username: process.env.DATABASE_USERNAME || PgConf.username,
-      host: process.env.DATABASE_HOST || PgConf.host,
-      database: process.env.DATABASE || PgConf.database,
-      password: process.env.PASSWORD_PASSWORD || PgConf.password,
-      port: 5432,
+      schema: PgConf.schema,
+      username: PgConf.username,
+      host: PgConf.host,
+      database: PgConf.database,
+      password: PgConf.password,
+      port: PgConf.port,
       ssl: {
         rejectUnauthorized: false
       },
-      entities: [CompetitionEntity, IcoEntity, LinkEntity,
+      entities: [IcoEntity, LinkEntity,
         TournamentEntity, TypeEntity, TeamEntity,
         TemtemEntity, PlayerEntity, PrizeEntity, TypeEntity,
-        PhaseEntity, GameEntity, ActionEntity, GameActionEntity, TitleEntity],
+        PhaseEntity, GameEntity, ActionEntity, GameActionEntity,
+        TitleEntity, TournamentPlayersEntity, PlayerGamesEntity,
+        TemtemTypesEntity, TournamentTemtemActionEntity,
+        TemtemStatsEntity],
       synchronize: true,
     }),
-    /*CompetitionModule,*/
-    TournamentModule
+    TournamentModule,
+    StatisticsModule
   ],
   controllers: [AppController],
   providers: [AppService],

@@ -1,14 +1,9 @@
-<div class="row mat-elevation-z4">
-    <app-temtem-graph url="stats" title="Stats" categoryName="category" serieName="serie" valueName="value" 
-            type='spider'></app-temtem-graph>
-</div>
-<div class="row mat-elevation-z4">
+<app-row-layout>
     <div class="column">
-        <app-temtem-graph url="teammate" title="Temtem teammates" categoryName="category"
-            serieName="serie" valueName="value" type='column' top="16"></app-temtem-graph>
+      
     </div>
     <div class="column">
-        <app-temtem-graph url="teammate_top8" title="Temtem teammates (Top 8)" categoryName="category" serieName="serie"
-            valueName="value" type='column' top="16"></app-temtem-graph>
+      <app-temtem-graph url="back/statistics/temtem/stats" filter="{{id}}"  title="Stats" categoryName="category" serieName="serie" valueName="value" 
+      orderBy='order' type='spider'></app-temtem-graph>
     </div>
-</div>
+</app-row-layout>

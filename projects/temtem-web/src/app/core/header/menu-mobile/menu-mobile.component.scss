@@ -1,0 +1,37 @@
+:host{
+    //margin: 0;
+    margin-left: auto;
+    //padding: 0;
+    //display: flex;
+    //justify-content: center;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+
+    @media (min-width: 601px) {
+        display: none;
+    }
+}
+
+.menu-mobile{
+    background-color: #272a2d;
+    color: aliceblue;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    padding: 0.5em;
+}
+
+.menu-option{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.submenu-option{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}

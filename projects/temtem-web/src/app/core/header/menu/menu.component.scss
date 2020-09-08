@@ -1,0 +1,69 @@
+menu{
+    //height: 4em;
+    //background-color: #404e5d;
+    margin: 0;
+    //margin-left: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  
+    
+    .menu-option{
+        margin: auto 0;
+        &:focus{
+            outline:none;
+        }
+  
+        &.active{
+            background-color: #272a2d;
+        }
+  
+        .option-container{
+            padding: 0.7em 2vw;
+            &:hover{
+                background-color:#404e5d;
+            }
+            &:focus{
+                outline:none;
+            }
+         
+        }
+  
+        color: aliceblue;
+        cursor: pointer;
+        font-size: 1em;
+  
+    }
+  }
+
+  :host{
+    margin-left: auto;
+    @media (max-width: 600px) {
+        min-width: unset !important;
+        display: none;
+
+    }
+  }
+
+  .submenu {
+      position: fixed;
+      top: 2.7em;
+      background-color: #313539;
+      .submenu-option {
+        color: aliceblue;
+        padding: 0.5em;
+        cursor: pointer;
+        &:hover{
+            background-color:#404e5d;
+        }
+        &:focus{
+            outline:none;
+        }
+        &.active{
+            background-color: #272a2d;
+        }
+      }
+  }

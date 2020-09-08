@@ -1,18 +1,18 @@
+
 :host{
    background-color: var(--primary-color-1);
    display: block;
+   padding-top: 1vh;
 }
 
-
-.row{
-    //margin: 1em;
-    padding: 1vw 1vw 0em 1vw;;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-flow: wrap;
- }
-
+ .rowTable{
+   //margin: 1em;
+   margin: 1vw 1vw 1vw 1vw;;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   flex-flow: wrap;
+}
  
  .column {
    flex-basis: 50%;
@@ -22,13 +22,25 @@
 
  
  @media (max-width: 850px) {
-   .row{
-      flex-direction: column;
-      }
       .column{
          min-width: unset;
-         // flex-basis:100%;
       }
-   }
+      .front,.back{
+        flex-direction: column;
+      }
+ }
+   
+ .menuIco{
+    position: relative;
+    top: 0.25em;
+    cursor: pointer;
+    color: var(--main-color);
+    &:hover{
+        font-weight: bold;
+    }
+    @media (max-width: 600px) {
+        display: none;
+    }
+  }
 
   

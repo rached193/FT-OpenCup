@@ -9,6 +9,7 @@ import { TemtemGraphService } from './temtem-graph.service';
 export class TemtemGraphComponent implements OnInit {
 
   @Input() url: string;
+  @Input() filter: number;
   @Input() title: string;
   @Input() subtitle: string;
   @Input() type: string;
@@ -16,12 +17,12 @@ export class TemtemGraphComponent implements OnInit {
   @Input() stacked: boolean;
   @Input() categoryName: string;
   @Input() serieName: string;
+  @Input() orderBy: string;
   @Input() valueName: string;
   @Input() legend: boolean;
   @Input() image: string;
   @Input() prc: boolean;
-
-  @Input() top: number;
+  @Input() pagination: number;
 
   categories = [];
   series = [];
@@ -30,7 +31,7 @@ export class TemtemGraphComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.temtemService.getGraph(this.url).subscribe(data => {
+    this.temtemService.getGraph(this.url, this.filter).subscribe(data => {
       this.buildGraph(data);
     });
   }
@@ -64,28 +65,17 @@ export class TemtemGraphComponent implements OnInit {
 
   private calculateCategories(seriesGrouped, content): string[] {
     const categories = [];
-    if (this.top) {
+    const firstKey = Object.keys(seriesGrouped)[0];
 
-      const firstKey = Object.keys(seriesGrouped)[0];
-
-      const sortContent = seriesGrouped[firstKey].sort((a, b) => {
-        return b[this.valueName] - a[this.valueName];
-      });
-      const topContent = sortContent.slice(0, this.top);
-
-      topContent.forEach(item => {
-        if (!categories.includes(item[this.categoryName])) {
-          categories.push(item[this.categoryName]);
-        }
-      });
-
-    } else {
-      content.forEach(item => {
-        if (!categories.includes(item[this.categoryName])) {
-          categories.push(item[this.categoryName]);
-        }
-      });
-    }
+    var sortContent = seriesGrouped[firstKey].sort((a, b) => {
+      return b[this.orderBy ? this.orderBy: this.valueName] - a[this.orderBy ? this.orderBy: this.valueName];
+    });
+    
+    sortContent.forEach(item => {
+      if (!categories.includes(item[this.categoryName])) {
+        categories.push(item[this.categoryName]);
+      }
+    });
 
     return categories;
   }
