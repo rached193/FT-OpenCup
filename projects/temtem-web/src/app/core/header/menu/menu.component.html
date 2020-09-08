@@ -1,0 +1,19 @@
+<menu>
+    <div class="menu-option" [routerLink]="['/circuit']"  routerLinkActive="active" (click)="desactiveSubmenu()">
+        <div class="option-container"><span>Circuit</span></div>
+    </div>
+    <div class="menu-option" [routerLink]="['/tournaments']"  routerLinkActive="active" (click)="desactiveSubmenu()">
+      <div class="option-container"><span>Tournaments</span></div>
+    </div>
+    <div id="statistics" class="menu-option" [routerLink]="['/statistics/overview']"  routerLinkActive="active" (click)="desactiveSubmenu()">
+        <div class="option-container"><span>Statistics</span></div>
+    </div>
+    <!-- <div class="menu-option" (click)="activeSubmenu()" id="statistics">
+        <div class="option-container"><span>Statistics</span></div>
+    </div> -->
+    <div class="submenu" id="submenu" style="display: none">
+        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/overview']"  routerLinkActive="active" (click)="goSubmenu()">Overview</div> -->
+        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/tournament/1']"  routerLinkActive="active" (click)="goSubmenu()">Tournament</div> -->
+        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/temtem/110']"  routerLinkActive="active" (click)="goSubmenu()">Temtem</div> -->
+    </div>
+</menu>

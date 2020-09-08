@@ -30,5 +30,17 @@
       }
  }
    
+ .menuIco{
+    position: relative;
+    top: 0.25em;
+    cursor: pointer;
+    color: var(--main-color);
+    &:hover{
+        font-weight: bold;
+    }
+    @media (max-width: 600px) {
+        display: none;
+    }
+  }
 
   

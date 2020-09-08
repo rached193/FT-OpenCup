@@ -1,6 +1,6 @@
 <ng-container [ngSwitch]="type">
     <app-column-graph *ngSwitchCase="'column'" [title]="title" [subtitle]="subtitle" [categories]="categories" [series]="series" [stacked]="stacked"
-        [colors]="colors" [legend]="legend" [image]="image" [prc]="prc">
+        [colors]="colors" [legend]="legend" [image]="image" [prc]="prc" [pagination]="pagination">
     </app-column-graph>
 
     <app-line-graph *ngSwitchCase="'line'" [title]="title" [subtitle]="subtitle" [categories]="categories" [series]="series"

@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
+import { callbackify } from 'util';
 
 @Component({
   selector: 'app-column-graph',
@@ -11,7 +12,7 @@ export class ColumnGraphComponent {
 
   private graph1: Highcharts.Chart;
   private dataSeries: Highcharts.SeriesOptionsType[];
-
+  private countCategories: number;
 
   @Input() title: string;
   @Input() subtitle: string;
@@ -27,6 +28,7 @@ export class ColumnGraphComponent {
   @Input() stacked: boolean;
   @Input() image: string;
   @Input() prc: boolean;
+  @Input() pagination: number;
 
   constructor() {}
 
@@ -65,7 +67,7 @@ export class ColumnGraphComponent {
           overflow: 'allow',
           useHTML: true,
           formatter() {
-            return '<img src="/assets/img/' + imageUrl + '/' + this.value + '.png" height="32" width="32"></img>';
+            return '<img src="/assets/img/' + imageUrl + '/' + this.value + '.png" height="40" width="40"></img>';
           }
         }
       },
@@ -83,7 +85,7 @@ export class ColumnGraphComponent {
           }
         },
         min: 0,
-        max: this.prc ? 100 : undefined
+        max: this.prc ? (this.stacked ? 100 : undefined) : undefined
       },
       plotOptions: {
         column: {
@@ -105,7 +107,26 @@ export class ColumnGraphComponent {
     };
 
     this.graph1 = Highcharts.chart(this.chart1.nativeElement, chartOptions1);
+
+    this.countCategories = +this.categories.length - +1;
+
+    this.graph1.xAxis[0].setExtremes(0, this.pagination ? +this.pagination - +1 : this.countCategories);
   }
 
+  public reload(change) {
+    if(change === 'left'){
+      if ((+this.graph1.xAxis[0].getExtremes().min - +this.pagination) < 0) {
+        this.graph1.xAxis[0].setExtremes(0, +this.pagination - +1);
+      } else {
+        this.graph1.xAxis[0].setExtremes(+this.graph1.xAxis[0].getExtremes().min - +this.pagination, +this.graph1.xAxis[0].getExtremes().max - +this.pagination);
+      }
+    } else if(change === 'right') {
+      if ((+this.graph1.xAxis[0].getExtremes().max + +this.pagination) > this.countCategories) {
+        this.graph1.xAxis[0].setExtremes(+this.countCategories - (+this.pagination - +1), this.countCategories);
+      } else {
+        this.graph1.xAxis[0].setExtremes(+this.graph1.xAxis[0].getExtremes().min + +this.pagination, +this.graph1.xAxis[0].getExtremes().max + +this.pagination);
+      }
+    }
+  }
 
 }

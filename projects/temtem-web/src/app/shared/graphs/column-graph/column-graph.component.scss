@@ -9,3 +9,13 @@
    // width: inherit;
    // height: inherit;
 }
+
+.pagination{
+   position: absolute;
+   z-index: 2;
+   button{
+      position: relative;
+      margin-left: 1vh;
+      margin-top: 4vh;
+   }
+}

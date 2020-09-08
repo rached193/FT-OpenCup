@@ -8,7 +8,7 @@ export class TournamentService {
   constructor(@InjectRepository(TitleEntity) private repo: Repository<TitleEntity>) {
   }
 
-  tournamentList(): Promise<TitleEntity[]> {
+  tournamentList(): Promise<any[]> {
     return this.repo.createQueryBuilder()
     .select("tournament.id", "id")
     .addSelect("tournament.name", "name")
@@ -19,7 +19,8 @@ export class TournamentService {
 
   tournamentDetail(id): Promise<any> {
     return this.repo.createQueryBuilder()
-      .select("tournament.name", "name")
+      .select("tournament.id", "id")
+      .addSelect("tournament.name", "name")
       .addSelect("tournament.date", "date")
       .addSelect("tournament.format", "format")
       .addSelect("tournament.version", "version")
@@ -43,7 +44,7 @@ export class TournamentService {
       .getRawOne();
   }
 
-  tournamentLinks(id): Promise<any> {
+  tournamentLinks(id): Promise<any[]> {
     return this.repo.createQueryBuilder()
       .select("ico.name", "ico")
       .addSelect("link.name", "title")
@@ -56,7 +57,7 @@ export class TournamentService {
       .getRawMany();
   }
 
-  tournamentPrizes(id): Promise<any> {
+  tournamentPrizes(id): Promise<any[]> {
     return this.repo.createQueryBuilder()
       .select("RANK() OVER(ORDER BY prize.points DESC)", "rank")
       .addSelect("player.name", "player")
@@ -72,7 +73,7 @@ export class TournamentService {
       .getRawMany();
   }
 
-  circuitClasification(): Promise<any> {
+  circuitClasification(): Promise<any[]> {
     return this.repo.createQueryBuilder()
       .select("RANK() OVER(ORDER BY sum(prize.points) DESC)", "rank")
       .addSelect("player.name", "player")

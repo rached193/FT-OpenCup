@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { CircuitModule } from './circuit/circuit.module';
+import { TournamentsModule } from './tournaments/tournaments.module';
 import { OverviewModule } from './overview/overview.module';
 import { TemtemModule } from './temtem/temtem.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,6 +23,7 @@ import { CircuitComponent } from './circuit/circuit.component';
     CoreModule,
     HttpClientModule,
     CircuitModule,
+    TournamentsModule,
     OverviewModule,
     TemtemModule,
     BrowserAnimationsModule,

@@ -1,20 +1,11 @@
 <header>
     <span>
-        <img class="logo" src="/assets/logo.png">
-        <a href="http://fellowtamers.com/" target="_blank">FT</a> Open Cup
+      <a href="/"><img class="logo" src="/assets/logo.png"></a>
+        <span class="name">FT Open Cup</span>
     </span>
-
+    <app-menu></app-menu>
+    <app-menu-mobile></app-menu-mobile>
     <div class="night_mode">
-        <button (click)="nightMode()" class="nigth" [ngClass]="{'active': nigth}"></button>
+      <button (click)="nightMode()" class="nigth" [ngClass]="{'active': nigth}"></button>
     </div>
-
 </header>
-<menu>
-    <div class="menu-option" [routerLink]="['/circuit']"  routerLinkActive="active">
-        <div class="option-container"><span>CIRCUIT</span></div>
-    </div>
-    <div class="menu-option"  [routerLink]="['/overview']" routerLinkActive="active">
-        <div class="option-container"><span>STATISTICS</span></div>
-    </div>
-    <!-- <div [routerLink]="['/temtem']"><span>TEMTEM STATISTICS</span></div> -->
-</menu>

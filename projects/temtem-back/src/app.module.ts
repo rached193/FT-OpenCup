@@ -5,6 +5,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { join } from 'path';
 import { TournamentModule } from './tournament/tournament.module';
+import { StatisticsModule } from './statistics/statistics.module';
 
 // import { PgConf } from '../database.conf';
 
@@ -55,8 +56,8 @@ const PgConf = { username: '', host: '', database: '', password: '' };
         TemtemStatsEntity],
       synchronize: true,
     }),
-    /*CompetitionModule,*/
-    TournamentModule
+    TournamentModule,
+    StatisticsModule
   ],
   controllers: [AppController],
   providers: [AppService],
