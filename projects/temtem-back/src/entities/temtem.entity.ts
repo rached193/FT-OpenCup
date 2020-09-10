@@ -50,6 +50,6 @@ export class TemtemEntity {
     @Column('integer')
     bs_sdef: number;
 
-    @OneToMany(type => TeamEntity, team => team.temtem)
+    @OneToMany(type => TeamEntity, team => team.temtemE)
     teams: TeamEntity[];
 }

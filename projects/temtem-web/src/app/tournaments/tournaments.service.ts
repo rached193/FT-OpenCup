@@ -37,6 +37,6 @@ export class TournamentsService {
   }
 
   getMenu(): Observable<CircuitMenu[]> {
-    return this.http.get<CircuitMenu[]>(`tournament/list`);
+    return this.http.get<CircuitMenu[]>(`back/tournament/list`);
   }
 }

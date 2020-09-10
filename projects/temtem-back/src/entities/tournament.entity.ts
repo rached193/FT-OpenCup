@@ -33,9 +33,9 @@ export class TournamentEntity {
     @OneToMany(type => PrizeEntity, prize => prize.tournamentE)
     prizes: PrizeEntity[];
 
-    @OneToMany(type => TeamEntity, team => team.tournament)
+    @OneToMany(type => TeamEntity, team => team.tournamentE)
     teams: TeamEntity[];
 
-    @OneToMany(type => GameEntity, game => game.tournament)
+    @OneToMany(type => GameEntity, game => game.tournamentE)
     games: GameEntity[];
 }

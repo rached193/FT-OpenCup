@@ -28,11 +28,15 @@ export class MenuComponent implements OnInit {
   desactiveSubmenu() {
     document.getElementById('submenu').style.setProperty('display', 'none');
     document.getElementById('statistics').style.setProperty('background-color', null);
+    document.getElementById('statOverview').style.setProperty('background-color', '#313539');
   }
 
-  goSubmenu() {
+  goSubmenu(route) {
     document.getElementById('submenu').style.setProperty('display', 'none');
     document.getElementById('statistics').style.setProperty('background-color', '#272a2d');
+    if(route != 'overview') {
+      document.getElementById('statOverview').style.setProperty('background-color', '#313539');
+    }
   }
 
 }

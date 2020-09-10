@@ -1,8 +1,12 @@
-
 :host{
    background-color: var(--primary-color-1);
    display: block;
-   padding-top: 1vh;
+}
+
+.container{
+  flex-grow: 1;
+  color: var(--main-color);
+  padding-top: 4.5em;
 }
 
  .rowTable{
@@ -29,18 +33,5 @@
         flex-direction: column;
       }
  }
-   
- .menuIco{
-    position: relative;
-    top: 0.25em;
-    cursor: pointer;
-    color: var(--main-color);
-    &:hover{
-        font-weight: bold;
-    }
-    @media (max-width: 600px) {
-        display: none;
-    }
-  }
 
   

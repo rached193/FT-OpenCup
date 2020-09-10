@@ -1,86 +1,90 @@
-<flip class="card-row">
-  <flip-front class="front">
+<app-filter-menu [listMenu]="circuitMenu$|async"></app-filter-menu>
+
+<div class="container">
+  <flip class="card-row">
+    <flip-front class="front">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/appearance/absolute" filter="{{id}}" title="Temtem appearance" subtitle="Absolute" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false">
+        </app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/appearance/topcut/absolute" filter="{{id}}" title="Temtem appearance (Top Cut)" subtitle="Absolute" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false"></app-temtem-graph>
+      </div>
+    </flip-front>
+    <flip-back class="back">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/appearance/relative" filter="{{id}}" title="Temtem appearance" subtitle="Relative" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true">
+        </app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/appearance/topcut/relative" filter="{{id}}" title="Temtem appearance (Top Cut)" subtitle="Relative" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true"></app-temtem-graph>
+      </div>
+    </flip-back>
+  </flip>
+  <flip class="card-row">
+    <flip-front class="front">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/winrate/absolute" filter="{{id}}" title="Temtem Winrate" subtitle="Absolute" categoryName="category" serieName="serie"
+          [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' pagination="8"
+          image="temtem" [prc]="false"></app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/winrate/topcut/absolute" filter="{{id}}" title="Temtem Winrate (Top Cut)" subtitle="Absolute" categoryName="category"
+          serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
+          pagination="8" image="temtem" [prc]="false">
+        </app-temtem-graph>
+      </div>
+    </flip-front>
+    <flip-back class="back">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/winrate/relative" filter="{{id}}" title="Temtem Winrate" subtitle="Relative" categoryName="category" serieName="serie"
+          [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' pagination="8"
+          image="temtem" [prc]="true"></app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/winrate/topcut/relative" filter="{{id}}" title="Temtem Winrate (Top Cut)" subtitle="Relative" categoryName="category"
+          serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
+          pagination="8" image="temtem" [prc]="true">
+        </app-temtem-graph>
+      </div>
+    </flip-back>
+  </flip>
+  <app-row-layout>
     <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/appearance/absolute" filter="{{id}}" title="Temtem appearance" subtitle="Absolute" categoryName="category"
-        serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false">
-      </app-temtem-graph>
-    </div>
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/appearance/topcut/absolute" filter="{{id}}" title="Temtem appearance (Top Cut)" subtitle="Absolute" categoryName="category"
-        serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false"></app-temtem-graph>
-    </div>
-  </flip-front>
-  <flip-back class="back">
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/appearance/relative" filter="{{id}}" title="Temtem appearance" subtitle="Relative" categoryName="category"
-        serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true">
-      </app-temtem-graph>
-    </div>
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/appearance/topcut/relative" filter="{{id}}" title="Temtem appearance (Top Cut)" subtitle="Relative" categoryName="category"
-        serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true"></app-temtem-graph>
-    </div>
-  </flip-back>
-</flip>
-<flip class="card-row">
-  <flip-front class="front">
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/winrate/absolute" filter="{{id}}" title="Temtem Winrate" subtitle="Absolute" categoryName="category" serieName="serie"
-        [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' pagination="8"
+      <app-temtem-graph url="back/statistics/overview/temtem/pickrate/absolute" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Absolute" categoryName="category" serieName="serie"
+        [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column' pagination="8" orderBy='total_actions'
         image="temtem" [prc]="false"></app-temtem-graph>
     </div>
     <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/winrate/topcut/absolute" filter="{{id}}" title="Temtem Winrate (Top Cut)" subtitle="Absolute" categoryName="category"
-        serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
-        pagination="8" image="temtem" [prc]="false">
-      </app-temtem-graph>
+        <app-temtem-graph url="back/statistics/overview/temtem/pickrate/relative" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Relative"
+            categoryName="category" serieName="serie" [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']"
+            valueName="value" type='column' pagination="8" orderBy='total_actions' image="temtem" [prc]="true"></app-temtem-graph>
     </div>
-  </flip-front>
-  <flip-back class="back">
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/winrate/relative" filter="{{id}}" title="Temtem Winrate" subtitle="Relative" categoryName="category" serieName="serie"
-        [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column' pagination="8"
-        image="temtem" [prc]="true"></app-temtem-graph>
-    </div>
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/winrate/topcut/relative" filter="{{id}}" title="Temtem Winrate (Top Cut)" subtitle="Relative" categoryName="category"
-        serieName="serie" [legend]="true" [colors]="['var(--main-color)','#b0f4a0']" valueName="value" type='column'
-        pagination="8" image="temtem" [prc]="true">
-      </app-temtem-graph>
-    </div>
-  </flip-back>
-</flip>
-<app-row-layout>
-  <div class="column">
-    <app-temtem-graph url="back/statistics/overview/temtem/pickrate/absolute" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Absolute" categoryName="category" serieName="serie"
-      [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column' pagination="8" orderBy='total_actions'
-      image="temtem" [prc]="false"></app-temtem-graph>
-  </div>
-  <div class="column">
-      <app-temtem-graph url="back/statistics/overview/temtem/pickrate/relative" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Relative"
-          categoryName="category" serieName="serie" [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']"
-          valueName="value" type='column' pagination="8" orderBy='total_actions' image="temtem" [prc]="true"></app-temtem-graph>
-  </div>
-</app-row-layout>
-<flip class="card-row">
-  <flip-front class="front">
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/type/appearance/absolute" filter="{{id}}" title="Type appearance" subtitle="Absolute" categoryName="category" serieName="serie"
-        valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
-    </div>
-    <div class="column">
-      <app-temtem-graph url="back/statistics/overview/type/appearance/topcut/absolute" filter="{{id}}" title="Type appearance (Top Cut)" subtitle="Absolute" categoryName="category"
-        serieName="serie" valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
-    </div>
-  </flip-front>
-  <flip-back class="back">
-    <div class="column">
-          <app-temtem-graph url="back/statistics/overview/type/appearance/relative" filter="{{id}}" title="Type appearance" subtitle="Relative" categoryName="category" serieName="serie"
-              valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
+  </app-row-layout>
+  <flip class="card-row">
+    <flip-front class="front">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/type/appearance/absolute" filter="{{id}}" title="Type appearance" subtitle="Absolute" categoryName="category" serieName="serie"
+          valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
       </div>
-    <div class="column">
-          <app-temtem-graph url="back/statistics/overview/type/appearance/topcut/relative" filter="{{id}}" title="Type appearance (Top Cut)" subtitle="Relative" categoryName="category" serieName="serie"
-              valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/type/appearance/topcut/absolute" filter="{{id}}" title="Type appearance (Top Cut)" subtitle="Absolute" categoryName="category"
+          serieName="serie" valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
       </div>
-  </flip-back>
-</flip>
+    </flip-front>
+    <flip-back class="back">
+      <div class="column">
+            <app-temtem-graph url="back/statistics/overview/type/appearance/relative" filter="{{id}}" title="Type appearance" subtitle="Relative" categoryName="category" serieName="serie"
+                valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
+        </div>
+      <div class="column">
+            <app-temtem-graph url="back/statistics/overview/type/appearance/topcut/relative" filter="{{id}}" title="Type appearance (Top Cut)" subtitle="Relative" categoryName="category" serieName="serie"
+                valueName="value" type='column' image="type" [prc]="false"></app-temtem-graph>
+        </div>
+    </flip-back>
+  </flip>
+</div>

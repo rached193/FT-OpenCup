@@ -1,6 +1,7 @@
 :host{
-    display: flex;
-    background-color: var(--primary-color-1);
+   background-color: var(--primary-color-1);
+   display: block;
+   padding-top: 1vh;
  
     @media (max-width: 600px) {
         display: block;
@@ -21,15 +22,18 @@
  }
  
  .row{
+   margin: 1vh 1vw 0vh 1vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     flex-flow: wrap;
+    background-color: var(--background-color);
  }
  
  .column {
     flex-basis: 50%;
     width: 100%;
+    min-width: 400px;
     div{
        margin: 5vw;
        font-weight: bold;

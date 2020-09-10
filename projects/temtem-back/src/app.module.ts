@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 import { join } from 'path';
 import { TournamentModule } from './tournament/tournament.module';
 import { StatisticsModule } from './statistics/statistics.module';
+import { TemtemModule } from './temtem/temtem.module';
 import { PgConf } from '../database.conf';
 import { IcoEntity } from './entities/ico.entity';
 import { LinkEntity } from './entities/link.entity';
@@ -52,6 +53,7 @@ import { TemtemStatsEntity } from './entities/view/temtem_stats.entity';
       synchronize: true,
     }),
     TournamentModule,
+    TemtemModule,
     StatisticsModule
   ],
   controllers: [AppController],

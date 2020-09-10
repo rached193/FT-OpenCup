@@ -1,4 +1,7 @@
-<app-row-layout>
+<app-filter-menu [listMenu]="temtemMenu$|async"></app-filter-menu>
+
+<div class="container">
+  <app-row-layout>
     <div class="column">
       
     </div>
@@ -7,3 +10,4 @@
       orderBy='order' type='spider'></app-temtem-graph>
     </div>
 </app-row-layout>
+</div>

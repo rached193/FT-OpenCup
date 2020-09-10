@@ -12,8 +12,8 @@
         <div class="option-container"><span>Statistics</span></div>
     </div> -->
     <div class="submenu" id="submenu" style="display: none">
-        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/overview']"  routerLinkActive="active" (click)="goSubmenu()">Overview</div> -->
-        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/tournament/1']"  routerLinkActive="active" (click)="goSubmenu()">Tournament</div> -->
-        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/temtem/110']"  routerLinkActive="active" (click)="goSubmenu()">Temtem</div> -->
+        <div class="submenu-option stat" id="statOverview" [routerLink]="['/statistics/overview']"  routerLinkActive="active" (click)="goSubmenu('overview')">Overview</div>
+        <!-- <div class="submenu-option stat" [routerLink]="['/statistics/tournament/1']"  routerLinkActive="active" (click)="goSubmenu('overview')">Tournament</div> -->
+        <div class="submenu-option stat" [routerLink]="['/statistics/temtem/110']"  routerLinkActive="active" (click)="goSubmenu('temtem')">Temtem</div>
     </div>
 </menu>
