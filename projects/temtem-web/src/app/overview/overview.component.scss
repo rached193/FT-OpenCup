@@ -7,11 +7,14 @@
   flex-grow: 1;
   color: var(--main-color);
   padding-top: 4.5em;
+  @media (orientation: landscape) {
+    padding-left: 10em;
+    padding-top: 0.5em;
+  }
 }
 
  .rowTable{
-   //margin: 1em;
-   margin: 1vw 1vw 1vw 1vw;;
+   margin: 1vw 1vw 1vw 1vw;
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;

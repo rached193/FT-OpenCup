@@ -1,15 +1,15 @@
 :host{
-    display: flex;
+    display: block;
     background-color: var(--primary-color-1);
-
-    @media (max-width: 600px) {
-        display: block;
-    }
 
     .container{
         flex-grow: 1;
         color: var(--main-color);
         padding-top: 4.5em;
+        @media (orientation: landscape) {
+            padding-left: 10em;
+            padding-top: 0.5em;
+        }
 
         p{
             font-family: 'Poppins','Open Sans', sans-serif;

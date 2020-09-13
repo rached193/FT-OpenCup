@@ -1,4 +1,4 @@
 <div class="scrollmenu">
-    <a (click)="selectMenu(0)">FT Open Cup</a>
-    <a *ngFor="let itemtournament of listMenu;" (click)="selectMenu(itemtournament.id)">{{itemtournament.name}}</a>
+    <span (click)="selectMenu(0)">FT Open Cup</span>
+    <span *ngFor="let itemtournament of listMenu;" (click)="selectMenu(itemtournament.id)">{{itemtournament.name}}</span>
 </div>

@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatDividerModule } from '@angular/material/divider';
 import { CircuitComponent } from './circuit.component';
-
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [CircuitComponent],
   imports: [
     CommonModule,
-    MatGridListModule,
-    MatDividerModule
+    SharedModule
   ]
 })
 export class CircuitModule { }

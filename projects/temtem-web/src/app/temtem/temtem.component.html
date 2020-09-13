@@ -9,5 +9,30 @@
       <app-temtem-graph url="back/statistics/temtem/stats" filter="{{id}}"  title="Stats" categoryName="category" serieName="serie" valueName="value" 
       orderBy='order' type='spider'></app-temtem-graph>
     </div>
-</app-row-layout>
+  </app-row-layout>
+  <flip class="card-row">
+    <flip-front class="front">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/temtem/teammate/absolute" filter="{{id}}" title="Teammate appearance" subtitle="Absolute" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false">
+        </app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/temtem/teammate/topcut/absolute" filter="{{id}}" title="Teammate appearance (Top Cut)" subtitle="Absolute" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="false"></app-temtem-graph>
+      </div>
+    </flip-front>
+    <flip-back class="back">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/temtem/teammate/relative" filter="{{id}}" title="Teammate appearance" subtitle="Relative" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true">
+        </app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph url="back/statistics/temtem/teammate/topcut/relative" filter="{{id}}" title="Teammate appearance (Top Cut)" subtitle="Relative" categoryName="category"
+          serieName="serie" valueName="value" type='column' pagination="8" image="temtem" [prc]="true"></app-temtem-graph>
+      </div>
+    </flip-back>
+  </flip>
 </div>
+<app-footer [footerPadding]="5"></app-footer>

@@ -188,7 +188,7 @@
 {
     "id": 7,
     "name" : "Minor Cup Oct",
-    "text" : ["Date & Time: To be defined",
+    "text" : ["Date & Time: October 3rd, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points",
@@ -202,7 +202,7 @@
 {
     "id": 8,
     "name" : "Qualifier Nov",
-    "text" : ["Date & Time: To be defined",
+    "text" : ["Date & Time: November 7th/8th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Prizes:",
         "1st) 240€ + FT Invitational qualification",
@@ -217,7 +217,7 @@
 {
     "id": 9,
     "name" : "Minor Cup Dec",
-    "text" : ["Date & Time: To be defined",
+    "text" : ["Date & Time: December 5th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Prizes:",
         "1st) 120€ + 100 circuit points",
@@ -231,7 +231,7 @@
 {
     "id": 10,
     "name" : "Qualifier Jan",
-    "text" : ["Date & Time: To be defined",
+    "text" : ["Date & Time: January 9th/10th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Prizes:",
         "1st) 240€ + FT Invitational qualification",

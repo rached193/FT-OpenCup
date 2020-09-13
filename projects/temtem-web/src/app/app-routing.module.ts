@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'tournaments', component: TournamentsComponent },
   { path: 'statistics/overview', component: OverviewComponent },
   { path: 'statistics/tournament/:id', component: OverviewComponent },
-  { path: 'statistics/temtem/:id', component: TemtemComponent },
+  //{ path: 'statistics/temtem/:id', component: TemtemComponent },
   { path: '**', redirectTo: 'circuit' }
 
 ];
