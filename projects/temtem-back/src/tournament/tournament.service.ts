@@ -17,6 +17,17 @@ export class TournamentService {
     .getRawMany();
   }
 
+  tournamentFilter(): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+    .select("tournament.id", "id")
+    .addSelect("tournament.name", "name")
+    .from("tournament", "tournament")
+    .innerJoin('tournament.teams', 'teams')
+    .distinctOn(["tournament.id", "tournament.name"])
+    .orderBy({"id": "ASC"})
+    .getRawMany();
+  }
+
   tournamentDetail(id): Promise<any> {
     return this.repo.createQueryBuilder()
       .select("tournament.id", "id")

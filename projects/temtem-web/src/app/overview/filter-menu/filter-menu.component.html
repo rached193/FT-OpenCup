@@ -1,0 +1,4 @@
+<div class="scrollmenu">
+    <span [routerLink]="['/statistics/overview']"  routerLinkActive="active" (click)="desactiveSubmenu()">FT Open Cup</span>
+    <span *ngFor="let itemtournament of listMenu;" [routerLink]="['/statistics/tournament/', itemtournament.id]"  routerLinkActive="active" (click)="desactiveSubmenu()">{{itemtournament.name}}</span>
+</div>

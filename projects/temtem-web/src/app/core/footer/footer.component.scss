@@ -3,6 +3,9 @@ footer{
     background-color: var(--primary-color-4);
     color: #a7a9ac;
     text-align: center;
+    @media (orientation: landscape) {
+        padding-left: var(--footer-padding);
+    }
     
     .copy p{
         font-weight: bold;

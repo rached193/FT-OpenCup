@@ -1,0 +1,3 @@
+<div class="scrollmenu">
+    <img *ngFor="let itemtemtem of listMenu;" [routerLink]="['/statistics/temtem/', itemtemtem.id]"  routerLinkActive="active" (click)="desactiveSubmenu()" src="/assets/img/temtem/{{itemtemtem.name}}.png" />
+</div>

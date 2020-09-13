@@ -1,0 +1,47 @@
+:host{
+    color: aliceblue;
+
+    .scrollmenu{
+        background: #404e5d;
+        @media (orientation: landscape) {
+            width: 10em;
+            height: calc(100% - 6em);
+            overflow-x: hidden;
+            overflow-y: auto;
+            position: fixed;
+            z-index: 100;
+        }
+        @media (orientation: portrait) {
+            width: 100%;
+            height: 4em;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            display: flex;
+            position: fixed;
+            z-index: 100;
+            align-items: center;
+        }
+        span {
+            display: inline-block;
+            text-align: center;
+            padding: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            @media (orientation: landscape) {
+                width: 100%;
+                padding: 1em 0em;
+            }
+            &:focus{
+                outline:none;
+            }
+            &.active{
+                background-color: #4F5A82;
+            }
+            &:hover{
+                background-color: #4f5a68;
+            }
+        }
+    }
+
+}

@@ -2,15 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OverviewComponent } from './overview.component';
 import { SharedModule } from '../shared/shared.module';
-import { MatIconModule } from '@angular/material/icon';
-
+import { FilterMenuComponent } from './filter-menu/filter-menu.component';
 
 @NgModule({
-  declarations: [OverviewComponent],
+  declarations: [OverviewComponent, FilterMenuComponent],
   imports: [
     CommonModule,
-    SharedModule,
-    MatIconModule
+    SharedModule
   ],
   exports: [OverviewComponent]
 })

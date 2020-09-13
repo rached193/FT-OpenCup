@@ -30,6 +30,7 @@ export class TournamentsComponent implements OnInit {
   select(tournamentId) {
     this.rowSelected = tournamentId;
     this._infoCircuit.next(tournamentId);
+    this.desactiveSubmenu();
   }
 
   activeMenu() {

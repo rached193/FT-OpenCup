@@ -1,22 +1,18 @@
 :host{
-    display: flex;
+    display: block;
     background-color: var(--primary-color-1);
-
-    @media (max-width: 600px) {
-        display: block;
-    }
 
     .container{
         flex-grow: 1;
         color: var(--main-color);
-
-        @media (max-width: 600px) {
-            padding-top: 4em;
+        padding-top: 4.5em;
+        @media (orientation: landscape) {
+            padding-left: 10em;
+            padding-top: 0.5em;
         }
 
         p{
             font-family: 'Poppins','Open Sans', sans-serif;
-            margin: 2em;
             font-size: 1.2em;
         }
 
@@ -67,15 +63,35 @@
     width: 100%;
 
     app-table{
-        margin: 2em;
+        margin: 1vh 1vw 0vh 0.5vw;
         display: block;
         height: 65vh;
         overflow: overlay;
+        @media (max-width: 850px) {
+            margin: 1vh 1vw 0vh 1vw;
+        }
+    }
+
+    .info{
+        margin: 1vh 0.5vw 0vh 1vw; 
+        display: block;
+        min-height: 65vh;
+        max-height: 65vh;
+        overflow: overlay;
+        background-color: var(--background-color);
+        @media (max-width: 850px) {
+            margin: 1vh 1vw 0vh 1vw;
+            min-height: 0vh;
+        }
     }
   }
 
+  .detail{
+    margin: 1em;
+  }
+
   .link-row{
-    margin: 2em;
+    margin: 1em;
     a{
         vertical-align: super;
         padding-left: 0.5em;

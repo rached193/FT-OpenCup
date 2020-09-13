@@ -19,4 +19,52 @@ export class TemtemService {
       .orderBy({'stats.order': 'DESC'})
       .getRawMany();
   }
+
+  teammate(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('stats.stat', 'category')
+      .addSelect(`'Base'`, 'serie')
+      .addSelect('stats.value', 'value')
+      .addSelect('stats.order', 'order')
+      .from('temtem_stats', 'stats')
+      .where('stats.temtem = :id', { id: id })
+      .orderBy({'stats.order': 'DESC'})
+      .getRawMany();
+  }
+
+  teammateRel(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('stats.stat', 'category')
+      .addSelect(`'Base'`, 'serie')
+      .addSelect('stats.value', 'value')
+      .addSelect('stats.order', 'order')
+      .from('temtem_stats', 'stats')
+      .where('stats.temtem = :id', { id: id })
+      .orderBy({'stats.order': 'DESC'})
+      .getRawMany();
+  }
+
+  teammateTopCut(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('stats.stat', 'category')
+      .addSelect(`'Base'`, 'serie')
+      .addSelect('stats.value', 'value')
+      .addSelect('stats.order', 'order')
+      .from('temtem_stats', 'stats')
+      .where('stats.temtem = :id', { id: id })
+      .orderBy({'stats.order': 'DESC'})
+      .getRawMany();
+  }
+
+  teammateTopCutRel(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('stats.stat', 'category')
+      .addSelect(`'Base'`, 'serie')
+      .addSelect('stats.value', 'value')
+      .addSelect('stats.order', 'order')
+      .from('temtem_stats', 'stats')
+      .where('stats.temtem = :id', { id: id })
+      .orderBy({'stats.order': 'DESC'})
+      .getRawMany();
+  }
 }

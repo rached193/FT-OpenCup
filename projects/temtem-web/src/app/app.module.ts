@@ -10,7 +10,6 @@ import { TournamentsModule } from './tournaments/tournaments.module';
 import { OverviewModule } from './overview/overview.module';
 import { TemtemModule } from './temtem/temtem.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CircuitComponent } from './circuit/circuit.component';
 
 
 @NgModule({
