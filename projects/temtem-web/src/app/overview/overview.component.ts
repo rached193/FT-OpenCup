@@ -11,7 +11,7 @@ export class OverviewComponent implements OnInit {
   id: number;
   private sub: any;
 
-  tournaments: number[] = [0, 1, 2, 3, 4, 5, 6];
+  tournaments: number[] = [0, 1, 2, 3, 4, 5, 6, 7];
 
   circuitMenu$ = this.service.getMenu();
 
