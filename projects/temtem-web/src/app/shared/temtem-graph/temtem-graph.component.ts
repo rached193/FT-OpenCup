@@ -31,9 +31,15 @@ export class TemtemGraphComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.temtemService.getGraph(this.url, this.filter).subscribe(data => {
-      this.buildGraph(data);
-    });
+    if(this.filter) {
+      this.temtemService.getGraphFiltered(this.url, this.filter).subscribe(data => {
+        this.buildGraph(data);
+      });
+    } else {
+      this.temtemService.getGraph(this.url).subscribe(data => {
+        this.buildGraph(data);
+      });
+    }
   }
 
   private buildGraph(content: any[]) {
