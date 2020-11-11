@@ -37,7 +37,7 @@ export class LineGraphComponent implements OnInit {
     const chartOptions1: Highcharts.Options = {
       chart: {
         type: 'line',
-        height: 600,
+        height: 400,
         backgroundColor: 'transparent',
         style: {
           fontFamily: 'Poppins, Open Sans, sans-serif',
