@@ -429,4 +429,49 @@ export class OverviewService {
       .getRawMany();
   }
 
+  gearAppearance(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('sets.gear', 'category')
+      .addSelect(`'Teams'`, 'serie')
+      .addSelect('count(sets.temtem)::integer', 'value')
+      .from('sets', 'sets')
+      .where('sets.tournament = :id', { id: id })
+      .orWhere(':id = 0', { id: id })
+      .groupBy('sets.gear')
+      .orderBy({
+        'value': 'DESC',
+        'category': 'ASC'
+      })
+      .getRawMany();
+  }
+
+  gearAppearanceRel(id): Promise<any[]> {
+    return this.repo.createQueryBuilder()
+      .select('sq.gear', 'category')
+      .addSelect(`'Teams'`, 'serie')
+      .addSelect('round(100::numeric*sum(sq.value)/sum(sq.teams), 2)::real', 'value')
+      .from(subQuery => {
+        return subQuery
+          .select('sets.gear', 'gear')
+          .addSelect('count(sets.temtem)::integer', 'value')
+          .addSelect(subQuery => {
+            return subQuery
+              .select('count(s.player::numeric)/8')
+              .from('sets', 's')
+              .where('s.tournament = :id', { id: id })
+              .orWhere(':id = 0', { id: id });
+          }, "teams")
+          .from('sets', 'sets')
+          .where('sets.tournament = :id', { id: id })
+          .orWhere(':id = 0', { id: id })
+          .groupBy('sets.gear')
+        }, 'sq')
+      .addGroupBy('sq.gear')
+      .orderBy({
+        'value': 'DESC',
+        'category': 'ASC'
+      })
+      .getRawMany();
+  }
+
 }

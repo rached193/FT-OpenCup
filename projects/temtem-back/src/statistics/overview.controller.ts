@@ -75,4 +75,14 @@ export class OverviewController {
     return this.service.temtemPickrateRel(params.id);
   }
 
+  @Get('gear/appearance/absolute/:id')
+  getGearAppearance(@Param() params): Promise<any[]> {
+    return this.service.gearAppearance(params.id);
+  }
+
+  @Get('gear/appearance/relative/:id')
+  getGearAppearanceRel(@Param() params): Promise<any[]> {
+    return this.service.gearAppearanceRel(params.id);
+  }
+
 }

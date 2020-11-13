@@ -27,6 +27,20 @@
    width: 100%;
  }
 
+ .nodata {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  height: calc(400px + 2vw);
+  .title {
+    display: block;
+    font-size: 18px;
+  }
+  .subtitle {
+    display: block;
+    font-size: 12px;
+  }
+ }
+
  
  @media (max-width: 850px) {
       .column{
