@@ -22,6 +22,7 @@ import { ActionEntity } from './entities/action.entity';
 import { GameActionEntity } from './entities/game_action.entity';
 import { TitleEntity } from './entities/title.entity';
 import { TeamEntity } from './entities/team.entity';
+import { SetsEntity } from './entities/sets.entity';
 import { TournamentPlayersEntity } from './entities/view/tournament_players.entity';
 import { PlayerGamesEntity } from './entities/view/player_games.entity';
 import { TemtemTypesEntity } from './entities/view/temtem_types.entity';
@@ -53,7 +54,7 @@ const PgConf = { username: '', host: '', database: '', password: '' };
         PhaseEntity, GameEntity, ActionEntity, GameActionEntity,
         TitleEntity, TournamentPlayersEntity, PlayerGamesEntity,
         TemtemTypesEntity, TournamentTemtemActionEntity,
-        TemtemStatsEntity],
+        TemtemStatsEntity, SetsEntity],
       synchronize: true,
     }),
     TournamentModule,

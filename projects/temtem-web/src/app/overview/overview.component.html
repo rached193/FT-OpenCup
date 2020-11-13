@@ -53,7 +53,41 @@
       </div>
     </flip-back>
   </flip>
-  <app-row-layout>
+  <flip class="card-row">
+    <flip-front class="front">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/pickrate/absolute" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Absolute" categoryName="category" serieName="serie"
+          [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column' pagination="8" orderBy='total_actions'
+          image="temtem" [prc]="false"></app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph *ngIf="id===0 || id===8 || id===10" url="back/statistics/overview/gear/appearance/absolute" filter="{{id}}" title="Gear appearance" subtitle="Absolute" categoryName="category" serieName="serie"
+           valueName="value" type='column' pagination="8" image="gear" [prc]="false"></app-temtem-graph>
+        <div *ngIf="id!==0 && id!==8 && id!==10" class="nodata">
+          <span class="title">Gear appearance</span>
+          <span class="subtitle">Absolute</span>
+          <h1>NO DATA AVAILABLE</h1>
+        </div>
+      </div>
+    </flip-front>
+    <flip-back class="back">
+      <div class="column">
+        <app-temtem-graph url="back/statistics/overview/temtem/pickrate/relative" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Relative"
+            categoryName="category" serieName="serie" [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']"
+            valueName="value" type='column' pagination="8" orderBy='total_actions' image="temtem" [prc]="true"></app-temtem-graph>
+      </div>
+      <div class="column">
+        <app-temtem-graph *ngIf="id===0 || id===8 || id===10" url="back/statistics/overview/gear/appearance/relative" filter="{{id}}" title="Gear appearance" subtitle="Relative"
+            categoryName="category" serieName="serie" valueName="value" type='column' pagination="8" image="gear" [prc]="true"></app-temtem-graph>
+          <div *ngIf="id!==0 && id!==8 && id!==10" class="nodata">
+            <span class="title">Gear appearance</span>
+            <span class="subtitle">Relative</span>
+            <h1>NO DATA AVAILABLE</h1>
+          </div>
+      </div>
+    </flip-back>
+  </flip>
+  <!-- <app-row-layout>
     <div class="column">
       <app-temtem-graph url="back/statistics/overview/temtem/pickrate/absolute" filter="{{id}}" title="Picks/Bans by Temtem" subtitle="Absolute" categoryName="category" serieName="serie"
         [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']" valueName="value" type='column' pagination="8" orderBy='total_actions'
@@ -64,7 +98,7 @@
             categoryName="category" serieName="serie" [legend]="true" [stacked]="true" [colors]="['#e26c6c','#b0f4a0','#b8b8b8']"
             valueName="value" type='column' pagination="8" orderBy='total_actions' image="temtem" [prc]="true"></app-temtem-graph>
     </div>
-  </app-row-layout>
+  </app-row-layout> -->
   <flip class="card-row">
     <flip-front class="front">
       <div class="column">

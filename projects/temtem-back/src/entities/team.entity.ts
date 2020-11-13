@@ -4,6 +4,7 @@ import { TournamentEntity } from './tournament.entity';
 import { PlayerEntity } from './player.entity';
 import { TemtemEntity } from './temtem.entity';
 import { GameActionEntity } from './game_action.entity';
+import { SetsEntity } from './sets.entity';
 
 @Entity('team')
 export class TeamEntity {
@@ -30,4 +31,7 @@ export class TeamEntity {
 
     @OneToMany(type => GameActionEntity, action => action.team)
     actions: GameActionEntity[];
+
+    @OneToMany(type => SetsEntity, sets => sets.team)
+    sets: SetsEntity[];
 }
