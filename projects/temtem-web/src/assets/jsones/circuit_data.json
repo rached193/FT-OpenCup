@@ -3,10 +3,10 @@
     "name": "FT OPEN CUP",
     "text": ["Date: Taking place during Temtem Early Access",
         "Format: 8 Minor Cup + 2 Qualifier + FT INVITATIONAL",
-        "Players: 137",
+        "Players: 150",
         "Prizes:",
         "Minor Cup) 200€ + circuit points",
-        "Qualifier) 400€ + 2 Qualification + circuit points",
+        "Qualifier) 400€ + 2 Qualification [Q] + circuit points",
         "FT INVITATIONAL) 1200€"
     ],
     "link": [
@@ -230,9 +230,11 @@
     "name" : "Qualifier Nov",
     "text" : ["Date & Time: November 7th/8th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
+        "Version: 0.6.14",
+        "Players: 40",
         "Prizes:",
-        "1st) 240€ + 150 circuit points + FT Invitational qualification [Q]",
-        "2nd) 120€ + 125 circuit points + FT Invitational qualification [Q]",
+        "1st) 240€ + 150 circuit points + Qualification [Q]",
+        "2nd) 120€ + 125 circuit points + Qualification [Q]",
         "3rd) 40€ + 100 circuit points",
         "4th) 70 circuit points",
         "5th-8th) 50 circuit points",
@@ -265,6 +267,13 @@
         "9th-16th) 10 circuit points (+32 players required)",
         "17th-32th) 5 circuit points (+64 players required)"
     ],
+    "link": [
+        {
+            "img": "Battlefy",
+            "title": "Registration Open",
+            "url": "https://battlefy.com/fellow-tamers/temtem-minor-cup-december/5fc15096971c1811b1c027ff/info"
+        }
+    ],
     "table": [{"rank": 1, "player": null, "points": 100, "money €": 120}, {"rank": 2, "player": null, "points": 70, "money €": 60}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 3, "player": null, "points": 50, "money €": 10}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}, {"rank": 5, "player": null, "points": 25, "money €": null}]},
 {
     "id": 10,
@@ -272,8 +281,8 @@
     "text" : ["Date & Time: January 9th/10th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Prizes:",
-        "1st) 240€ + 150 circuit points + FT Invitational qualification [Q]",
-        "2nd) 120€ + 125 circuit points + FT Invitational qualification [Q]",
+        "1st) 240€ + 150 circuit points + Qualification [Q]",
+        "2nd) 120€ + 125 circuit points + Qualification [Q]",
         "3rd) 40€ + 100 circuit points",
         "4th) 70 circuit points",
         "5th-8th) 50 circuit points",
