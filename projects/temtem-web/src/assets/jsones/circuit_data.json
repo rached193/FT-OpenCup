@@ -5,8 +5,8 @@
         "Format: 8 Minor Cup + 2 Qualifier + FT INVITATIONAL",
         "Players: 159",
         "Prizes:",
-        "Minor Cup) 200€ + circuit points",
-        "Qualifier) 400€ + 2 Qualification [Q] + circuit points",
+        "Minor Cup) 200€ + CP",
+        "Qualifier) 400€ + 2 Qualification [Q] + CP",
         "FT INVITATIONAL) 1200€"
     ],
     "link": [
@@ -31,20 +31,20 @@
             "title": "FTOC Statistics"
         }
     ],
-    "table" : [{"rank" : "[Q]", "player" : "Tsubaki Chan", "points" : 380}, {"rank" : "[Q]", "player" : "snrplat", "points" : 300}, {"rank" : 1, "player" : "Vossie", "points" : 325}, {"rank" : 2, "player" : "Shizenix", "points" : 195}, {"rank" : 3, "player" : "Kanzaki", "points" : 185}, {"rank" : 4, "player" : "Prody", "points" : 175}, {"rank" : 5, "player" : "Turbi", "points" : 170}, {"rank" : 6, "player" : "Ice Red", "points" : 135}, {"rank" : 7, "player" : "Flowmaster", "points" : 125}, {"rank" : 8, "player" : "Marnefarmer", "points" : 120}, {"rank" : 9, "player" : "Setska", "points" : 110}, {"rank" : 9, "player" : "Wobbles", "points" : 110}, {"rank" : 11, "player" : "Qlaziks", "points" : 105}, {"rank" : 11, "player" : "Shirokky", "points" : 105}, {"rank" : 13, "player" : "Cavalry", "points" : 100}, {"rank" : 14, "player" : "Foolek", "points" : 95}, {"rank" : 14, "player" : "Golld", "points" : 95}, {"rank" : 16, "player" : "Davam", "points" : 85}, {"rank" : 17, "player" : "Alver", "points" : 70}, {"rank" : 17, "player" : "Laila#16132", "points" : 70}, {"rank" : 19, "player" : "Dmano", "points" : 60}, {"rank" : 19, "player" : "Markinlp", "points" : 60}, {"rank" : 19, "player" : "Tutpup#28259", "points" : 60}, {"rank" : 22, "player" : "Durk", "points" : 50}, {"rank" : 22, "player" : "Ex Whizzy", "points" : 50}, {"rank" : 22, "player" : "Johnny Vinsmoke", "points" : 50}, {"rank" : 22, "player" : "Kamiii", "points" : 50}, {"rank" : 22, "player" : "leimumu", "points" : 50}, {"rank" : 22, "player" : "Trotter", "points" : 50}, {"rank" : 28, "player" : "Gaddy", "points" : 45}, {"rank" : 29, "player" : "Arkham knight", "points" : 35}, {"rank" : 29, "player" : "Cmaz", "points" : 35}, {"rank" : 29, "player" : "FunkyHao", "points" : 35}, {"rank" : 29, "player" : "Fzhek", "points" : 35}, {"rank" : 29, "player" : "uwukaze", "points" : 35}, {"rank" : 34, "player" : "Allie", "points" : 25}, {"rank" : 34, "player" : "Alola", "points" : 25}, {"rank" : 34, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 34, "player" : "Expertz", "points" : 25}, {"rank" : 34, "player" : "Katata", "points" : 25}, {"rank" : 34, "player" : "Nekoblakii", "points" : 25}, {"rank" : 34, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 34, "player" : "Taullaris", "points" : 25}, {"rank" : 34, "player" : "Tikibook", "points" : 25}, {"rank" : 34, "player" : "Vini #804", "points" : 25}, {"rank" : 44, "player" : "Dave Goblino", "points" : 20}, {"rank" : 44, "player" : "ishir", "points" : 20}, {"rank" : 46, "player" : "Alto", "points" : 10}, {"rank" : 46, "player" : "Argurotoxus", "points" : 10}, {"rank" : 46, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 46, "player" : "Cherry Vanilla", "points" : 10}, {"rank" : 46, "player" : "DarkMonkey", "points" : 10}, {"rank" : 46, "player" : "Doomaga", "points" : 10}, {"rank" : 46, "player" : "Ezechior", "points" : 10}, {"rank" : 46, "player" : "J-Doragon", "points" : 10}, {"rank" : 46, "player" : "Junchiro", "points" : 10}, {"rank" : 46, "player" : "Little Asia", "points" : 10}, {"rank" : 46, "player" : "Nervontuxis", "points" : 10}, {"rank" : 46, "player" : "Orkhane", "points" : 10}, {"rank" : 46, "player" : "Skarlett", "points" : 10}, {"rank" : 46, "player" : "Tempi", "points" : 10}, {"rank" : 46, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 46, "player" : "Toutirabien", "points" : 10}]},
+    "table" : [{"rank" : "[Q]", "player" : "Tsubaki Chan", "points" : 390}, {"rank" : "[Q]", "player" : "snrplat", "points" : 370}, {"rank" : "[Q]", "player" : "Setska", "points" : 360}, {"rank" : "[Q]", "player" : "Shizenix", "points" : 320}, {"rank" : 1, "player" : "Vossie", "points" : 325}, {"rank" : 2, "player" : "Kanzaki", "points" : 210}, {"rank" : 3, "player" : "Turbi", "points" : 205}, {"rank" : 4, "player" : "Prody", "points" : 200}, {"rank" : 5, "player" : "FunkyHao", "points" : 135}, {"rank" : 5, "player" : "Golld", "points" : 135}, {"rank" : 5, "player" : "Ice Red", "points" : 135}, {"rank" : 8, "player" : "Flowmaster", "points" : 125}, {"rank" : 9, "player" : "Marnefarmer", "points" : 120}, {"rank" : 10, "player" : "Shirokky", "points" : 115}, {"rank" : 11, "player" : "Wobbles", "points" : 110}, {"rank" : 12, "player" : "Foolek", "points" : 105}, {"rank" : 12, "player" : "Qlaziks", "points" : 105}, {"rank" : 14, "player" : "Cavalry", "points" : 100}, {"rank" : 15, "player" : "Nekoblakii", "points" : 95}, {"rank" : 16, "player" : "Davam", "points" : 85}, {"rank" : 17, "player" : "Alola", "points" : 75}, {"rank" : 17, "player" : "Tikibook", "points" : 75}, {"rank" : 19, "player" : "Alver", "points" : 70}, {"rank" : 19, "player" : "ishir", "points" : 70}, {"rank" : 19, "player" : "Laila#16132", "points" : 70}, {"rank" : 22, "player" : "Dmano", "points" : 60}, {"rank" : 22, "player" : "Markinlp", "points" : 60}, {"rank" : 22, "player" : "Trotter", "points" : 60}, {"rank" : 22, "player" : "Tutpup#28259", "points" : 60}, {"rank" : 22, "player" : "Workmen", "points" : 60}, {"rank" : 27, "player" : "Allie", "points" : 50}, {"rank" : 27, "player" : "Daddy Spleen", "points" : 50}, {"rank" : 27, "player" : "Durk", "points" : 50}, {"rank" : 27, "player" : "Ex Whizzy", "points" : 50}, {"rank" : 27, "player" : "Faiman", "points" : 50}, {"rank" : 27, "player" : "Johnny Vinsmoke", "points" : 50}, {"rank" : 27, "player" : "Kamiii", "points" : 50}, {"rank" : 27, "player" : "leimumu", "points" : 50}, {"rank" : 27, "player" : "Mr Chaman", "points" : 50}, {"rank" : 36, "player" : "Gaddy", "points" : 45}, {"rank" : 37, "player" : "Buffduck", "points" : 40}, {"rank" : 38, "player" : "Arkham knight", "points" : 35}, {"rank" : 38, "player" : "Cmaz", "points" : 35}, {"rank" : 38, "player" : "Fzhek", "points" : 35}, {"rank" : 38, "player" : "J-Doragon", "points" : 35}, {"rank" : 38, "player" : "uwukaze", "points" : 35}, {"rank" : 43, "player" : "Cielo Aoi", "points" : 25}, {"rank" : 43, "player" : "Expertz", "points" : 25}, {"rank" : 43, "player" : "Katata", "points" : 25}, {"rank" : 43, "player" : "Koenders", "points" : 25}, {"rank" : 43, "player" : "Luke Leal", "points" : 25}, {"rank" : 43, "player" : "Nylo-Mtg#1162188", "points" : 25}, {"rank" : 43, "player" : "Scallywag", "points" : 25}, {"rank" : 43, "player" : "Taullaris", "points" : 25}, {"rank" : 43, "player" : "Vini #804", "points" : 25}, {"rank" : 52, "player" : "Dave Goblino", "points" : 20}, {"rank" : 53, "player" : "Alto", "points" : 10}, {"rank" : 53, "player" : "Argurotoxus", "points" : 10}, {"rank" : 53, "player" : "AzrealDNT#610302", "points" : 10}, {"rank" : 53, "player" : "Cherry Vanilla", "points" : 10}, {"rank" : 53, "player" : "DarkMonkey", "points" : 10}, {"rank" : 53, "player" : "Dojo Lionheart", "points" : 10}, {"rank" : 53, "player" : "Doomaga", "points" : 10}, {"rank" : 53, "player" : "Ezechior", "points" : 10}, {"rank" : 53, "player" : "Junchiro", "points" : 10}, {"rank" : 53, "player" : "Little Asia", "points" : 10}, {"rank" : 53, "player" : "Nervontuxis", "points" : 10}, {"rank" : 53, "player" : "Orkhane", "points" : 10}, {"rank" : 53, "player" : "Rgisosceles", "points" : 10}, {"rank" : 53, "player" : "Skarlett", "points" : 10}, {"rank" : 53, "player" : "Talwinv", "points" : 10}, {"rank" : 53, "player" : "Tempi", "points" : 10}, {"rank" : 53, "player" : "The Eclipse #816667", "points" : 10}, {"rank" : 53, "player" : "Toutirabien", "points" : 10}]},
 {
     "id": 1,
     "name": "Minor Cup Apr",
-    "text": ["Date & Time: April 4th, 16:00 UTC. (18:00 CET, 9:00 PDT, 12:00 ET, 10:00 MDT)",
+    "text": ["Date & Time: April 4th 2020, 16:00 UTC. (18:00 CET, 9:00 PDT, 12:00 ET, 10:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.5.15",
         "Players: 61",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points",
-        "9th-16th) 10 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
     "link": [
         {
@@ -63,16 +63,16 @@
 {
     "id": 2,
     "name" : "Minor Cup May",
-    "text" : ["Date & Time: May 2nd, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: May 2nd 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.5.19",
         "Players: 44",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points",
-        "9th-16th) 10 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
     "link": [
         {
@@ -91,16 +91,16 @@
 {
     "id": 3,
     "name" : "Minor Cup Jun",
-    "text" : ["Date & Time: June 6th, 14:00 UTC. (16:00 CEST, 8:00 PDT, 10:00 ET)",
+    "text" : ["Date & Time: June 6th 2020, 14:00 UTC. (16:00 CEST, 8:00 PDT, 10:00 ET)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.5.19",
         "Players: 34",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points",
-        "9th-16th) 10 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
     "link": [
         {
@@ -119,15 +119,15 @@
 {
     "id": 4,
     "name" : "Minor Cup Jul",
-    "text" : ["Date & Time: July 11th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: July 11th 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.5.19",
         "Players: 32",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP"
     ],
     "link": [
         {
@@ -146,16 +146,16 @@
 {
     "id": 5,
     "name" : "Minor Cup Aug",
-    "text" : ["Date & Time: August 22th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: August 22th 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.6.5",
         "Players: 36",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points",
-        "9th-16th) 10 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
     "link": [
         {
@@ -174,15 +174,15 @@
 {
     "id": 6,
     "name" : "Minor Cup Sep",
-    "text" : ["Date & Time: September 5th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: September 5th 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.6.8",
         "Players: 23",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP"
     ],
     "link": [
         {
@@ -201,15 +201,15 @@
 {
     "id": 7,
     "name" : "Minor Cup Oct",
-    "text" : ["Date & Time: October 3rd, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: October 3rd 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.6.10",
         "Players: 28",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP"
     ],
     "link": [
         {
@@ -228,17 +228,17 @@
 {
     "id": 8,
     "name" : "Qualifier Nov",
-    "text" : ["Date & Time: November 7th/8th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: November 7th/8th 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Double Elimination bracket. 2 Days.",
         "Version: 0.6.14",
         "Players: 40",
         "Prizes:",
-        "1st) 240€ + 150 circuit points + Qualification [Q]",
-        "2nd) 120€ + 125 circuit points + Qualification [Q]",
-        "3rd) 40€ + 100 circuit points",
-        "4th) 70 circuit points",
-        "5th-8th) 50 circuit points",
-        "9th-16th) 25 circuit points"
+        "1st) 240€ + 150 CP + Qualification [Q]",
+        "2nd) 120€ + 125 CP + Qualification [Q]",
+        "3rd) 40€ + 100 CP",
+        "4th) 70 CP",
+        "5th-8th) 50 CP",
+        "9th-16th) 25 CP"
     ],
     "link": [
         {
@@ -257,16 +257,16 @@
 {
     "id": 9,
     "name" : "Minor Cup Dec",
-    "text" : ["Date & Time: December 5th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+    "text" : ["Date & Time: December 5th 2020, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
         "Format: Swiss Round + Single Elimination bracket. 1 Day.",
         "Version: 0.6.17",
         "Players: 34",
         "Prizes:",
-        "1st) 120€ + 100 circuit points",
-        "2nd) 60€ + 70 circuit points",
-        "3rd/4th) 10€ + 50 circuit points",
-        "5th-8th) 25 circuit points",
-        "9th-16th) 10 circuit points"
+        "1st) 120€ + 100 CP",
+        "2nd) 60€ + 70 CP",
+        "3rd/4th) 10€ + 50 CP",
+        "5th-8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
     "link": [
         {
@@ -284,21 +284,64 @@
     "table" : [{"rank": 1, "player": "Vossie", "points": 100, "money €": 120}, {"rank": 2, "player": "Foolek", "points": 70, "money €": 60}, {"rank": 3, "player": "Johnny Vinsmoke", "points": 50, "money €": 10}, {"rank": 3, "player": "Kamiii", "points": 50, "money €": 10}, {"rank": 5, "player": "Shizenix", "points": 25, "money €": null}, {"rank": 5, "player": "Kanzaki", "points": 25, "money €": null}, {"rank": 5, "player": "Setska", "points": 25, "money €": null}, {"rank": 5, "player": "Ice Red", "points": 25, "money €": null}, {"rank": 9, "player": "Dmano", "points": 10, "money €": null}, {"rank": 9, "player": "Shirokky", "points": 10, "money €": null}, {"rank": 9, "player": "Alto", "points": 10, "money €": null}, {"rank": 9, "player": "FunkyHao", "points": 10, "money €": null}, {"rank": 9, "player": "Wobbles", "points": 10, "money €": null}, {"rank": 9, "player": "Arkham knight", "points": 10, "money €": null}, {"rank": 9, "player": "Cherry Vanilla", "points": 10, "money €": null}, {"rank": 9, "player": "Little Asia", "points": 10, "money €": null}]},
 {
     "id": 10,
-    "name" : "Qualifier Jan",
-    "text" : ["Date & Time: January 9th/10th, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
-        "Format: Swiss Round + Double Elimination bracket. 2 Days.",
+    "name": "Plus OP Jan",
+    "text": ["Date & Time: January 2nd 2021, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+        "Format: Double Elimination bracket. 1 Day.",
+        "Version: 0.6.19",
+        "Players: 16",
         "Prizes:",
-        "1st) 240€ + 150 circuit points + Qualification [Q]",
-        "2nd) 120€ + 125 circuit points + Qualification [Q]",
-        "3rd) 40€ + 100 circuit points",
-        "4th) 70 circuit points",
-        "5th-8th) 50 circuit points",
-        "9th-16th) 25 circuit points (+32 players required)",
-        "17th-32th) 10 circuit points (+64 players required)"
+        "1st) 100 CP",
+        "2nd) 70 CP",
+        "3rd) 60CP",
+        "4th) 50 CP",
+        "5th/6th) 40 CP",
+        "7th/8th) 25 CP",
+        "9th-16th) 10 CP"
     ],
-    "table": [{"rank": 1, "player": null, "points": "150 + [Q]", "money €": 240}, {"rank": 2, "player": null, "points": "125 + [Q]", "money €": 120}, {"rank": 3, "player": null, "points": 100, "money €": 40}, {"rank": 3, "player": null, "points": 70, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}, {"rank": 5, "player": null, "points": 50, "money €": null}]},
+    "link": [
+        {
+            "img": "Battlefy",
+            "title": "Tournament Battlefy",
+            "url": "https://battlefy.com/plusop/plus-cup-8-temtem-monthly-invitational/5febbb0c0beb6e3294e04983/info"
+        },
+        {
+            "img": "Discord",
+            "title": "Plus OP Discord",
+            "url": "https://discord.gg/dQYgTHg"
+        }
+    ],
+    "table" : [{"rank": 1, "player": "Setska", "points": 100, "money €": null}, {"rank": 2, "player": "snrplat", "points": 70, "money €": null}, {"rank": 3, "player": "Workmen", "points": 60, "money €": null}, {"rank": 4, "player": "Faiman", "points": 50, "money €": null}, {"rank": 5, "player": "Golld", "points": 40, "money €": null}, {"rank": 5, "player": "Buffduck", "points": 40, "money €": null}, {"rank": 7, "player": "Luke Leal", "points": 25, "money €": null}, {"rank": 7, "player": "ishir", "points": 25, "money €": null}, {"rank": 9, "player": "Trotter", "points": 10, "money €": null}, {"rank": 9, "player": "Tsubaki Chan", "points": 10, "money €": null}, {"rank": 9, "player": "Foolek", "points": 10, "money €": null}, {"rank": 9, "player": "Rgisosceles", "points": 10, "money €": null}, {"rank": 9, "player": "Shirokky", "points": 10, "money €": null}, {"rank": 9, "player": "Turbi", "points": 10, "money €": null}, {"rank": 9, "player": "Talwinv", "points": 10, "money €": null}, {"rank": 9, "player": "Dojo Lionheart", "points": 10, "money €": null}]},
 {
     "id": 11,
+    "name" : "Qualifier Jan",
+    "text" : ["Date & Time: January 9th/10th 2021, 14:00 UTC. (16:00 CEST, 7:00 PDT, 10:00 ET, 8:00 MDT)",
+        "Format: Swiss Round + Double Elimination bracket. 2 Days.",
+        "Version: 0.6.19",
+        "Players: 41",
+        "Prizes:",
+        "1st) 240€ + 150 CP + Qualification [Q]",
+        "2nd) 120€ + 125 CP + Qualification [Q]",
+        "3rd) 40€ + 100 CP",
+        "4th) 70 CP",
+        "5th-8th) 50 CP",
+        "9th-16th) 25 CP"
+    ],
+    "link": [
+        {
+            "img": "Battlefy",
+            "title": "Tournament Battlefy",
+            "url": "https://battlefy.com/fellow-tamers/ft-qualifier-2-january/5feefbe8ecf4652d64c148c8/info"
+        }
+    ],
+    "statistics": [
+        {
+            "title": "Tournament Statistics",
+            "id": "11"
+        }
+    ],
+    "table": [{"rank": 1, "player": "Setska", "points": "150 + [Q]", "money €": 240}, {"rank": 2, "player": "Shizenix", "points": "125 + [Q]", "money €": 120}, {"rank": 3, "player": "FunkyHao", "points": 100, "money €": 40}, {"rank": 4, "player": "Nekoblakii", "points": 70, "money €": null}, {"rank": 5, "player": "Daddy Spleen", "points": 50, "money €": null}, {"rank": 5, "player": "Tikibook", "points": 50, "money €": null}, {"rank": 5, "player": "Alola", "points": 50, "money €": null}, {"rank": 5, "player": "Mr Chaman", "points": 50, "money €": null}, {"rank": 9, "player": "Prody", "points": 25, "money €": null}, {"rank": 9, "player": "Allie", "points": 25, "money €": null}, {"rank": 9, "player": "Kanzaki", "points": 25, "money €": null}, {"rank": 9, "player": "Scallywag", "points": 25, "money €": null}, {"rank": 9, "player": "ishir", "points": 25, "money €": null}, {"rank": 9, "player": "Turbi", "points": 25, "money €": null}, {"rank": 9, "player": "J-Doragon", "points": 25, "money €": null}, {"rank": 9, "player": "Koenders", "points": 25, "money €": null}]},
+{
+    "id": 12,
     "name" : "FT INVITATIONAL",
     "text" : ["Date & Time: To be defined",
         "Format: Group Stage + Knockout Stage. 4 days, 2 Weekends.",
@@ -306,7 +349,7 @@
         "1st) 750€",
         "2nd) 250€",
         "3rd/4th) 50€",
-        "5rd/8th) 25€"
+        "5th-8th) 25€"
     ],
     "table": [{"rank": 1, "player": null, "money €": 750}, {"rank": 2, "player": null, "money €": 250}, {"rank": 3, "player": null, "money €": 50}, {"rank": 3, "player": null, "money €": 50}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}, {"rank": 5, "player": null, "money €": 25}]}
 ]
