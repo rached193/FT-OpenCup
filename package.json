@@ -29,7 +29,7 @@
     "@nrwl/workspace": "^10.0.10",
     "class-validator": "^0.12.2",
     "express": "^4.17.1",
-    "highcharts": "^8.0.4",
+    "highcharts": "^9.0.0",
     "node": "^14.2.0",
     "pg": "^8.3.0",
     "reflect-metadata": "^0.1.13",
